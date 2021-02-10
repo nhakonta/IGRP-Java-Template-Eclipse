@@ -31,7 +31,7 @@
 		<mapping class="nosi.webapps.igrp.dao.Modulo" />
 		<mapping class="nosi.webapps.igrp.dao.TaskAccess" />
 		<mapping class="nosi.webapps.igrp.dao.TempFile" />
-		
+		<mapping class="nosi.webapps.igrp.dao.Historic" />
 
 		<!-- Task Access -->
 		<mapping class="nosi.webapps.igrp.dao.TaskUnassigned" />
