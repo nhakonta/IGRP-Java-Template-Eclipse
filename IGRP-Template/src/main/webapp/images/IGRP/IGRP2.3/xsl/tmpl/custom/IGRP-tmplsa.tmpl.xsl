@@ -19,20 +19,20 @@
                     <div class="row holder-header letter-spacing" id="row-4c01a7ae">
                         <xsl:if test="rows/content/controll">
                             <div class="col-sm-7 holder-title-today height-header">
-                                <div class="col-sm-10">
+                                <div class="col-sm-12">
                                     <xsl:if test="rows/content/controll/fields/title">
                                         <div class="holder-title" item-name="title" item-type="plaintext">
                                             <xsl:value-of select="rows/content/controll/fields/title/value"/>
                                         </div>
                                     </xsl:if>
                                 </div>
-                                <div class="col-sm-2">
+                                <!--<div class="col-sm-2">
                                     <xsl:if test="rows/content/controll/fields/today">
                                         <div class="holder-today text-right" item-name="today" item-type="plaintext">
                                             <xsl:value-of select="rows/content/controll/fields/today/value"/>
                                         </div>
                                     </xsl:if>
-                                </div>
+                                </div>-->
                             </div>
                             <div class="col-sm-5 holder-time-stringdate height-header holder-grey-color">
                                 <xsl:if test="rows/content/controll/fields/time">
@@ -402,7 +402,6 @@
                                                     <xsl:attribute name="href">
                                                         <xsl:value-of select="link_servico"/>
                                                     </xsl:attribute>
-                                                    <xsl:attribute name="target">_blank</xsl:attribute>
                                                 </xsl:otherwise>
                                             </xsl:choose>
                                             <i class="fa fa-circle-o"></i>
@@ -523,7 +522,7 @@
                                             <div class=" btn-list-item">
                                                 <xsl:if test="$isconfi">
                                                     <a class="sa-icon sa-resize-favorite">
-                                                        <i class="fa fa-expand-arrows-alt"></i>
+                                                        <i class="fa fa-arrows"></i>
                                                     </a>
                                                     <a class="sa-icon sa-remove-favorite">
                                                         <i class="fa fa-times"></i>
@@ -600,7 +599,7 @@
 
                 <div class="row">
                     <xsl:call-template name="SA-sidebar">
-                        <xsl:with-param name="drag" select="true()" />
+                        <xsl:with-param name="drag" select="$isconfi" />
                     </xsl:call-template>
 
                     <div class="col-sm-9 col-md-10 col-md-offset-2 col-sm-offset-3 main" id="sa-contents">
