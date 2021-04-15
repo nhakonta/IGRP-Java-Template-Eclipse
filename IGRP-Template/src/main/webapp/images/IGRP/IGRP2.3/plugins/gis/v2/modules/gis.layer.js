@@ -113,7 +113,7 @@
 				        	    html: `<div style="${markerHtmlStyles}"><span>${count}</span></div>`,
 				                className: 'marker-cluster-custom marker-cluster marker-cluster-' + size,
 				                iconSize: [sizev, sizev],
-				                iconAnchor: [sizev/3, layer.clusterIndex*(sizev/3)]
+				                iconAnchor: [layer.clusterIndex*(sizev/3), sizev/3 ]
 				        	})
 				        
 				        }
