@@ -588,16 +588,14 @@
 				
 				input[0].setAttribute('disabled', true);
 				
+				console.log(widget.activeDivAdmin )
+				
 				if (!widget.activeDivAdmin){
 					
 					widget.activeDivAdmin =  true;
 					
-					widget.steps.divAdmin.activate();
-										
+					widget.steps.divAdmin.activate();										
 					
-				}else{
-					
-					clearSearch();
 				}
 				
 				//static file json 
