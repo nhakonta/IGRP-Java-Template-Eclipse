@@ -383,6 +383,9 @@
 							
 							try{
 								
+								if (results.length == 1)
+									results[0].selectedId  = results[0].id;
+																
 								widget.setTemplateParam( 'div-admin-'+o.target, {'divData': results} );			
 																													
 								$('#'+o.target, widget.html).select2();
@@ -397,6 +400,8 @@
 							widget.loading(false);
 							
 						});
+					}else{
+						widget.loading(false);
 					}
 					
 				});
@@ -666,6 +671,8 @@
 							}).addTo(Map);
 							
 							Map.highlightdivadmin = {'code' : opt.id, 'url' : widget.pathGeoJson}
+							
+							Map.highlightLayer = widget.highlight;
 							
 						}
 
