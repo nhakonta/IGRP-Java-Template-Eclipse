@@ -41,7 +41,7 @@
             <fields>
                 <sectionheader_1_text type="text" name="p_sectionheader_1_text" persist="true" maxlength="4000">
                     <value>
-                        <![CDATA[<p><strong>Error Msg</strong></p>
+                        <![CDATA[<p><span style='font-size:28px;'>Configure your error message by application</span></p>
 ]]>
                     </value>
                 </sectionheader_1_text>
@@ -49,9 +49,36 @@
         </sectionheader_1>
         <form_1 type="form" xml-type="form" gen-type="container" gen-group="">
             <fields>
+                <application name="p_application" type="select" multiple="false" tags="false" domain="" maxlength="250" required="true" change="false" disabled="false" right="false" java-type="">
+                    <label>Application</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                    <validations>
+                        <validation>
+                            <annotation>@NotNull</annotation>
+                        </validation>
+                    </validations>
+                </application>
                 <msg name="p_msg" type="textarea" maxlength="250" required="true" change="false" readonly="false" disabled="false" placeholder="" desclabel="false" right="false">
-                    <label>Msg</label>
-                    <value>Mollit laudantium mollit ut totam lorem consectetur voluptatem iste stract lorem sit doloremque sed lorem</value>
+                    <label>Message</label>
+                    <value>Iste unde sed labore officia natus mollit unde amet doloremque sed consectetur deserunt unde sit</value>
                     <validations>
                         <validation>
                             <annotation>@NotNull</annotation>
@@ -75,12 +102,7 @@
         <table_1 type="table" xml-type="table" gen-type="container" gen-group="true">
             <fields>
                 <msg_table name="p_msg_table" type="text" maxlength="30" showLabel="true" align="left" lookup_parser="false" iskey="false" group_in="">
-                    <label>Msg</label>
-                    <validations>
-                        <validation>
-                            <annotation>@NotNull</annotation>
-                        </validation>
-                    </validations>
+                    <label>Message</label>
                 </msg_table>
             </fields>
             <table>
@@ -90,35 +112,35 @@
                             <param>p1=linha1</param>
                             <param>p2=linha1</param>
                         </context-menu>
-                        <msg_table name="p_msg_table">Dolor doloremque dolor ipsum m</msg_table>
+                        <msg_table name="p_msg_table">Lorem deserunt officia rem str</msg_table>
                     </row>
                     <row>
                         <context-menu>
                             <param>p1=linha1</param>
                             <param>p2=linha1</param>
                         </context-menu>
-                        <msg_table name="p_msg_table">Omnis deserunt sit omnis deser</msg_table>
+                        <msg_table name="p_msg_table">Sit omnis mollit aliqua deseru</msg_table>
                     </row>
                     <row>
                         <context-menu>
                             <param>p1=linha1</param>
                             <param>p2=linha1</param>
                         </context-menu>
-                        <msg_table name="p_msg_table">Doloremque sed labore voluptat</msg_table>
+                        <msg_table name="p_msg_table">Stract iste labore aperiam tot</msg_table>
                     </row>
                     <row>
                         <context-menu>
                             <param>p1=linha1</param>
                             <param>p2=linha1</param>
                         </context-menu>
-                        <msg_table name="p_msg_table">Mollit laudantium adipiscing c</msg_table>
+                        <msg_table name="p_msg_table">Iste totam adipiscing elit dol</msg_table>
                     </row>
                     <row>
                         <context-menu>
                             <param>p1=linha1</param>
                             <param>p2=linha1</param>
                         </context-menu>
-                        <msg_table name="p_msg_table">Amet magna amet anim sit</msg_table>
+                        <msg_table name="p_msg_table">Rem natus adipiscing doloremqu</msg_table>
                     </row>
                 </value>
                 <context-menu>
