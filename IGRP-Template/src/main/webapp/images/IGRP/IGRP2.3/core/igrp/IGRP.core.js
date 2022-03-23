@@ -79,6 +79,11 @@
 
 					return all[name.toLowerCase()] || null;
 
+				},
+				getHostName : function (url) {
+					var a = document.createElement('a');
+					a.href = url;
+					return a.hostname;
 				}
 
 			},
@@ -111,6 +116,13 @@
 					});
 
 					return false;
+				}
+			},
+			toolTip   : function(){
+				if($.fn.tooltip){
+					$('body').tooltip({
+						selector: '[data-toggle="tooltip"]'
+					});
 				}
 			},
 			getForm:function(){
@@ -1412,6 +1424,8 @@
         	$.IGRP.utils.adjustableRows();
         	
         	$.IGRP.utils.mathcal();
+			
+			$.IGRP.utils.toolTip();
         	
         	$.IGRP.events.on('submit-complete',function(){
         		
