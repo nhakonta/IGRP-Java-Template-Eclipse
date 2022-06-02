@@ -1,5 +1,4 @@
 //Pipeline for Create Continuous Integration and Continuous Delivery for IGRPWEB FRAMEWORK.
-//MAINTAINER: Paulo Fernandes, paulo.e.fernandes@nosi.cv
 // This Pipeline Build a COMPLETE IGRP-FRAMEWORK, for a PARTIAL build consider the proper branch
 
 pipeline{
@@ -8,8 +7,8 @@ pipeline{
 		projectName = "IGRP-Template"
 		configs= "igrpweb-configs"
 		registryURL = "https://registry.nosi.cv"
-		registryBasePath = "cicdjenkins"
-		registryIgrpPath = "/igrpweb"
+		registryBasePath = "igrpweb-opensource"
+		registryIgrpPath = "/igrpwebopensource"
 		registryCredential = "harbor-creds"
 	}
     
