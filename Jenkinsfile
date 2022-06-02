@@ -18,7 +18,7 @@ pipeline{
 	
 		stage('Git Clone'){
 			steps{
-				git([url: 'http://git.nosi.cv/Iekini.fernandes/marcacao_consulta.git' , branch: 'features', credentialsId: '356c8c0d-9a55-42c2-aa63-4b2bd01d80ae'])
+				git([url: 'http://git.nosi.cv/igrp-web/igrpweb-open-template.git' , branch: 'master', credentialsId: '356c8c0d-9a55-42c2-aa63-4b2bd01d80ae'])
 			}
 		}
 
@@ -96,7 +96,7 @@ pipeline{
 
 		stage('Build to DEV Environment'){
 			steps{
-				rancherRedeploy alwaysPull: false, credential: 'teste', images: 'registry.nosi.cv/cicdjenkins/igrpweb:${BUILD_NUMBER}', workload: '/project/c-57dx6:p-dfwrn/workload/deployment:default:igrpweb-postgres-k8s'
+				rancherRedeploy alwaysPull: false, credential: 'teste', images: 'registry.nosi.cv/igrpweb-opensource/igrpwebopensource:${BUILD_NUMBER}', workload: '/project/c-cpx7p:p-qzlgr/workload/deployment:igrpweb-opensource:igrpweb'
 			}
 		}
 		
