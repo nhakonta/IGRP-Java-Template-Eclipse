@@ -36,7 +36,7 @@ ADD context.xml /usr/local/tomcat/webapps/manager/META-INF/
 
 ADD context.xml /usr/local/tomcat/conf/
 
-#ADD index.jsp /usr/local/tomcat/webapps/ROOT/
+ADD index.jsp /usr/local/tomcat/webapps/ROOT/
 
 COPY --from=build $HOME/IGRP-Template/target/*.war /usr/local/tomcat/webapps/
 
