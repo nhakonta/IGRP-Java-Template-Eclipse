@@ -18,3 +18,4 @@ ADD context.xml /usr/local/tomcat/webapps/manager/META-INF/
 ADD /IGRP-Template/target/*.war /usr/local/tomcat/webapps/
 
 CMD ["catalina.sh", "run"]
+
