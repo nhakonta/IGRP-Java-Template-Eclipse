@@ -96,7 +96,7 @@ pipeline{
 
 		stage('Build to DEV Environment'){
 			steps{
-				rancherRedeploy alwaysPull: false, credential: 'teste', images: 'registry.nosi.cv/igrpweb-opensource/igrpwebopensource:${BUILD_NUMBER}', workload: '/project/c-cpx7p:p-qzlgr/workload/deployment:igrpweb-opensource:igrpweb'
+				rancherRedeploy alwaysPull: false, credential: 'token-4258c', images: 'registry.nosi.cv/igrpweb-opensource/igrpwebopensource:${BUILD_NUMBER}', workload: '/project/c-cpx7p:p-qzlgr/workload/deployment:igrpweb-opensource:igrpweb'
 			}
 		}
 		
