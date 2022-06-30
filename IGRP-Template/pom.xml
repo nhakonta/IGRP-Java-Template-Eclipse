@@ -2,9 +2,8 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-
-	
 	<modelVersion>4.0.0</modelVersion>
+	
 	<groupId>IGRP-Template</groupId>
 	<artifactId>IGRP-Template</artifactId>
 	<version>v.220127</version>
@@ -21,33 +20,32 @@
 		<tomee.version>8.0.5</tomee.version>
 		<javadoc.plugin.version>3.0.1</javadoc.plugin.version>
 		<tomee.classifier>plus</tomee.classifier>
-		<hibernate.version>5.4.29.Final</hibernate.version>
+		<hibernate.version>5.6.8.Final</hibernate.version>
 		<hibernate.jpa_2_1_api.version>1.0.2.Final</hibernate.jpa_2_1_api.version>
 		<jersey.version>2.29</jersey.version>
-		<mysql.version>8.0.16</mysql.version>
-		<postgres.version>42.2.19</postgres.version>
-		<h2.version>1.4.200</h2.version>
-		<sqlserver.version>9.2.1.jre8</sqlserver.version>
-		<jersey.version>2.29</jersey.version>
-		<model.mapper.version>2.3.2</model.mapper.version>
-		<gson.version>2.8.4</gson.version>
-		<json.version>20210307</json.version>
-		<org.mapstruct.version>1.3.1.Final</org.mapstruct.version>
+		<mysql.version>8.0.28</mysql.version>
+		<postgres.version>42.3.3</postgres.version>
+		<h2.version>2.1.210</h2.version>
+		<sqlserver.version>10.2.0.jre8</sqlserver.version>
+		<model.mapper.version>3.1.0</model.mapper.version>
+		<gson.version>2.9.0</gson.version>
+		<json.version>20220320</json.version>
+		<org.mapstruct.version>1.4.2.Final</org.mapstruct.version>
 		<!-- Apache properties -->
 		<apache.libintl.version>0.18.3</apache.libintl.version>
 		<apache.commons.beanutils.version>1.9.4</apache.commons.beanutils.version>
 		<apache.commons.lang3.version>3.12.0</apache.commons.lang3.version>
-		<apache.commons.text.version>1.7</apache.commons.text.version>
-		<apache.commons.io.version>2.6</apache.commons.io.version>
-		<apache.logging.log4j.version>2.16.0</apache.logging.log4j.version>
-		<apache.poi.version>4.1.1</apache.poi.version>
-		<apache.httpcomponents.httpmime.version>4.5.10</apache.httpcomponents.httpmime.version>
-		<apache.httpcomponents.httpcore.version>4.4.12</apache.httpcomponents.httpcore.version>				
-		
-		<reflections.version>0.9.11</reflections.version>
-		<apache.axis.version>1.7.9</apache.axis.version>
-		<jdt.core.compiler.version>4.6.1</jdt.core.compiler.version> 
-		
+		<apache.commons.text.version>1.9</apache.commons.text.version>
+		<apache.commons.io.version>2.11.0</apache.commons.io.version>
+		<apache.logging.log4j.version>2.17.2</apache.logging.log4j.version>
+		<apache.poi.version>5.2.2</apache.poi.version>
+		<apache.httpcomponents.httpmime.version>4.5.13</apache.httpcomponents.httpmime.version>
+		<apache.httpcomponents.httpcore.version>4.4.15</apache.httpcomponents.httpcore.version>
+
+		<reflections.version>0.10.2</reflections.version>
+		<apache.axis.version>1.8.0</apache.axis.version>
+		<jdt.core.compiler.version>4.6.1</jdt.core.compiler.version>
+
 		<!-- JGit -->
 		<jgit.version>4.7.0.201704051617-r</jgit.version>	
 			
@@ -55,10 +53,10 @@
 		<servlet.api.version>3.1.0</servlet.api.version>	
 		
 		<!-- OPEN HTML TO PDF -->
-		<openhtml.version>1.0.8</openhtml.version>
-		
-		<jsoup.version>1.13.1</jsoup.version>
-		
+		<openhtml.version>1.0.10</openhtml.version>
+
+		<jsoup.version>1.14.3</jsoup.version>
+
 		<!-- Barcode ... -->
 		<google.zxing.version>3.4.1</google.zxing.version>
 		
@@ -81,34 +79,40 @@
 		<maven.surefire.plugin.version>3.0.0-M5</maven.surefire.plugin.version>
 		
 		<!-- Unit Test and Integration Test Properties -->
-		<junit.jupiter.version>5.7.2</junit.jupiter.version>
-		<junit.vintage.version>5.7.2</junit.vintage.version>
-		
+		<junit.jupiter.version>5.8.2</junit.jupiter.version>
+		<junit.vintage.version>5.8.2</junit.vintage.version>
+
 		<!-- JavaEE API & jax-rs version -->
 		<javaee.api.version>8.0-5</javaee.api.version>
 		<cxf.rt.frontend.jaxrs.version>3.3.6</cxf.rt.frontend.jaxrs.version>
 		<tomee.jaxrs.version>8.0.4</tomee.jaxrs.version>
 		
 		<!-- JavaDev Underscore Version: Transform JSON To XML Preserving the order of the elements -->
-		<javadev.underscore.version>1.68</javadev.underscore.version>
-		
+		<javadev.underscore.version>1.76</javadev.underscore.version>
+
 		<!-- Activiti BPMN -->
 		<activiti.bpmn.model.version>6.0.0</activiti.bpmn.model.version>
 		<activiti.bpmn.converter.version>6.0.0</activiti.bpmn.converter.version>
-		
+
 		<!-- TomEE Embedded Maven Plugin -->
 		<tomee.maven.plugin.version>8.0.10</tomee.maven.plugin.version>
 		
 		<!-- TomEE Embedded -->
 		<tomee.embedded.version>8.0.7</tomee.embedded.version>
 		
-		<!-- Flyway Migration API -->
-		<flyway.version>7.11.2</flyway.version>
+		<!-- Flyway Migration API & Docker PostgreSQL -->
+		<flyway.version>8.5.8</flyway.version>
 		<igrp.db.user>postgres</igrp.db.user>
 		<igrp.db.password>softwaredeveloper</igrp.db.password>
-		<igrp.db.dsn>jdbc:postgresql://localhost:5432/db_igrp</igrp.db.dsn>
+		<igrp.db.dsn>jdbc:postgresql://localhost:5432/db_igrp</igrp.db.dsn> <!-- Comment this line when run IGRPWEB+Postgres+Docker -->
+		<!--<igrp.db.dsn>jdbc:postgresql://postgres:5432/db_igrp</igrp.db.dsn>--> <!-- Uncomment this line when run IGRPWEB+Postgres+Docker -->
 		<igrp.migration.location>classpath:nosi/core/db/migration/igrp/postgres</igrp.migration.location>
-	
+		
+		<!-- K8s & Docker -->
+		<jkube.version>1.7.0</jkube.version>
+		<docker.registry>localhost:5000</docker.registry>
+		
+		
 	</properties>
 
 	<dependencies>
@@ -175,6 +179,12 @@
 			<artifactId>hibernate-core</artifactId>
 			<version>${hibernate.version}</version>
 		</dependency>
+				<!-- TO BE REPLACED https://mvnrepository.com/artifact/org.dom4j/dom4j -->
+<dependency>
+    <groupId>org.dom4j</groupId>
+    <artifactId>dom4j</artifactId>
+    <version>2.1.3</version>
+</dependency>
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-hikaricp</artifactId>
@@ -214,7 +224,7 @@
 			<version>${h2.version}</version>
 		</dependency>
 		<!-- END Database Dependencies -->
-		
+
 		<!-- Jersey Dependencies -->
 		<dependency>
 			<groupId>org.glassfish.jersey.core</groupId>
@@ -391,6 +401,13 @@
 			<artifactId>reflections</artifactId>
 			<version>${reflections.version}</version>
 		</dependency>
+		
+				<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+		<dependency>
+		    <groupId>com.google.guava</groupId>
+		    <artifactId>guava</artifactId>
+		    <version>31.1-jre</version>
+		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.eclipse.jdt.core.compiler/ecj -->
 		<dependency>
@@ -406,8 +423,8 @@
 		    <artifactId>org.eclipse.jgit</artifactId>
 		    <version>${jgit.version}</version>
 		</dependency>
-		
-		<!-- Javadev Undersocre API for jsonToXml transformation purpose -->
+
+		<!-- Javadev underscore API for jsonToXml transformation purpose -->
 		<!-- https://mvnrepository.com/artifact/com.github.javadev/underscore -->
 		<dependency>
 		    <groupId>com.github.javadev</groupId>
@@ -598,6 +615,92 @@
 						</systemVariables>
 					</configuration>
 				</plugin>
+				
+				<!-- Docker -->
+				<plugin>
+			        <groupId>io.fabric8</groupId>
+			        <artifactId>docker-maven-plugin</artifactId>
+			        <configuration>
+			          
+			          <images>
+			          
+			            <image>
+			              <name>igrpweb:${project.version}</name>
+			              <alias>igrpweb</alias>
+			              <build>
+			                <!-- filter>@</filter-->
+			                <contextDir>${project.basedir}/src/main/docker</contextDir>
+			                <assembly>
+			                  <descriptorRef>artifact</descriptorRef> 
+			                </assembly>
+			              </build>
+			              <run>
+			                <ports>
+			                  <port>8080:8080</port>
+			                </ports>
+			                <volumes>
+							  <bind>
+							    <volume>igrpweb_data:/local/tomee</volume>
+							  </bind>
+							</volumes>
+			                <!-- <autoRemove>true</autoRemove> -->
+			                <!-- 
+			                <links> 
+					          <link>postgres</link>
+					        </links>
+					        -->
+			              </run>
+			            </image>
+			            
+			            <!--
+			            <image>
+					      <alias>postgres</alias> 
+					      <name>postgres:latest</name>
+					      <run>
+					      	<env>
+							    <POSTGRES_USER>${igrp.db.user}</POSTGRES_USER>
+							    <POSTGRES_PASSWORD>${igrp.db.password}</POSTGRES_PASSWORD>
+							    <POSTGRES_DB>db_igrp</POSTGRES_DB>
+							</env>
+					      	<ports>
+							    <port>5432:5432</port>
+							</ports>
+					      	<log>
+							    <prefix>postgres</prefix>
+							    <enabled>true</enabled>
+							    <color>yellow</color>
+							</log>
+					        <wait> 
+					          <log>(?s)PostgreSQL init process complete.*database system is ready to accept connections</log>
+					          <time>20000</time>
+					        </wait>
+					      </run>
+					    </image>
+			            -->
+			          </images>
+			          
+			        </configuration>
+			        
+			      </plugin>
+			      
+			      <!-- K8s -->
+			      <plugin>
+					    <groupId>org.eclipse.jkube</groupId>
+					    <artifactId>kubernetes-maven-plugin</artifactId>
+					    <version>${jkube.version}</version>
+					    <configuration>
+					    	<images>
+						    	<image>
+					              <name>${docker.registry}/imarcelf/igrpweb:${project.version}</name>
+					              <alias>igrpweb</alias>
+					              <build>
+					                <contextDir>${project.basedir}/src/main/docker</contextDir>
+					              </build>
+					            </image>
+					    	</images>
+					    </configuration>
+				  </plugin>
+				
                 
 			</plugins>
 			
