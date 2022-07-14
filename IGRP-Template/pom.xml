@@ -102,9 +102,9 @@
 		
 		<!-- Flyway Migration API & Docker PostgreSQL -->
 		<flyway.version>8.5.8</flyway.version>
-		<igrp.db.user>postgres</igrp.db.user>
-		<igrp.db.password>softwaredeveloper</igrp.db.password>
-		<igrp.db.dsn>jdbc:postgresql://localhost:5432/db_igrp</igrp.db.dsn> <!-- Comment this line when run IGRPWEB+Postgres+Docker -->
+		<igrp.db.user>${env.dev_db_user}</igrp.db.user>
+		<igrp.db.password>${env.dev_db_password}</igrp.db.password>
+		<igrp.db.dsn>jdbc:postgresql:/${env.server_IP}:${env.port}/${env.dev_db_name}</igrp.db.dsn> <!-- Comment this line when run IGRPWEB+Postgres+Docker -->
 		<!--<igrp.db.dsn>jdbc:postgresql://postgres:5432/db_igrp</igrp.db.dsn>--> <!-- Uncomment this line when run IGRPWEB+Postgres+Docker -->
 		<igrp.migration.location>classpath:nosi/core/db/migration/igrp/postgres</igrp.migration.location>
 		
