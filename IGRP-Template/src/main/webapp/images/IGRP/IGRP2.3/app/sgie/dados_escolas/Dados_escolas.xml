@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/IGRP-Template/images/IGRP/IGRP2.3/app/sgie/dados_escolas/Dados_escolas.xsl" type="text/xsl"?>
+<rows>
+    <link_img>/IGRP-Template/images/IGRP/IGRP2.3</link_img>
+    <title>Dummie XML prototype</title>
+    <site>
+        <welcome_note>Oba</welcome_note>
+        <footer_note>2019 - Copyright NOSI v.190711</footer_note>
+        <user_name>Hexagon</user_name>
+        <button type="specific">
+            <title>Sair</title>
+            <app>DUA</app>
+            <page />
+            <link>#</link>
+            <target>_self</target>
+            <img>exit.png</img>
+        </button>
+    </site>
+    <page>Dados_escolas</page>
+    <app>sgie</app>
+    <plsql>
+        <action>index</action>
+        <package_instance></package_instance>
+        <package_db>nosi.webapps.sgie.pages</package_db>
+        <package_html>Dados_escolas</package_html>
+        <table_name></table_name>
+        <with_replace>false</with_replace>
+        <with_label>false</with_label>
+        <with_biztalk>false</with_biztalk>
+        <dynamic_menu>false</dynamic_menu>
+        <copy_menu>false</copy_menu>
+        <package_copy_db />
+        <package_copy_html />
+        <preserve_url>webapps?r=igrp/page/preserveUrl&amp;p_id=228</preserve_url>
+    </plsql>
+    <slide-menu file="../images/IGRP/IGRP2.3/xml/IGRP-slide-menu.xml?v=2" />
+    <top_menu file="../images/IGRP/IGRP2.3/xml/IGRP-top_menu.xml?v=2" />
+    <content>
+        <title>dados escolas</title>
+        <view_3 type="view" xml-type="view" gen-type="container" gen-group="">
+            <fields>
+                <view_cabecalho_escola name="p_view_cabecalho_escola" type="text" maxlength="250" class="default" iconColor="#333" iconClass="" img="fa-university" showlabel="true">
+                    <label/>
+                    <value>Stract sit voluptatem elit sit</value>
+                </view_cabecalho_escola>
+            </fields>
+        </view_3>
+        <view_1 type="view" xml-type="view" gen-type="container" gen-group="">
+            <fields>
+                <codigo_sige name="p_codigo_sige" type="text" maxlength="250" class="default" iconColor="#333" iconClass="" img="fa-copyright" showlabel="true">
+                    <label>Código SIGE</label>
+                    <value>Laudantium anim voluptatem aperiam laudantium</value>
+                </codigo_sige>
+                <nivel_de_ensino name="p_nivel_de_ensino" type="text" maxlength="250" class="default" iconColor="#333" iconClass="" img="fa-university" showlabel="true">
+                    <label>Nível de Ensino</label>
+                    <value>Adipiscing dolor unde voluptatem officia</value>
+                </nivel_de_ensino>
+                <diretora name="p_diretora" type="text" maxlength="250" class="default" iconColor="#333" iconClass="" img="fa-user" showlabel="true">
+                    <label>Diretor(a)</label>
+                    <value>Sit omnis sit unde sit</value>
+                </diretora>
+                <morada name="p_morada" type="text" maxlength="250" class="default" iconColor="#333" iconClass="" img="fa-bullseye" showlabel="true">
+                    <label>Morada</label>
+                    <value>Voluptatem sit stract elit accusantium</value>
+                </morada>
+                <lugar name="p_lugar" type="text" maxlength="250" class="default" iconColor="#333" iconClass="" img="fa-podcast" showlabel="true">
+                    <label>Lugar</label>
+                    <value>Natus rem laudantium sit ut</value>
+                </lugar>
+                <esc_id name="p_esc_id" type="hidden" maxlength="250" class="default" iconColor="#333" iconClass="" img="" showlabel="true" tag="esc_id"/>
+                <view_1_img type="text" name="p_view_1_img" maxlength="300">
+                    <value>../images/IGRP/IGRP2.3/assets/img/jon_doe.jpg</value>
+                </view_1_img>
+            </fields>
+        </view_1>
+        <view_2 type="view" xml-type="view" gen-type="container" gen-group="">
+            <fields>
+                <telefone name="p_telefone" type="text" maxlength="250" class="default" iconColor="#333" iconClass="" img="fa-phone" showlabel="true">
+                    <label>Telefone</label>
+                    <value>Perspiciatis omnis rem amet dolor</value>
+                </telefone>
+                <e_mail name="p_e_mail" type="text" maxlength="250" class="default" iconColor="#333" iconClass="" img="fa-envelope" showlabel="true">
+                    <label>E-mail</label>
+                    <value>Sed magna deserunt officia stract</value>
+                </e_mail>
+                <concelho name="p_concelho" type="text" maxlength="250" class="default" iconColor="#333" iconClass="" img="fa-map-marker" showlabel="true">
+                    <label>Concelho</label>
+                    <value>Consectetur iste totam unde sit</value>
+                </concelho>
+                <coordenadas_gps name="p_coordenadas_gps" type="text" maxlength="250" class="default" iconColor="#333" iconClass="" img="fa-street-view" showlabel="true">
+                    <label>Coordenadas GPS</label>
+                    <value>Rem officia rem consectetur sed</value>
+                </coordenadas_gps>
+                <numero_de_alunos name="p_numero_de_alunos" type="text" maxlength="250" class="default" iconColor="#333" iconClass="" img="fa-mortar-board" showlabel="true">
+                    <label>Número de Alunos</label>
+                    <value>Aliqua totam ipsum omnis officia</value>
+                </numero_de_alunos>
+            </fields>
+        </view_2>
+        <toolsbar_1 type="toolsbar" xml-type="toolsbar" gen-type="menu" gen-group="">
+            <item type="specific" code="" rel="estado_geral_de_conservacao" refresh_components="">
+                <title>Estado Geral de Conservação</title>
+                <app>sgie</app>
+                <page>Dados_infra_estado_conservacao_geral</page>
+                <link>index</link>
+                <target>mpsubmit</target>
+                <img>primary|fa-heartbeat</img>
+                <preview>../images/IGRP/IGRP2.3/app/sgie/dados_infra_estado_conservacao_geral/Dados_infra_estado_conservacao_geral.xml</preview>
+            </item>
+            <item type="specific" code="" rel="caraterizacao_de_edificios" refresh_components="">
+                <title>Caraterização de Edifícios</title>
+                <app>sgie</app>
+                <page>Dados_infra_carater_edificio</page>
+                <link>index</link>
+                <target>mpsubmit</target>
+                <img>primary|fa-home</img>
+                <preview>../images/IGRP/IGRP2.3/app/sgie/dados_infra_carater_edificio/Dados_infra_carater_edificio.xml</preview>
+            </item>
+            <item type="specific" code="" rel="caraterizacao_construtiva" refresh_components="">
+                <title>Caraterização Construtiva</title>
+                <app>sgie</app>
+                <page>Dados_infra_carater_construtivo</page>
+                <link>index</link>
+                <target>mpsubmit</target>
+                <img>primary|fa-puzzle-piece</img>
+                <preview>../images/IGRP/IGRP2.3/app/sgie/dados_infra_carater_construtivo/Dados_infra_carater_construtivo.xml</preview>
+            </item>
+            <item type="specific" code="" rel="caraterizacao_funcional" refresh_components="">
+                <title>Caraterização Funcional</title>
+                <app>sgie</app>
+                <page>Dados_infra_carater_funcional</page>
+                <link>index</link>
+                <target>mpsubmit</target>
+                <img>primary|fa-thumbs-o-up</img>
+                <preview>../images/IGRP/IGRP2.3/app/sgie/dados_infra_carater_funcional/Dados_infra_carater_funcional.xml</preview>
+            </item>
+        </toolsbar_1>
+        <toolsbar_2 type="toolsbar" xml-type="toolsbar" gen-type="menu" gen-group="">
+            <item type="specific" code="" rel="servicos_basicos_e_de_internet" refresh_components="">
+                <title>Serviços Básicos e de Internet</title>
+                <app>sgie</app>
+                <page>Dados_infra_carater_servico_basico</page>
+                <link>index</link>
+                <target>mpsubmit</target>
+                <img>primary|fa-rss</img>
+                <preview>../images/IGRP/IGRP2.3/app/sgie/dados_infra_carater_servico_basico/Dados_infra_carater_servico_basico.xml</preview>
+            </item>
+            <item type="specific" code="" rel="descricao_morfologica" refresh_components="">
+                <title>Descrição Morfológica</title>
+                <app>sgie</app>
+                <page>Dados_infra_carater_morfo</page>
+                <link>index</link>
+                <target>mpsubmit</target>
+                <img>primary|fa-bank</img>
+                <preview>../images/IGRP/IGRP2.3/app/sgie/dados_infra_carater_morfo/Dados_infra_carater_morfo.xml</preview>
+            </item>
+            <item type="specific" code="" rel="caraterizacao_espacos_interior" refresh_components="">
+                <title>Caraterização espaços Interior</title>
+                <app>sgie</app>
+                <page>Dados_infra_carater_interior</page>
+                <link>index</link>
+                <target>mpsubmit</target>
+                <img>primary|fa-tag</img>
+                <preview>../images/IGRP/IGRP2.3/app/sgie/dados_infra_carater_interior/Dados_infra_carater_interior.xml</preview>
+            </item>
+            <item type="specific" code="" rel="caraterizacao_exterior" refresh_components="">
+                <title>Caraterização Exterior</title>
+                <app>sgie</app>
+                <page>Dados_infra_carater_exterior</page>
+                <link>index</link>
+                <target>mpsubmit</target>
+                <img>primary|fa-tags</img>
+                <preview>../images/IGRP/IGRP2.3/app/sgie/dados_infra_carater_exterior/Dados_infra_carater_exterior.xml</preview>
+            </item>
+        </toolsbar_2>
+        <sectionheader_1 type="sectionheader" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <sectionheader_1_text type="text" name="p_sectionheader_1_text" persist="true" maxlength="4000">
+                    <value>
+                        <![CDATA[<p>Seguimento &amp; Avalia&ccedil;&atilde;o</p>
+]]>
+                    </value>
+                </sectionheader_1_text>
+            </fields>
+        </sectionheader_1>
+        <form_novo_seguimento type="form" xml-type="form" gen-type="container" gen-group="">
+            <fields/>
+            <tools-bar>
+                <item id="button_8ef1_022c" type="form" code="" class="success" rel="nova_avaliacao" refresh_components="">
+                    <title>Nova Avaliação</title>
+                    <app>sgie</app>
+                    <page>Novo_seguimento</page>
+                    <link>index</link>
+                    <parameter>../images/IGRP/IGRP2.3/app/sgie/novo_seguimento/Novo_seguimento.xml?</parameter>
+                    <target>mpsubmit</target>
+                    <img>success|fa-heartbeat</img>
+                    <preview>../images/IGRP/IGRP2.3/app/sgie/novo_seguimento/Novo_seguimento.xml</preview>
+                </item>
+            </tools-bar>
+        </form_novo_seguimento>
+        <table_1 type="table" xml-type="table" gen-type="container" gen-group="true">
+            <fields>
+                <id_seguimento name="p_id_seguimento" type="text" maxlength="30" showLabel="true" align="left" lookup_parser="false" iskey="false" group_in="">
+                    <label>ID Seguimento</label>
+                </id_seguimento>
+                <data_avaliacao name="p_data_avaliacao" type="text" maxlength="30" showLabel="true" align="left" lookup_parser="false" iskey="false" group_in="">
+                    <label>Data avaliação</label>
+                </data_avaliacao>
+                <utilizador name="p_utilizador" type="text" maxlength="30" showLabel="true" align="left" lookup_parser="false" iskey="false" group_in="">
+                    <label>Utilizador</label>
+                </utilizador>
+                <esc_id_tbl name="p_esc_id_tbl" type="hidden" maxlength="30" showLabel="true" iskey="true" group_in="" java-type="" tag="esc_id_tbl"/>
+            </fields>
+            <table>
+                <value>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <id_seguimento name="p_id_seguimento">Lorem adipiscing totam omnis m</id_seguimento>
+                        <data_avaliacao name="p_data_avaliacao">Doloremque sed aliqua sit elit</data_avaliacao>
+                        <utilizador name="p_utilizador">Mollit ipsum lorem iste aperia</utilizador>
+                        <esc_id_tbl name="p_esc_id_tbl" tag="esc_id_tbl">hidden-b50b_b93e</esc_id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <id_seguimento name="p_id_seguimento">Natus labore sit totam omnis</id_seguimento>
+                        <data_avaliacao name="p_data_avaliacao">Consectetur aperiam labore sit</data_avaliacao>
+                        <utilizador name="p_utilizador">Sit doloremque iste perspiciat</utilizador>
+                        <esc_id_tbl name="p_esc_id_tbl" tag="esc_id_tbl">hidden-8ae0_4b05</esc_id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <id_seguimento name="p_id_seguimento">Sit elit amet natus dolor</id_seguimento>
+                        <data_avaliacao name="p_data_avaliacao">Ipsum lorem lorem ipsum sed</data_avaliacao>
+                        <utilizador name="p_utilizador">Ut iste ipsum deserunt volupta</utilizador>
+                        <esc_id_tbl name="p_esc_id_tbl" tag="esc_id_tbl">hidden-9976_763d</esc_id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <id_seguimento name="p_id_seguimento">Adipiscing lorem ipsum aliqua</id_seguimento>
+                        <data_avaliacao name="p_data_avaliacao">Adipiscing doloremque officia</data_avaliacao>
+                        <utilizador name="p_utilizador">Anim deserunt laudantium labor</utilizador>
+                        <esc_id_tbl name="p_esc_id_tbl" tag="esc_id_tbl">hidden-7fe7_c5a4</esc_id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <id_seguimento name="p_id_seguimento">Stract magna officia consectet</id_seguimento>
+                        <data_avaliacao name="p_data_avaliacao">Elit deserunt magna totam dolo</data_avaliacao>
+                        <utilizador name="p_utilizador">Consectetur doloremque anim el</utilizador>
+                        <esc_id_tbl name="p_esc_id_tbl" tag="esc_id_tbl">hidden-35ac_88d9</esc_id_tbl>
+                    </row>
+                </value>
+                <context-menu>
+                    <item id="button_52de_343b" type="specific" code="" class="success" rel="detalhes" refresh_components="">
+                        <title>Detalhes</title>
+                        <app>sgie</app>
+                        <page>Novo_seguimento</page>
+                        <link>index</link>
+                        <parameter>../images/IGRP/IGRP2.3/app/sgie/novo_seguimento/Novo_seguimento.xml?</parameter>
+                        <target>mpsubmit</target>
+                        <img>success|fa-hand-o-right</img>
+                        <preview>../images/IGRP/IGRP2.3/app/sgie/novo_seguimento/Novo_seguimento.xml</preview>
+                    </item>
+                </context-menu>
+            </table>
+        </table_1>
+    </content>
+    <blockly>
+        <imports>
+            <import type="listar">Listar</import>
+            <import type="dao">TblAuxEscolas</import>
+            <import type="dao">TblSeguimentoEscolas</import>
+            <import type="fields">LocalDate</import>
+        </imports>
+        <xml>
+            <block type="controller" id="controller" x="237" y="-688">
+                <statement name="index">
+                    <block type="vieww_view_1" id="QNIQM.:[Ph0O|v{1}zZf" inline="true">
+                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                        <field name="dao">TblAuxEscolas</field>
+                        <value name="get_pa">
+                            <block type="core_get_param" id="HIs;O?g}}1cw.zUg*UnQ">
+                                <field name="param">esc_id_tbl</field>
+                            </block>
+                        </value>
+                        <statement name="value2">
+                            <block type="model_form_String::codigo_sige" id="Celi^noPE%zva6M[X.PC">
+                                <value name="value1">
+                                    <block type="get-dao-TblAuxEscolas" id=",Wqj73t{rD%xNt;jR,vL">
+                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                    </block>
+                                </value>
+                                <next>
+                                    <block type="model_form_String::nivel_de_ensino" id="jS*R5e4^4K`4xJ7d6suw">
+                                        <value name="value1">
+                                            <block type="get-dao-TblAuxEscolas" id="TmgjS3I~L@ntOzfs?oLj">
+                                                <mutation hover_type="String::nivelEnsino"></mutation>
+                                                <field name="DAO_FIELD">String::nivelEnsino</field>
+                                            </block>
+                                        </value>
+                                        <next>
+                                            <block type="model_form_String::diretora" id="!l6Ee8zHrRp*}CXq1~{O">
+                                                <value name="value1">
+                                                    <block type="get-dao-TblAuxEscolas" id="#ooFAZfvbk.`+n7=h^-q">
+                                                        <mutation hover_type="String::nome"></mutation>
+                                                        <field name="DAO_FIELD">String::nome</field>
+                                                    </block>
+                                                </value>
+                                                <next>
+                                                    <block type="model_form_String::morada" id="P_jxbSB(?lFqlGFN^axr">
+                                                        <value name="value1">
+                                                            <block type="get-dao-TblAuxEscolas" id="{zRm1B8s=!Q?/oEU[bGu">
+                                                                <mutation hover_type="String::zona"></mutation>
+                                                                <field name="DAO_FIELD">String::zona</field>
+                                                            </block>
+                                                        </value>
+                                                        <next>
+                                                            <block type="model_form_String::lugar" id=".x@RY@v0FalVBlagwP5Q">
+                                                                <value name="value1">
+                                                                    <block type="get-dao-TblAuxEscolas" id="}RRvr-I0H7}yZA)VCCI,">
+                                                                        <mutation hover_type="String::lugar"></mutation>
+                                                                        <field name="DAO_FIELD">String::lugar</field>
+                                                                    </block>
+                                                                </value>
+                                                                <next>
+                                                                    <block type="model_form_String::esc_id" id="2{y2s`H_})9+st7s.cq;">
+                                                                        <value name="value1">
+                                                                            <block type="get-dao-TblAuxEscolas" id="_ak0n#ZwD7qFkW^?i,w0">
+                                                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                            </block>
+                                                                        </value>
+                                                                    </block>
+                                                                </next>
+                                                            </block>
+                                                        </next>
+                                                    </block>
+                                                </next>
+                                            </block>
+                                        </next>
+                                    </block>
+                                </next>
+                            </block>
+                        </statement>
+                        <next>
+                            <block type="vieww_view_2" id="k~ALk[iX_Y62kRG5rp5@" inline="true">
+                                <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                <field name="dao">TblAuxEscolas</field>
+                                <value name="get_pa">
+                                    <block type="core_get_param" id="~Z/Fm3@_@3EtSC_V.9;X">
+                                        <field name="param">esc_id_tbl</field>
+                                    </block>
+                                </value>
+                                <statement name="value2">
+                                    <block type="model_form_String::telefone" id="Wly?dp}n|fLLfgt|iQU|">
+                                        <value name="value1">
+                                            <block type="get-dao-TblAuxEscolas" id="O2Dwm~G=mTgu~Qq~8w:)">
+                                                <mutation hover_type="String::telefone"></mutation>
+                                                <field name="DAO_FIELD">String::telefone</field>
+                                            </block>
+                                        </value>
+                                        <next>
+                                            <block type="model_form_String::e_mail" id="pPeRw6#K*XxO/s*.]fuF">
+                                                <value name="value1">
+                                                    <block type="get-dao-TblAuxEscolas" id="x2xy8@|oC_%.KfqN!u]X">
+                                                        <mutation hover_type="String::email"></mutation>
+                                                        <field name="DAO_FIELD">String::email</field>
+                                                    </block>
+                                                </value>
+                                                <next>
+                                                    <block type="model_form_String::concelho" id="dv7iTsHQL*kXl?Mz}9fX">
+                                                        <value name="value1">
+                                                            <block type="get-dao-TblAuxEscolas" id="6}]dwif+7?%b=2vQgn#M">
+                                                                <mutation hover_type="String::concelho"></mutation>
+                                                                <field name="DAO_FIELD">String::concelho</field>
+                                                            </block>
+                                                        </value>
+                                                        <next>
+                                                            <block type="model_form_String::coordenadas_gps" id="s~Ed%%LNqEp[^CTt7R:}">
+                                                                <value name="value1">
+                                                                    <block type="get-dao-TblAuxEscolas" id="f/,ZQs-FgltgbZ0VukO;">
+                                                                        <mutation hover_type="String::gps"></mutation>
+                                                                        <field name="DAO_FIELD">String::gps</field>
+                                                                    </block>
+                                                                </value>
+                                                                <next>
+                                                                    <block type="model_form_String::numero_de_alunos" id="4|4zA^ZyyBo8Cf~0#,qY">
+                                                                        <value name="value1">
+                                                                            <block type="get-dao-TblAuxEscolas" id="vGYJ)XD%El3=(#3L}/ms">
+                                                                                <mutation hover_type="Integer::numAlunos"></mutation>
+                                                                                <field name="DAO_FIELD">Integer::numAlunos</field>
+                                                                            </block>
+                                                                        </value>
+                                                                    </block>
+                                                                </next>
+                                                            </block>
+                                                        </next>
+                                                    </block>
+                                                </next>
+                                            </block>
+                                        </next>
+                                    </block>
+                                </statement>
+                                <next>
+                                    <block type="vieww_view_3" id="y/:Lu=1dMOI^568SUN+y" inline="true">
+                                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                        <field name="dao">TblAuxEscolas</field>
+                                        <value name="get_pa">
+                                            <block type="core_get_param" id="LrogMb{~x0Zkqt@Mk=rx">
+                                                <field name="param">esc_id_tbl</field>
+                                            </block>
+                                        </value>
+                                        <statement name="value2">
+                                            <block type="model_form_String::view_cabecalho_escola" id="b(.@yLDj@`^@CYt%@?-t">
+                                                <value name="value1">
+                                                    <block type="concaty" id="jU.U9p}E8BO(_eHrz^5=" inline="true">
+                                                        <mutation count="2"></mutation>
+                                                        <value name="concat_value">
+                                                            <block type="get-dao-TblAuxEscolas" id="c}8*SUnOPN3p.0!R1e]i">
+                                                                <mutation hover_type="String::nome"></mutation>
+                                                                <field name="DAO_FIELD">String::nome</field>
+                                                            </block>
+                                                        </value>
+                                                        <value name="CONCAT1">
+                                                            <block type="text" id="N+~f!*CkwgDM0j!kYP,]">
+                                                                <field name="TEXT"> @ 33</field>
+                                                            </block>
+                                                        </value>
+                                                        <value name="CONCAT2">
+                                                            <block type="text" id=";JAp=[Kg-u@D;CRcRO,I">
+                                                                <field name="TEXT"> no Ranking Perigosidade </field>
+                                                            </block>
+                                                        </value>
+                                                    </block>
+                                                </value>
+                                            </block>
+                                        </statement>
+                                        <next>
+                                            <block type="listar_table_1" id="{F}Cq8B(~a8Qs_;#Smi*" inline="true">
+                                                <mutation order="" operation="null" limit="TODOSS" collectors="null" crud="null" statistdrop="null" ajax="null" count="1" mutation-1="andWhere"></mutation>
+                                                <field name="dao">TblSeguimentoEscolas</field>
+                                                <field name="FILL">FALSE</field>
+                                                <field name="orderdrop"></field>
+                                                <field name="find">TODOSS</field>
+                                                <field name="limit"></field>
+                                                <field name="ADD1FILTER">andWhere</field>
+                                                <field name="ADD1WHERE">WHERE_EQ</field>
+                                                <statement name="value2">
+                                                    <block type="rowtableString::id_seguimento" id="M-:/zm.S`7mrNd*4DQ(l">
+                                                        <value name="fields_model">
+                                                            <block type="get-dao-TblSeguimentoEscolas" id="6?W0qQ9/P=/{WcjlTQaX">
+                                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                            </block>
+                                                        </value>
+                                                        <next>
+                                                            <block type="rowtableString::data_avaliacao" id="J#[,))cMdH|G[)A!mlWD">
+                                                                <value name="fields_model">
+                                                                    <block type="get-dao-TblSeguimentoEscolas" id="-7gXvm!x.K,26Pu83eFN">
+                                                                        <mutation hover_type="LocalDate::data"></mutation>
+                                                                        <field name="DAO_FIELD">LocalDate::data</field>
+                                                                    </block>
+                                                                </value>
+                                                                <next>
+                                                                    <block type="rowtableString::utilizador" id="ipJO!qj+@=iA8T%[r.*~">
+                                                                        <value name="fields_model">
+                                                                            <block type="get-dao-TblSeguimentoEscolas" id="L*p9?c@`[(((}i+e=Wuk">
+                                                                                <mutation hover_type="Integer::userId"></mutation>
+                                                                                <field name="DAO_FIELD">Integer::userId</field>
+                                                                            </block>
+                                                                        </value>
+                                                                    </block>
+                                                                </next>
+                                                            </block>
+                                                        </next>
+                                                    </block>
+                                                </statement>
+                                                <value name="ADD1">
+                                                    <block type="get-dao-TblSeguimentoEscolas" id="XjQgCBovJ5%2sIW0MZuN">
+                                                        <mutation hover_type="TblAuxEscolas_FK#::escId"></mutation>
+                                                        <field name="DAO_FIELD">TblAuxEscolas_FK#::escId</field>
+                                                        <value name="dao_rela">
+                                                            <block type="get-dao-TblAuxEscolas" id="N=QA(fU+]?*aZa=3B4{k">
+                                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                            </block>
+                                                        </value>
+                                                    </block>
+                                                </value>
+                                                <value name="ADD1STATE2">
+                                                    <block type="core_get_param" id="vZO{2bo)h5{ZwUJbv7E-">
+                                                        <field name="param">esc_id_tbl</field>
+                                                    </block>
+                                                </value>
+                                            </block>
+                                        </next>
+                                    </block>
+                                </next>
+                            </block>
+                        </next>
+                    </block>
+                </statement>
+                <statement name="estado_geral_de_conservacao">
+                    <block type="param_dao" id="vg{Ofl.H%qkw9}GftYl3" inline="true">
+                        <field name="param">esc_id</field>
+                        <value name="dao_field">
+                            <block type="mod_viewview_1" id="nTwbOm{jL8_-c{*s0],A">
+                                <field name="get_model">String::esc_id</field>
+                            </block>
+                        </value>
+                        <next>
+                            <block type="editar_dao" id="B7J1jlEC]Gv=Sl,nenbW"></block>
+                        </next>
+                    </block>
+                </statement>
+                <statement name="caraterizacao_de_edificios">
+                    <block type="param_dao" id="c(HG?XY[jZfylKq|2uF+" inline="true">
+                        <field name="param">esc_id</field>
+                        <value name="dao_field">
+                            <block type="mod_viewview_1" id="y_pW-0p?_Q4jz6@DRFq{">
+                                <field name="get_model">String::esc_id</field>
+                            </block>
+                        </value>
+                        <next>
+                            <block type="editar_dao" id="S2G.~v9OydLIJ]Vd^g~("></block>
+                        </next>
+                    </block>
+                </statement>
+                <statement name="caraterizacao_construtiva">
+                    <block type="param_dao" id="H{%bmp::K1Rd)`K2(UG(" inline="true">
+                        <field name="param">esc_id</field>
+                        <value name="dao_field">
+                            <block type="mod_viewview_1" id="hB8Ul=U;6U5ZHbln%Geu">
+                                <field name="get_model">String::esc_id</field>
+                            </block>
+                        </value>
+                        <next>
+                            <block type="editar_dao" id="n-NrOWXBDI/(xRpUp{uE"></block>
+                        </next>
+                    </block>
+                </statement>
+                <statement name="caraterizacao_funcional">
+                    <block type="param_dao" id="qiJzJ9fd,ds03@98T1b+" inline="true">
+                        <field name="param">esc_id</field>
+                        <value name="dao_field">
+                            <block type="mod_viewview_1" id="(ho.LnR2;iFv?KMl*z:=">
+                                <field name="get_model">String::esc_id</field>
+                            </block>
+                        </value>
+                        <next>
+                            <block type="editar_dao" id="m9ttl;kOb@Wh5*`y!;G_"></block>
+                        </next>
+                    </block>
+                </statement>
+                <statement name="servicos_basicos_e_de_internet">
+                    <block type="param_dao" id="~=ZeNF^MD1OT7(ByUY9X" inline="true">
+                        <field name="param">esc_id</field>
+                        <value name="dao_field">
+                            <block type="mod_viewview_1" id="(M}jiVvL}vUd!-J;M)|5">
+                                <field name="get_model">String::esc_id</field>
+                            </block>
+                        </value>
+                        <next>
+                            <block type="editar_dao" id="QjqfDUvAkHi,M*NB@bBf"></block>
+                        </next>
+                    </block>
+                </statement>
+                <statement name="descricao_morfologica">
+                    <block type="param_dao" id="iX,5~chGYh]WZhFURRP?" inline="true">
+                        <field name="param">esc_id</field>
+                        <value name="dao_field">
+                            <block type="mod_viewview_1" id="O5s`Eq*y*vXbjoO}fh5U">
+                                <field name="get_model">String::esc_id</field>
+                            </block>
+                        </value>
+                        <next>
+                            <block type="editar_dao" id="Pp4zQlbIE]E12Rf~2rj|"></block>
+                        </next>
+                    </block>
+                </statement>
+                <statement name="caraterizacao_espacos_interior">
+                    <block type="param_dao" id="DR+4-ZXwSLPsnk`69:]L" inline="true">
+                        <field name="param">esc_id</field>
+                        <value name="dao_field">
+                            <block type="mod_viewview_1" id="z-x~2+.=Rwa*lY[KlI0:">
+                                <field name="get_model">String::esc_id</field>
+                            </block>
+                        </value>
+                        <next>
+                            <block type="editar_dao" id="Q^-}T2u9O1ICeTxKW?mM"></block>
+                        </next>
+                    </block>
+                </statement>
+                <statement name="caraterizacao_exterior">
+                    <block type="param_dao" id="=TshgHi:a-K!@R6_]`C}" inline="true">
+                        <field name="param">esc_id</field>
+                        <value name="dao_field">
+                            <block type="mod_viewview_1" id="N4p{ph/Iv[=UuNYJ[T]/">
+                                <field name="get_model">String::esc_id</field>
+                            </block>
+                        </value>
+                        <next>
+                            <block type="editar_dao" id="PVM:oO,.605/K87`UfX6"></block>
+                        </next>
+                    </block>
+                </statement>
+                <statement name="nova_avaliacao">
+                    <block type="param_dao" id="sFs-Fi#[9f,S~Gi?^SJ?" inline="true">
+                        <field name="param">esc_id</field>
+                        <value name="dao_field">
+                            <block type="mod_viewview_1" id="x~{t@;fQlGkSA;mkkrus">
+                                <field name="get_model">String::esc_id</field>
+                            </block>
+                        </value>
+                        <next>
+                            <block type="editar_dao" id="60HZCuy?FF]VmZKMgFUG"></block>
+                        </next>
+                    </block>
+                </statement>
+            </block>
+        </xml>
+    </blockly>
+</rows>

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/IGRP-Template/images/IGRP/IGRP2.3/app/sgie/lista_escolas/Lista_escolas.xsl" type="text/xsl"?>
+<rows>
+    <link_img>/IGRP-Template/images/IGRP/IGRP2.3</link_img>
+    <title>Dummie XML prototype</title>
+    <site>
+        <welcome_note>Oba</welcome_note>
+        <footer_note>2019 - Copyright NOSI v.190711</footer_note>
+        <user_name>Hexagon</user_name>
+        <button type="specific">
+            <title>Sair</title>
+            <app>DUA</app>
+            <page />
+            <link>#</link>
+            <target>_self</target>
+            <img>exit.png</img>
+        </button>
+    </site>
+    <page>Lista_escolas</page>
+    <app>sgie</app>
+    <plsql>
+        <action>index</action>
+        <package_instance></package_instance>
+        <package_db>nosi.webapps.sgie.pages</package_db>
+        <package_html>Lista_escolas</package_html>
+        <table_name></table_name>
+        <with_replace>false</with_replace>
+        <with_label>false</with_label>
+        <with_biztalk>false</with_biztalk>
+        <dynamic_menu>false</dynamic_menu>
+        <copy_menu>false</copy_menu>
+        <package_copy_db />
+        <package_copy_html />
+        <preserve_url>webapps?r=igrp/page/preserveUrl&amp;p_id=211</preserve_url>
+    </plsql>
+    <slide-menu file="../images/IGRP/IGRP2.3/xml/IGRP-slide-menu.xml?v=2" />
+    <top_menu file="../images/IGRP/IGRP2.3/xml/IGRP-top_menu.xml?v=2" />
+    <content>
+        <title>Lista Escolas</title>
+        <form_1 type="form" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <nome_escola name="p_nome_escola" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Nome Escola</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </nome_escola>
+                <hidden name="p_esc_id" type="hidden" maxlength="250" java-type="" tooltip="false" disable_copy_paste="false" tag="esc_id"/>
+            </fields>
+            <tools-bar>
+                <item id="button_371b_477d" type="form" code="" class="primary" rel="pesquisar" custom_return="true" refresh_components="table_1">
+                    <title>Pesquisar</title>
+                    <app>sgie</app>
+                    <page>Lista_escolas</page>
+                    <link>index</link>
+                    <parameter>../images/IGRP/IGRP2.3/app/sgie/lista_escolas/Lista_escolas.xml?</parameter>
+                    <target>submit_ajax</target>
+                    <img>primary|fa-search</img>
+                    <preview>../images/IGRP/IGRP2.3/app/sgie/lista_escolas/Lista_escolas.xml</preview>
+                </item>
+            </tools-bar>
+        </form_1>
+        <table_1 type="table" xml-type="table" gen-type="container" gen-group="true">
+            <fields>
+                <codigo name="p_codigo" type="number" min="" max="" calculation="false" mathcal="" numberformat="" maxlength="30" showLabel="true" align="left" lookup_parser="false" iskey="false" total_footer="false" group_in="" java-type="">
+                    <label>Código</label>
+                </codigo>
+                <nome name="p_nome" type="textarea" maxlength="30" showLabel="true" align="left" lookup_parser="false" iskey="false" group_in="">
+                    <label>Nome</label>
+                </nome>
+                <morada name="p_morada" type="text" maxlength="30" showLabel="true" align="left" lookup_parser="false" iskey="false" group_in="">
+                    <label>Morada</label>
+                </morada>
+                <nivel_ensino name="p_nivel_ensino" type="text" maxlength="30" showLabel="true" align="left" lookup_parser="false" iskey="false" group_in="">
+                    <label>Nível Ensino</label>
+                </nivel_ensino>
+                <telefone name="p_telefone" type="text" maxlength="30" showLabel="true" align="left" lookup_parser="false" iskey="false" group_in="">
+                    <label>Telefone</label>
+                </telefone>
+                <esc_id_tbl name="p_esc_id_tbl" type="hidden" maxlength="30" showLabel="true" iskey="true" group_in="" java-type="" tag="esc_id_tbl"/>
+            </fields>
+            <table>
+                <value>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <codigo name="p_codigo">24</codigo>
+                        <nome name="p_nome">Dolor iste natus omnis sit adi</nome>
+                        <morada name="p_morada">Elit voluptatem lorem aperiam</morada>
+                        <nivel_ensino name="p_nivel_ensino">Totam natus elit ut adipiscing</nivel_ensino>
+                        <telefone name="p_telefone">Accusantium totam rem lorem om</telefone>
+                        <esc_id_tbl name="p_esc_id_tbl" tag="esc_id_tbl">hidden-b84b_e7ff</esc_id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <codigo name="p_codigo">4</codigo>
+                        <nome name="p_nome">Sit deserunt sit natus ut sed</nome>
+                        <morada name="p_morada">Magna totam lorem ipsum aliqua</morada>
+                        <nivel_ensino name="p_nivel_ensino">Voluptatem aperiam stract adip</nivel_ensino>
+                        <telefone name="p_telefone">Aliqua labore aperiam labore l</telefone>
+                        <esc_id_tbl name="p_esc_id_tbl" tag="esc_id_tbl">hidden-401e_33a7</esc_id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <codigo name="p_codigo">10</codigo>
+                        <nome name="p_nome">Accusantium doloremque perspic</nome>
+                        <morada name="p_morada">Deserunt ipsum anim accusantiu</morada>
+                        <nivel_ensino name="p_nivel_ensino">Laudantium omnis unde voluptat</nivel_ensino>
+                        <telefone name="p_telefone">Elit accusantium stract amet l</telefone>
+                        <esc_id_tbl name="p_esc_id_tbl" tag="esc_id_tbl">hidden-9a5a_65f1</esc_id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <codigo name="p_codigo">11</codigo>
+                        <nome name="p_nome">Totam iste perspiciatis natus</nome>
+                        <morada name="p_morada">Ipsum elit iste laudantium adi</morada>
+                        <nivel_ensino name="p_nivel_ensino">Accusantium officia laudantium</nivel_ensino>
+                        <telefone name="p_telefone">Sit officia aliqua deserunt el</telefone>
+                        <esc_id_tbl name="p_esc_id_tbl" tag="esc_id_tbl">hidden-17f5_d7b2</esc_id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <codigo name="p_codigo">24</codigo>
+                        <nome name="p_nome">Rem accusantium unde lorem ape</nome>
+                        <morada name="p_morada">Omnis deserunt elit aliqua lab</morada>
+                        <nivel_ensino name="p_nivel_ensino">Accusantium sit unde mollit is</nivel_ensino>
+                        <telefone name="p_telefone">Stract adipiscing aliqua elit</telefone>
+                        <esc_id_tbl name="p_esc_id_tbl" tag="esc_id_tbl">hidden-d567_1643</esc_id_tbl>
+                    </row>
+                </value>
+                <context-menu>
+                    <item id="button_b7e9_c8b5" type="specific" code="" class="primary" rel="detalhes" refresh_components="">
+                        <title>Detalhes</title>
+                        <app>sgie</app>
+                        <page>Dados_escolas</page>
+                        <link>index</link>
+                        <parameter>../images/IGRP/IGRP2.3/app/sgie/dados_escolas/Dados_escolas.xml?</parameter>
+                        <target>mpsubmit|refresh_submit</target>
+                        <img>primary|fa-file-text-o</img>
+                        <preview>../images/IGRP/IGRP2.3/app/sgie/dados_escolas/Dados_escolas.xml</preview>
+                    </item>
+                </context-menu>
+            </table>
+        </table_1>
+    </content>
+    <blockly>
+        <imports>
+            <import type="listar">Listar</import>
+            <import type="combo_dao">Combo Dao</import>
+            <import type="dao">TblAuxEscolas</import>
+        </imports>
+        <xml>
+            <block type="controller" id="mZIaPR.a[NE`/^r1M9-)" x="812" y="113">
+                <statement name="index">
+                    <block type="combo_dao" id=":y?iy#3r+,!:{P,%XjOb" inline="true">
+                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                        <field name="selecao">nome_escola</field>
+                        <field name="dao">TblAuxEscolas</field>
+                        <field name="selecionar">TRUE</field>
+                        <statement name="key_val">
+                            <block type="option_dao" id="lViSMY|E)Ug5vbf2D,b}" inline="true">
+                                <value name="key_val">
+                                    <block type="get-dao-TblAuxEscolas" id="kJt|4J3e-LFxiuGwo=}^">
+                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                    </block>
+                                </value>
+                                <value name="value_val">
+                                    <block type="get-dao-TblAuxEscolas" id="wBEzB_W@WY`:6r-s,Vb+">
+                                        <mutation hover_type="String::nome"></mutation>
+                                        <field name="DAO_FIELD">String::nome</field>
+                                    </block>
+                                </value>
+                            </block>
+                        </statement>
+                        <next>
+                            <block type="listar_table_1" id="+5:qVztgji`L[A{(uo:*" inline="true">
+                                <mutation order="" operation="null" limit="TODOSS" collectors="null" crud="null" statistdrop="null" ajax="null" count="1" mutation-1="andWhere"></mutation>
+                                <field name="dao">TblAuxEscolas</field>
+                                <field name="FILL">FALSE</field>
+                                <field name="orderdrop"></field>
+                                <field name="find">TODOSS</field>
+                                <field name="limit"></field>
+                                <field name="ADD1FILTER">andWhere</field>
+                                <field name="ADD1WHERE">WHERE_EQ</field>
+                                <statement name="value2">
+                                    <block type="rowtableInteger::codigo" id="Q!jO#8}=DZVbmVI3WutS">
+                                        <value name="fields_model">
+                                            <block type="get-dao-TblAuxEscolas" id="p2v`p#MjU@!Eo+cR9(d{">
+                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                            </block>
+                                        </value>
+                                        <next>
+                                            <block type="rowtabletextarea::nome" id="5ehayt3v@IgRw@!NG*^R">
+                                                <value name="fields_model">
+                                                    <block type="get-dao-TblAuxEscolas" id="M%}I|(xkRIT#[5P-]kZT">
+                                                        <mutation hover_type="String::nome"></mutation>
+                                                        <field name="DAO_FIELD">String::nome</field>
+                                                    </block>
+                                                </value>
+                                                <next>
+                                                    <block type="rowtableString::morada" id=")jh+j@(gobSnJx6*%nZg">
+                                                        <value name="fields_model">
+                                                            <block type="get-dao-TblAuxEscolas" id="9vsIs/whMlx|c5Ew5Vl{">
+                                                                <mutation hover_type="String::zona"></mutation>
+                                                                <field name="DAO_FIELD">String::zona</field>
+                                                            </block>
+                                                        </value>
+                                                        <next>
+                                                            <block type="rowtableString::nivel_ensino" id="ygb_A%3gM35zy7B}}G%t">
+                                                                <value name="fields_model">
+                                                                    <block type="get-dao-TblAuxEscolas" id="=p5YCJ+,sFbZOnI{LARo">
+                                                                        <mutation hover_type="String::nivelEnsino"></mutation>
+                                                                        <field name="DAO_FIELD">String::nivelEnsino</field>
+                                                                    </block>
+                                                                </value>
+                                                                <next>
+                                                                    <block type="rowtableString::telefone" id="A8zVbTBf9)24dA;{)1C}">
+                                                                        <value name="fields_model">
+                                                                            <block type="get-dao-TblAuxEscolas" id=";])Ty7,4A]4RnZOF}jdt">
+                                                                                <mutation hover_type="String::telefone"></mutation>
+                                                                                <field name="DAO_FIELD">String::telefone</field>
+                                                                            </block>
+                                                                        </value>
+                                                                        <next>
+                                                                            <block type="rowtableString::esc_id_tbl" id="vgAWNwoeQ1rX8i[XB50!">
+                                                                                <value name="fields_model">
+                                                                                    <block type="get-dao-TblAuxEscolas" id="j;)%`9m]%6Gy?]WdIT!x">
+                                                                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                                    </block>
+                                                                                </value>
+                                                                            </block>
+                                                                        </next>
+                                                                    </block>
+                                                                </next>
+                                                            </block>
+                                                        </next>
+                                                    </block>
+                                                </next>
+                                            </block>
+                                        </next>
+                                    </block>
+                                </statement>
+                                <value name="ADD1">
+                                    <block type="get-dao-TblAuxEscolas" id="rC@uMN1D]|i/CgSy]QFU">
+                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                    </block>
+                                </value>
+                                <value name="ADD1STATE2">
+                                    <block type="mod_formform_1" id="der+2dxxV1U`PW9;JhB3">
+                                        <field name="get_model">String::nome_escola</field>
+                                    </block>
+                                </value>
+                            </block>
+                        </next>
+                    </block>
+                </statement>
+                <statement name="pesquisar">
+                    <block type="custombutton" id=".-;ervf+W]3mklh]~9qC" inline="true">
+                        <field name="return">forward</field>
+                        <field name="page">Lista_escolas</field>
+                    </block>
+                </statement>
+                <statement name="detalhes">
+                    <block type="enviar_p" id="d3Q`i?Vq5Rweu|jCQ)Jx">
+                        <field name="iskey">esc_id_tbl</field>
+                        <next>
+                            <block type="editar_dao" id="15{PSdZS/]XNrH(h.%-~"></block>
+                        </next>
+                    </block>
+                </statement>
+                <statement name="seg_e_aval">
+                    <block type="enviar_p" id="C-9)tWv-THE2HWej8rE*">
+                        <field name="iskey">esc_id_tbl</field>
+                        <next>
+                            <block type="editar_dao" id="/OSN~S[3UD:otOGP=O*f"></block>
+                        </next>
+                    </block>
+                </statement>
+            </block>
+        </xml>
+    </blockly>
+</rows>

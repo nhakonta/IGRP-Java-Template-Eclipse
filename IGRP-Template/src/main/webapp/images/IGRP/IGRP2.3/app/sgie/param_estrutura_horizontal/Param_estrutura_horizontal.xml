@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/IGRP-Template/images/IGRP/IGRP2.3/app/sgie/param_estrutura_horizontal/Param_estrutura_horizontal.xsl" type="text/xsl"?>
+<rows>
+    <link_img>/IGRP-Template/images/IGRP/IGRP2.3</link_img>
+    <title>Dummie XML prototype</title>
+    <site>
+        <welcome_note>Oba</welcome_note>
+        <footer_note>2019 - Copyright NOSI v.190711</footer_note>
+        <user_name>Hexagon</user_name>
+        <button type="specific">
+            <title>Sair</title>
+            <app>DUA</app>
+            <page />
+            <link>#</link>
+            <target>_self</target>
+            <img>exit.png</img>
+        </button>
+    </site>
+    <page>Param_estrutura_horizontal</page>
+    <app>sgie</app>
+    <plsql>
+        <action>index</action>
+        <package_instance></package_instance>
+        <package_db>nosi.webapps.sgie.pages</package_db>
+        <package_html>Param_estrutura_horizontal</package_html>
+        <table_name></table_name>
+        <with_replace>false</with_replace>
+        <with_label>false</with_label>
+        <with_biztalk>false</with_biztalk>
+        <dynamic_menu>false</dynamic_menu>
+        <copy_menu>false</copy_menu>
+        <package_copy_db />
+        <package_copy_html />
+        <preserve_url>webapps?r=igrp/page/preserveUrl&amp;p_id=187</preserve_url>
+    </plsql>
+    <slide-menu file="../images/IGRP/IGRP2.3/xml/IGRP-slide-menu.xml?v=2" />
+    <top_menu file="../images/IGRP/IGRP2.3/xml/IGRP-top_menu.xml?v=2" />
+    <content>
+        <title>Param Estrutura Horizontal</title>
+        <form_1 type="form" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <descricao name="p_descricao" type="text" maxlength="250" required="false" change="false" readonly="false" disabled="false" disablehtml="true" placeholder="" desclabel="false" inputmask="" right="false" tooltip="false" disable_copy_paste="false">
+                    <label>Descrição</label>
+                    <value>Mollit aperiam iste sit laudantium</value>
+                </descricao>
+                <hidden name="p_id" type="hidden" maxlength="250" java-type="" tooltip="false" disable_copy_paste="false" tag="id"/>
+            </fields>
+            <tools-bar>
+                <item id="button_f733_be68" type="form" code="" class="primary" rel="guardar" refresh_components="">
+                    <title>Guardar</title>
+                    <app>sgie</app>
+                    <page>Param_estrutura_horizontal</page>
+                    <link>index</link>
+                    <parameter>../images/IGRP/IGRP2.3/app/sgie/param_estrutura_horizontal/Param_estrutura_horizontal.xml?</parameter>
+                    <target>submit_form</target>
+                    <img>primary|fa-check</img>
+                    <preview>../images/IGRP/IGRP2.3/app/sgie/param_estrutura_horizontal/Param_estrutura_horizontal.xml</preview>
+                </item>
+            </tools-bar>
+        </form_1>
+        <table_1 type="table" xml-type="table" gen-type="container" gen-group="true">
+            <fields>
+                <lista name="p_lista" type="text" maxlength="30" showLabel="true" align="left" lookup_parser="false" iskey="false" group_in="">
+                    <label>Lista</label>
+                </lista>
+                <id_tbl name="p_id_tbl" type="hidden" maxlength="30" showLabel="true" iskey="true" group_in="" java-type="" tag="id_tbl"/>
+            </fields>
+            <table>
+                <value>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <lista name="p_lista">Deserunt ipsum aliqua elit ut</lista>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-3c91_1874</id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <lista name="p_lista">Doloremque stract voluptatem s</lista>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-812f_2f1a</id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <lista name="p_lista">Labore rem totam elit dolor</lista>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-8f5e_3d54</id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <lista name="p_lista">Stract iste sit adipiscing str</lista>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-7ced_2245</id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <lista name="p_lista">Sit ipsum laudantium aliqua mo</lista>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-34cd_0837</id_tbl>
+                    </row>
+                </value>
+                <context-menu>
+                    <item id="button_69f1_3e93" type="specific" code="" class="warning" rel="editar" refresh_components="">
+                        <title>Editar</title>
+                        <app>sgie</app>
+                        <page>Param_estrutura_horizontal</page>
+                        <link>index</link>
+                        <parameter>../images/IGRP/IGRP2.3/app/sgie/param_estrutura_horizontal/Param_estrutura_horizontal.xml?</parameter>
+                        <target>mpsubmit</target>
+                        <img>warning|fa-edit</img>
+                        <preview>../images/IGRP/IGRP2.3/app/sgie/param_estrutura_horizontal/Param_estrutura_horizontal.xml</preview>
+                    </item>
+                    <item id="button_2f44_7f5d" type="specific" code="" class="danger" rel="eliminar" refresh_components="" labelConfirm="Deseja realmente realizar esta operação?">
+                        <title>Eliminar</title>
+                        <app>sgie</app>
+                        <page>Param_estrutura_horizontal</page>
+                        <link>index</link>
+                        <parameter>../images/IGRP/IGRP2.3/app/sgie/param_estrutura_horizontal/Param_estrutura_horizontal.xml?</parameter>
+                        <target>confirm</target>
+                        <img>danger|fa-trash-o</img>
+                        <preview>../images/IGRP/IGRP2.3/app/sgie/param_estrutura_horizontal/Param_estrutura_horizontal.xml</preview>
+                    </item>
+                </context-menu>
+            </table>
+        </table_1>
+    </content>
+    <blockly>
+        <imports>
+            <import type="listar">Listar</import>
+            <import type="inserir_dao">Inserir Daos</import>
+            <import type="dao">TblAuxEstruturaHorizontal</import>
+        </imports>
+        <xml>
+            <block type="controller" id="controller" x="163" y="137">
+                <statement name="index">
+                    <block type="formuu_form_1" id="sfJg?QA,:/kCm6p@9hh0" inline="true">
+                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                        <field name="dao">TblAuxEstruturaHorizontal</field>
+                        <value name="get_pa">
+                            <block type="core_get_param" id="~=cdlj8Cq!}GqRMNvP8g">
+                                <field name="param">id_tbl</field>
+                            </block>
+                        </value>
+                        <statement name="value2">
+                            <block type="model_form_String::descricao" id="!|;HvNNf7/2HJ*FQjtpn">
+                                <value name="value1">
+                                    <block type="get-dao-TblAuxEstruturaHorizontal" id="h7udmA7?:LUc35vE(*V^">
+                                        <mutation hover_type="String::descricao"></mutation>
+                                        <field name="DAO_FIELD">String::descricao</field>
+                                    </block>
+                                </value>
+                                <next>
+                                    <block type="model_form_String::id" id="=]9fs:XV38RV_%p[yu.A">
+                                        <value name="value1">
+                                            <block type="get-dao-TblAuxEstruturaHorizontal" id="5}TFX8p4co?H~;GoSB@`">
+                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                            </block>
+                                        </value>
+                                        <next>
+                                            <block type="add_isedit" id="lj@jnJvSbqp+up@+reos">
+                                                <field name="button">guardar</field>
+                                            </block>
+                                        </next>
+                                    </block>
+                                </next>
+                            </block>
+                        </statement>
+                        <next>
+                            <block type="listar_table_1" id=")qq+kZ5XP6(e0zJGvA-D" inline="true">
+                                <mutation order="" operation="null" limit="TODOSS" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                <field name="dao">TblAuxEstruturaHorizontal</field>
+                                <field name="FILL">FALSE</field>
+                                <field name="orderdrop"></field>
+                                <field name="find">TODOSS</field>
+                                <field name="limit"></field>
+                                <statement name="value2">
+                                    <block type="rowtableString::lista" id="m14@(Au%S9=NtAawJoVs">
+                                        <value name="fields_model">
+                                            <block type="get-dao-TblAuxEstruturaHorizontal" id=")HML{`t=blch{LLY(!+,">
+                                                <mutation hover_type="String::descricao"></mutation>
+                                                <field name="DAO_FIELD">String::descricao</field>
+                                            </block>
+                                        </value>
+                                        <next>
+                                            <block type="rowtableString::id_tbl" id=".ikX?+5rf6=y-_q)6hLR">
+                                                <value name="fields_model">
+                                                    <block type="get-dao-TblAuxEstruturaHorizontal" id="-3e.w[/80Q`1!o]a!O2b">
+                                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                    </block>
+                                                </value>
+                                            </block>
+                                        </next>
+                                    </block>
+                                </statement>
+                            </block>
+                        </next>
+                    </block>
+                </statement>
+                <statement name="guardar">
+                    <block type="save_formu_form_1" id="rDfov@BrHvEEq%K=(?Yb" inline="true">
+                        <mutation count="NaN" pxchecked="true"></mutation>
+                        <field name="dao">TblAuxEstruturaHorizontal</field>
+                        <field name="EDIT">TRUE</field>
+                        <value name="param_id">
+                            <block type="get_model" id="ILUE[toH2.Q+u1X.!HFc">
+                                <field name="get_model">String::id</field>
+                            </block>
+                        </value>
+                        <statement name="value2">
+                            <block type="set-dao-TblAuxEstruturaHorizontal" id="F;1S#:N|bdco!H1ek|g:" inline="false">
+                                <mutation hover_type="String::descricao"></mutation>
+                                <field name="DAO_FIELD">String::descricao</field>
+                                <value name="value1">
+                                    <block type="get_model" id="s1zAxTUOtg?7`Who{mE%">
+                                        <field name="get_model">String::descricao</field>
+                                    </block>
+                                </value>
+                            </block>
+                        </statement>
+                    </block>
+                </statement>
+                <statement name="editar">
+                    <block type="enviar_p" id="1-U;W=0rNmh-9%dScR~o">
+                        <field name="iskey">id_tbl</field>
+                        <next>
+                            <block type="editar_dao" id="P{PI.VkGmq?qNIv@^kfW"></block>
+                        </next>
+                    </block>
+                </statement>
+                <statement name="eliminar">
+                    <block type="apagar" id="uakA5@fAIVTIV1B,yjLJ" inline="true">
+                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                        <field name="dao">TblAuxEstruturaHorizontal</field>
+                        <field name="KEEP">FALSE</field>
+                        <value name="get_pa">
+                            <block type="core_get_param" id="EDe[bH-mUWLA(d2Wqh+5">
+                                <field name="param">id_tbl</field>
+                            </block>
+                        </value>
+                    </block>
+                </statement>
+            </block>
+        </xml>
+    </blockly>
+</rows>

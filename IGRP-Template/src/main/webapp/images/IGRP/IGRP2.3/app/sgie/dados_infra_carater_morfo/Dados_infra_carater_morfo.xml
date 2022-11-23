@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/IGRP-Template/images/IGRP/IGRP2.3/app/sgie/dados_infra_carater_morfo/Dados_infra_carater_morfo.xsl" type="text/xsl"?>
+<rows>
+    <link_img>/IGRP-Template/images/IGRP/IGRP2.3</link_img>
+    <title>Dummie XML prototype</title>
+    <site>
+        <welcome_note>Oba</welcome_note>
+        <footer_note>2019 - Copyright NOSI v.190711</footer_note>
+        <user_name>Hexagon</user_name>
+        <button type="specific">
+            <title>Sair</title>
+            <app>DUA</app>
+            <page />
+            <link>#</link>
+            <target>_self</target>
+            <img>exit.png</img>
+        </button>
+    </site>
+    <page>Dados_infra_carater_morfo</page>
+    <app>sgie</app>
+    <plsql>
+        <action>index</action>
+        <package_instance></package_instance>
+        <package_db>nosi.webapps.sgie.pages</package_db>
+        <package_html>Dados_infra_carater_morfo</package_html>
+        <table_name></table_name>
+        <with_replace>false</with_replace>
+        <with_label>false</with_label>
+        <with_biztalk>false</with_biztalk>
+        <dynamic_menu>false</dynamic_menu>
+        <copy_menu>false</copy_menu>
+        <package_copy_db />
+        <package_copy_html />
+        <preserve_url>webapps?r=igrp/page/preserveUrl&amp;p_id=217</preserve_url>
+    </plsql>
+    <slide-menu file="../images/IGRP/IGRP2.3/xml/IGRP-slide-menu.xml?v=2" />
+    <top_menu file="../images/IGRP/IGRP2.3/xml/IGRP-top_menu.xml?v=2" />
+    <content>
+        <title>Dados infra descricao morfo</title>
+        <form_descricao_morfologica type="form" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <numero_de_corpos name="p_numero_de_corpos" type="number" min="" max="" calculation="false" mathcal="" numberformat="" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" desclabel="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Número de Corpos</label>
+                    <value>247</value>
+                </numero_de_corpos>
+                <simetria_entre_corpos name="p_simetria_entre_corpos" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Simetria entre Corpos</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </simetria_entre_corpos>
+                <numero_de_compartimentos name="p_numero_de_compartimentos" type="number" min="" max="" calculation="false" mathcal="" numberformat="" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" desclabel="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Número de Compartimentos</label>
+                    <value>244</value>
+                </numero_de_compartimentos>
+                <numero_de_instalacoes_sanitarias name="p_numero_de_instalacoes_sanitarias" type="number" min="" max="" calculation="false" mathcal="" numberformat="" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" desclabel="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Número de Instalações Sanitárias</label>
+                    <value>112</value>
+                </numero_de_instalacoes_sanitarias>
+                <forma name="p_forma" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Forma</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </forma>
+                <entrada_ name="p_entrada_" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Entrada </label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </entrada_>
+                <hidden name="p_esc_id" type="hidden" maxlength="250" java-type="" tooltip="false" disable_copy_paste="false" tag="esc_id"/>
+            </fields>
+            <tools-bar>
+                <item id="button_85a7_71cc" type="form" code="" class="primary" rel="atualizar_dados_morfo" custom_return="true" refresh_components="form_descricao_morfologica">
+                    <title>Atualizar Dados</title>
+                    <app>sgie</app>
+                    <page>Param_cobertura</page>
+                    <link>index</link>
+                    <parameter>../images/IGRP/IGRP2.3/app/sgie/param_cobertura/Param_cobertura.xml?</parameter>
+                    <target>submit_ajax</target>
+                    <img>primary|fa-refresh</img>
+                    <preview>../images/IGRP/IGRP2.3/app/sgie/param_cobertura/Param_cobertura.xml</preview>
+                </item>
+            </tools-bar>
+        </form_descricao_morfologica>
+    </content>
+    <blockly>
+        <imports>
+            <import type="inserir_dao">Inserir Daos</import>
+            <import type="combo_dao">Combo Dao</import>
+            <import type="dao">TblDescricaoMorfo</import>
+            <import type="dao">TblAuxSimNao</import>
+            <import type="dao">TblAuxMorfaMorfo</import>
+            <import type="dao">TblAuxEntradaMorfo</import>
+            <import type="dao">TblAuxEscolas</import>
+            <import type="fields">LocalDate</import>
+        </imports>
+        <xml>
+            <block type="controller" id="XJLCEvFy%eWz-u^]rjHf" x="219" y="-241">
+                <statement name="index">
+                    <block type="formuu_form_descricao_morfologica" id="y4Yp58Yg2LKi#)uxxR(u" inline="true">
+                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="1" mutation-1="andWhere"></mutation>
+                        <field name="dao">TblDescricaoMorfo</field>
+                        <field name="ADD1FILTER">andWhere</field>
+                        <field name="ADD1WHERE">WHERE_EQ</field>
+                        <statement name="value2">
+                            <block type="model_form_Integer::numero_de_corpos" id="MYA:Ez).ywPvtJD+OCw^">
+                                <value name="value1">
+                                    <block type="get-dao-TblDescricaoMorfo" id="[^0T.U1skYDT]e[5LE0j">
+                                        <mutation hover_type="Integer::numCorpos"></mutation>
+                                        <field name="DAO_FIELD">Integer::numCorpos</field>
+                                    </block>
+                                </value>
+                                <next>
+                                    <block type="combo_dao" id="HxEA!kC_RyUZsO^q1_cN" inline="true">
+                                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                        <field name="selecao">simetria_entre_corpos</field>
+                                        <field name="dao">TblAuxSimNao</field>
+                                        <field name="selecionar">FALSE</field>
+                                        <statement name="key_val">
+                                            <block type="option_dao" id="]qp]K]FpR;E*sZ(#TIU9" inline="true">
+                                                <value name="key_val">
+                                                    <block type="get-dao-TblAuxSimNao" id="Z,H2w^A33)?i|on6}-{f">
+                                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                    </block>
+                                                </value>
+                                                <value name="value_val">
+                                                    <block type="get-dao-TblAuxSimNao" id="9KVvlL{khKS)-MMsnvT^">
+                                                        <mutation hover_type="String::descricao"></mutation>
+                                                        <field name="DAO_FIELD">String::descricao</field>
+                                                    </block>
+                                                </value>
+                                                <next>
+                                                    <block type="model_form_String::simetria_entre_corpos" id="KgCBr(25;@8e;GU[}dtd">
+                                                        <value name="value1">
+                                                            <block type="get-dao-TblDescricaoMorfo" id="vY{GIalZsI9hopd;%?ve">
+                                                                <mutation hover_type="TblAuxSimNao_FK#::simetria"></mutation>
+                                                                <field name="DAO_FIELD">TblAuxSimNao_FK#::simetria</field>
+                                                                <value name="dao_rela">
+                                                                    <block type="get-dao-TblAuxSimNao" id="gb]X.XL)770uXtcC9xbX">
+                                                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                    </block>
+                                                                </value>
+                                                            </block>
+                                                        </value>
+                                                    </block>
+                                                </next>
+                                            </block>
+                                        </statement>
+                                        <next>
+                                            <block type="model_form_Integer::numero_de_compartimentos" id="r+!0_-u|g=M^`spN.DP.">
+                                                <value name="value1">
+                                                    <block type="get-dao-TblDescricaoMorfo" id="qcqmk_~UVCE;#;=8/CR%">
+                                                        <mutation hover_type="Integer::numCompartimentos"></mutation>
+                                                        <field name="DAO_FIELD">Integer::numCompartimentos</field>
+                                                    </block>
+                                                </value>
+                                                <next>
+                                                    <block type="model_form_Integer::numero_de_instalacoes_sanitarias" id="G8kK5ZqUG_n774TqE]6[">
+                                                        <value name="value1">
+                                                            <block type="get-dao-TblDescricaoMorfo" id="z0OQQsJl6v4D?]*bl4NP">
+                                                                <mutation hover_type="Integer::numInstalSanitaria"></mutation>
+                                                                <field name="DAO_FIELD">Integer::numInstalSanitaria</field>
+                                                            </block>
+                                                        </value>
+                                                        <next>
+                                                            <block type="combo_dao" id="j~_.Ygi^DZiGA?_~-H@7" inline="true">
+                                                                <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                                                <field name="selecao">forma</field>
+                                                                <field name="dao">TblAuxMorfaMorfo</field>
+                                                                <field name="selecionar">FALSE</field>
+                                                                <statement name="key_val">
+                                                                    <block type="option_dao" id="2,]6*rW`Hjo;]F[(q}}c" inline="true">
+                                                                        <value name="key_val">
+                                                                            <block type="get-dao-TblAuxMorfaMorfo" id="P-aEP`nFk[h}=7O4P~i5">
+                                                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                            </block>
+                                                                        </value>
+                                                                        <value name="value_val">
+                                                                            <block type="get-dao-TblAuxMorfaMorfo" id="00]RNmyvDs;H]FV{SvM5">
+                                                                                <mutation hover_type="String::descricao"></mutation>
+                                                                                <field name="DAO_FIELD">String::descricao</field>
+                                                                            </block>
+                                                                        </value>
+                                                                        <next>
+                                                                            <block type="model_form_String::forma" id="}!bvR)ACtH4:.EX/rb;c">
+                                                                                <value name="value1">
+                                                                                    <block type="get-dao-TblDescricaoMorfo" id="Vq:`rmoceZzx9IXWEc2#">
+                                                                                        <mutation hover_type="TblAuxMorfaMorfo_FK#::forma"></mutation>
+                                                                                        <field name="DAO_FIELD">TblAuxMorfaMorfo_FK#::forma</field>
+                                                                                        <value name="dao_rela">
+                                                                                            <block type="get-dao-TblAuxMorfaMorfo" id="WH++894`U4Gk1g8:;M[l">
+                                                                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                                            </block>
+                                                                                        </value>
+                                                                                    </block>
+                                                                                </value>
+                                                                            </block>
+                                                                        </next>
+                                                                    </block>
+                                                                </statement>
+                                                                <next>
+                                                                    <block type="combo_dao" id="T{(NQ!bB7z%jQ-xJ-eU2" inline="true">
+                                                                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                                                        <field name="selecao">entrada_</field>
+                                                                        <field name="dao">TblAuxEntradaMorfo</field>
+                                                                        <field name="selecionar">FALSE</field>
+                                                                        <statement name="key_val">
+                                                                            <block type="option_dao" id="#O;KP;A:Go:NC^w1L8i@" inline="true">
+                                                                                <value name="key_val">
+                                                                                    <block type="get-dao-TblAuxEntradaMorfo" id="ha?HDMCY6XrxVw0@3e}~">
+                                                                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                                    </block>
+                                                                                </value>
+                                                                                <value name="value_val">
+                                                                                    <block type="get-dao-TblAuxEntradaMorfo" id="EEevKvy]y%6am,!RhIto">
+                                                                                        <mutation hover_type="String::descricao"></mutation>
+                                                                                        <field name="DAO_FIELD">String::descricao</field>
+                                                                                    </block>
+                                                                                </value>
+                                                                                <next>
+                                                                                    <block type="model_form_String::entrada_" id="{,(ZaiQVmJD1z:V_SiTM">
+                                                                                        <value name="value1">
+                                                                                            <block type="get-dao-TblDescricaoMorfo" id="aQ#Tvx%ePJ!g;@r8pRB*">
+                                                                                                <mutation hover_type="TblAuxEntradaMorfo_FK#::entrada"></mutation>
+                                                                                                <field name="DAO_FIELD">TblAuxEntradaMorfo_FK#::entrada</field>
+                                                                                                <value name="dao_rela">
+                                                                                                    <block type="get-dao-TblAuxEntradaMorfo" id="]c8|`+`OFGAj3+HK+;b|">
+                                                                                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                                                    </block>
+                                                                                                </value>
+                                                                                            </block>
+                                                                                        </value>
+                                                                                    </block>
+                                                                                </next>
+                                                                            </block>
+                                                                        </statement>
+                                                                        <next>
+                                                                            <block type="model_form_String::esc_id" id="6ZF:@RgLncn~[)(ng23c">
+                                                                                <value name="value1">
+                                                                                    <block type="core_get_param" id="@hSY}E~xDWOck+RqIl+0">
+                                                                                        <field name="param">esc_id</field>
+                                                                                    </block>
+                                                                                </value>
+                                                                                <next>
+                                                                                    <block type="add_isedit" id="z:aF1Nx+SSPp+~m2LTxf">
+                                                                                        <field name="button">atualizar_dados_morfo</field>
+                                                                                    </block>
+                                                                                </next>
+                                                                            </block>
+                                                                        </next>
+                                                                    </block>
+                                                                </next>
+                                                            </block>
+                                                        </next>
+                                                    </block>
+                                                </next>
+                                            </block>
+                                        </next>
+                                    </block>
+                                </next>
+                            </block>
+                        </statement>
+                        <value name="ADD1">
+                            <block type="get-dao-TblDescricaoMorfo" id="6,s+}EWf+nSU6kY9cma|">
+                                <mutation hover_type="TblAuxEscolas_FK#::escId"></mutation>
+                                <field name="DAO_FIELD">TblAuxEscolas_FK#::escId</field>
+                                <value name="dao_rela">
+                                    <block type="get-dao-TblAuxEscolas" id="!yq%+L*)6]4}CO+WKOwc">
+                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                    </block>
+                                </value>
+                            </block>
+                        </value>
+                        <value name="ADD1STATE2">
+                            <block type="core_get_param" id="-cs*NZj#D:M8ur3I#9XB">
+                                <field name="param">esc_id</field>
+                            </block>
+                        </value>
+                    </block>
+                </statement>
+                <statement name="atualizar_dados_morfo">
+                    <block type="save_formu_form_descricao_morfologica" id="EYA#,D:vKCp=XB;)T2M+" inline="true">
+                        <mutation count="NaN" pxchecked="false"></mutation>
+                        <field name="dao">TblDescricaoMorfo</field>
+                        <field name="EDIT">FALSE</field>
+                        <statement name="value2">
+                            <block type="set-dao-TblDescricaoMorfo" id="*MT%S7Y66ImY*W^4p3HH" inline="false">
+                                <mutation hover_type="Integer::numCorpos"></mutation>
+                                <field name="DAO_FIELD">Integer::numCorpos</field>
+                                <value name="value1">
+                                    <block type="mod_formform_descricao_morfologica" id="CJC?nginsJz[79G0hX[S">
+                                        <field name="get_model">Integer::numero_de_corpos</field>
+                                    </block>
+                                </value>
+                                <next>
+                                    <block type="set-dao-TblDescricaoMorfo" id="yv8(}*ouHU:LYv);dIkk" inline="true">
+                                        <mutation hover_type="TblAuxSimNao_FK#::simetria"></mutation>
+                                        <field name="DAO_FIELD">TblAuxSimNao_FK#::simetria</field>
+                                        <value name="value1">
+                                            <block type="mod_formform_descricao_morfologica" id="YRPN61;3AftI~6kmu@*k">
+                                                <field name="get_model">String::simetria_entre_corpos</field>
+                                            </block>
+                                        </value>
+                                        <next>
+                                            <block type="set-dao-TblDescricaoMorfo" id="#9`vE4t]Qsi[Uz4(?}*." inline="false">
+                                                <mutation hover_type="Integer::numCompartimentos"></mutation>
+                                                <field name="DAO_FIELD">Integer::numCompartimentos</field>
+                                                <value name="value1">
+                                                    <block type="mod_formform_descricao_morfologica" id="ugcm~IPnp%8#.v?%9n;p">
+                                                        <field name="get_model">Integer::numero_de_compartimentos</field>
+                                                    </block>
+                                                </value>
+                                                <next>
+                                                    <block type="set-dao-TblDescricaoMorfo" id="PCL,gSY_k9vv?QtA5q4E" inline="false">
+                                                        <mutation hover_type="Integer::numInstalSanitaria"></mutation>
+                                                        <field name="DAO_FIELD">Integer::numInstalSanitaria</field>
+                                                        <value name="value1">
+                                                            <block type="mod_formform_descricao_morfologica" id="Ks^O2-i/J=bLjM9B`2Vh">
+                                                                <field name="get_model">Integer::numero_de_instalacoes_sanitarias</field>
+                                                            </block>
+                                                        </value>
+                                                        <next>
+                                                            <block type="set-dao-TblDescricaoMorfo" id="!rwrC}4zm,t;X!h5iHLQ" inline="true">
+                                                                <mutation hover_type="TblAuxMorfaMorfo_FK#::forma"></mutation>
+                                                                <field name="DAO_FIELD">TblAuxMorfaMorfo_FK#::forma</field>
+                                                                <value name="value1">
+                                                                    <block type="mod_formform_descricao_morfologica" id="o%@#~WLC_,]v658Esv{`">
+                                                                        <field name="get_model">String::forma</field>
+                                                                    </block>
+                                                                </value>
+                                                                <next>
+                                                                    <block type="set-dao-TblDescricaoMorfo" id="HF/zX,#Q?m}{66#Hir(N" inline="true">
+                                                                        <mutation hover_type="TblAuxEntradaMorfo_FK#::entrada"></mutation>
+                                                                        <field name="DAO_FIELD">TblAuxEntradaMorfo_FK#::entrada</field>
+                                                                        <value name="value1">
+                                                                            <block type="mod_formform_descricao_morfologica" id="8-2qC`y^GmAnwtP#tGCF">
+                                                                                <field name="get_model">String::entrada_</field>
+                                                                            </block>
+                                                                        </value>
+                                                                        <next>
+                                                                            <block type="set-dao-TblDescricaoMorfo" id="w+lf[?/LTPk|%YyI?O`)" inline="true">
+                                                                                <mutation hover_type="TblAuxEscolas_FK#::escId"></mutation>
+                                                                                <field name="DAO_FIELD">TblAuxEscolas_FK#::escId</field>
+                                                                                <value name="value1">
+                                                                                    <block type="mod_formform_descricao_morfologica" id="0n]c%n.[D_)o:]1hYdk.">
+                                                                                        <field name="get_model">String::esc_id</field>
+                                                                                    </block>
+                                                                                </value>
+                                                                                <next>
+                                                                                    <block type="set-dao-TblDescricaoMorfo" id="U`G/J2K_0U]gfSvpozbz" inline="false">
+                                                                                        <mutation hover_type="LocalDate::date"></mutation>
+                                                                                        <field name="DAO_FIELD">LocalDate::date</field>
+                                                                                        <value name="value1">
+                                                                                            <block type="core_fun_atual" id="U@3qPt2);9Cy7];yg;_j">
+                                                                                                <field name="CORE_FUNCTION">LocalDate::data_atual</field>
+                                                                                            </block>
+                                                                                        </value>
+                                                                                        <next>
+                                                                                            <block type="set-dao-TblDescricaoMorfo" id="V2~g7rth4L/D?hP*p-;t" inline="false">
+                                                                                                <mutation hover_type="Integer::userId"></mutation>
+                                                                                                <field name="DAO_FIELD">Integer::userId</field>
+                                                                                                <value name="value1">
+                                                                                                    <block type="core_fun_atual" id="-sAK{w5V_R]!?HPyLF}M">
+                                                                                                        <field name="CORE_FUNCTION">Integer::id_utilizador_atual</field>
+                                                                                                    </block>
+                                                                                                </value>
+                                                                                                <next>
+                                                                                                    <block type="set-dao-TblDescricaoMorfo" id=")jlzHR}M`s@~mc8a4?}z" inline="false">
+                                                                                                        <mutation hover_type="String::estado"></mutation>
+                                                                                                        <field name="DAO_FIELD">String::estado</field>
+                                                                                                        <value name="value1">
+                                                                                                            <block type="text" id="Y.140,X*HT!oK[m42SJv">
+                                                                                                                <field name="TEXT">A</field>
+                                                                                                            </block>
+                                                                                                        </value>
+                                                                                                    </block>
+                                                                                                </next>
+                                                                                            </block>
+                                                                                        </next>
+                                                                                    </block>
+                                                                                </next>
+                                                                            </block>
+                                                                        </next>
+                                                                    </block>
+                                                                </next>
+                                                            </block>
+                                                        </next>
+                                                    </block>
+                                                </next>
+                                            </block>
+                                        </next>
+                                    </block>
+                                </next>
+                            </block>
+                        </statement>
+                        <next>
+                            <block type="custombutton" id="?a%y1Fzope.wjB6_P(nC" inline="true">
+                                <field name="return">forward</field>
+                                <field name="page">Dados_infra_carater_morfo</field>
+                            </block>
+                        </next>
+                    </block>
+                </statement>
+            </block>
+        </xml>
+    </blockly>
+</rows>

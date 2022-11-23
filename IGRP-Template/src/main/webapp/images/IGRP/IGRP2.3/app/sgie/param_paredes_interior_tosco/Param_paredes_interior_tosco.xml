@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/IGRP-Template/images/IGRP/IGRP2.3/app/sgie/param_paredes_interior_tosco/Param_paredes_interior_tosco.xsl" type="text/xsl"?>
+<rows>
+    <link_img>/IGRP-Template/images/IGRP/IGRP2.3</link_img>
+    <title>Dummie XML prototype</title>
+    <site>
+        <welcome_note>Oba</welcome_note>
+        <footer_note>2019 - Copyright NOSI v.190711</footer_note>
+        <user_name>Hexagon</user_name>
+        <button type="specific">
+            <title>Sair</title>
+            <app>DUA</app>
+            <page />
+            <link>#</link>
+            <target>_self</target>
+            <img>exit.png</img>
+        </button>
+    </site>
+    <page>Param_paredes_interior_tosco</page>
+    <app>sgie</app>
+    <plsql>
+        <action>index</action>
+        <package_instance></package_instance>
+        <package_db>nosi.webapps.sgie.pages</package_db>
+        <package_html>Param_paredes_interior_tosco</package_html>
+        <table_name></table_name>
+        <with_replace>false</with_replace>
+        <with_label>false</with_label>
+        <with_biztalk>false</with_biztalk>
+        <dynamic_menu>false</dynamic_menu>
+        <copy_menu>false</copy_menu>
+        <package_copy_db />
+        <package_copy_html />
+        <preserve_url>webapps?r=igrp/page/preserveUrl&amp;p_id=192</preserve_url>
+    </plsql>
+    <slide-menu file="../images/IGRP/IGRP2.3/xml/IGRP-slide-menu.xml?v=2" />
+    <top_menu file="../images/IGRP/IGRP2.3/xml/IGRP-top_menu.xml?v=2" />
+    <content>
+        <title>Param Paredes Interior Tosco</title>
+        <form_1 type="form" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <descricao name="p_descricao" type="text" maxlength="250" required="false" change="false" readonly="false" disabled="false" disablehtml="true" placeholder="" desclabel="false" inputmask="" right="false" tooltip="false" disable_copy_paste="false">
+                    <label>Descrição</label>
+                    <value>Dolor doloremque sit voluptatem sit</value>
+                </descricao>
+                <hidden name="p_id" type="hidden" maxlength="250" java-type="" tooltip="false" disable_copy_paste="false" tag="id"/>
+            </fields>
+            <tools-bar>
+                <item id="button_7c93_4ca2" type="form" code="" class="primary" rel="guardar" refresh_components="">
+                    <title>Guardar</title>
+                    <app>sgie</app>
+                    <page>Param_paredes_interior_tosco</page>
+                    <link>index</link>
+                    <parameter>../images/IGRP/IGRP2.3/app/sgie/param_paredes_interior_tosco/Param_paredes_interior_tosco.xml?</parameter>
+                    <target>submit_form</target>
+                    <img>primary|fa-check</img>
+                    <preview>../images/IGRP/IGRP2.3/app/sgie/param_paredes_interior_tosco/Param_paredes_interior_tosco.xml</preview>
+                </item>
+            </tools-bar>
+        </form_1>
+        <table_1 type="table" xml-type="table" gen-type="container" gen-group="true">
+            <fields>
+                <id_lista name="p_id_lista" type="number" min="" max="" calculation="false" mathcal="" numberformat="" maxlength="30" showLabel="true" align="left" lookup_parser="false" iskey="false" total_footer="false" group_in="" java-type="">
+                    <label>ID</label>
+                </id_lista>
+                <descricao_lista name="p_descricao_lista" type="text" maxlength="30" showLabel="true" align="left" lookup_parser="false" iskey="false" group_in="">
+                    <label>Descrição</label>
+                </descricao_lista>
+                <id_tbl name="p_id_tbl" type="hidden" maxlength="30" showLabel="true" iskey="true" group_in="" java-type="" tag="id_tbl"/>
+            </fields>
+            <table>
+                <value>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <id_lista name="p_id_lista">21</id_lista>
+                        <descricao_lista name="p_descricao_lista">Officia amet unde ipsum accusa</descricao_lista>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-833c_2abf</id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <id_lista name="p_id_lista">24</id_lista>
+                        <descricao_lista name="p_descricao_lista">Labore lorem doloremque aliqua</descricao_lista>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-4e3a_11ed</id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <id_lista name="p_id_lista">14</id_lista>
+                        <descricao_lista name="p_descricao_lista">Aperiam natus doloremque elit</descricao_lista>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-d41d_89d0</id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <id_lista name="p_id_lista">21</id_lista>
+                        <descricao_lista name="p_descricao_lista">Aperiam unde consectetur sit r</descricao_lista>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-bed6_6710</id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <id_lista name="p_id_lista">2</id_lista>
+                        <descricao_lista name="p_descricao_lista">Consectetur perspiciatis amet</descricao_lista>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-afdb_c9d4</id_tbl>
+                    </row>
+                </value>
+                <context-menu>
+                    <item id="button_361a_dc31" type="specific" code="" class="warning" rel="editar" refresh_components="">
+                        <title>Editar</title>
+                        <app>sgie</app>
+                        <page>Param_paredes_interior_tosco</page>
+                        <link>index</link>
+                        <parameter>../images/IGRP/IGRP2.3/app/sgie/param_paredes_interior_tosco/Param_paredes_interior_tosco.xml?</parameter>
+                        <target>mpsubmit</target>
+                        <img>warning|fa-edit</img>
+                        <preview>../images/IGRP/IGRP2.3/app/sgie/param_paredes_interior_tosco/Param_paredes_interior_tosco.xml</preview>
+                    </item>
+                    <item id="button_43b0_d44f" type="specific" code="" class="danger" rel="eliminar" refresh_components="" labelConfirm="Deseja realmente realizar esta operação?">
+                        <title>Eliminar</title>
+                        <app>sgie</app>
+                        <page>Param_paredes_interior_tosco</page>
+                        <link>index</link>
+                        <parameter>../images/IGRP/IGRP2.3/app/sgie/param_paredes_interior_tosco/Param_paredes_interior_tosco.xml?</parameter>
+                        <target>confirm</target>
+                        <img>danger|fa-trash-o</img>
+                        <preview>../images/IGRP/IGRP2.3/app/sgie/param_paredes_interior_tosco/Param_paredes_interior_tosco.xml</preview>
+                    </item>
+                </context-menu>
+            </table>
+        </table_1>
+    </content>
+    <blockly>
+        <imports>
+            <import type="listar">Listar</import>
+            <import type="inserir_dao">Inserir Daos</import>
+            <import type="dao">TblAuxParedeIntTosco</import>
+        </imports>
+        <xml>
+            <block type="controller" id="controller" x="188" y="87">
+                <statement name="index">
+                    <block type="formuu_form_1" id="m8JY,J)|W;ufw@Ame}(]" inline="true">
+                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                        <field name="dao">TblAuxParedeIntTosco</field>
+                        <value name="get_pa">
+                            <block type="core_get_param" id="vX:[@qw}mO6nUlXm6Al|">
+                                <field name="param">id_tbl</field>
+                            </block>
+                        </value>
+                        <statement name="value2">
+                            <block type="model_form_String::descricao" id="!UL)sGr47pGa%,%lyY~M">
+                                <value name="value1">
+                                    <block type="get-dao-TblAuxParedeIntTosco" id="_a]tDfe*@It@hXGJvSF*">
+                                        <mutation hover_type="String::descricao"></mutation>
+                                        <field name="DAO_FIELD">String::descricao</field>
+                                    </block>
+                                </value>
+                                <next>
+                                    <block type="model_form_String::id" id="mRl%nRxpL:GmiUGEkTkY">
+                                        <value name="value1">
+                                            <block type="get-dao-TblAuxParedeIntTosco" id="n5VyXYewQ*;cilfp{;~W">
+                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                            </block>
+                                        </value>
+                                        <next>
+                                            <block type="add_isedit" id="{vqGZw8deNQSI5z6wWYN">
+                                                <field name="button">guardar</field>
+                                            </block>
+                                        </next>
+                                    </block>
+                                </next>
+                            </block>
+                        </statement>
+                        <next>
+                            <block type="listar_table_1" id="BLO|vZF@3T%O5l9:9T}b" inline="true">
+                                <mutation order="" operation="null" limit="TODOSS" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                <field name="dao">TblAuxParedeIntTosco</field>
+                                <field name="FILL">FALSE</field>
+                                <field name="orderdrop"></field>
+                                <field name="find">TODOSS</field>
+                                <field name="limit"></field>
+                                <statement name="value2">
+                                    <block type="rowtableInteger::id_lista" id="3bN8:9KP~8;8:U2Rw7}W">
+                                        <value name="fields_model">
+                                            <block type="get-dao-TblAuxParedeIntTosco" id="yAp5FuixB@Uq9~DBBbv]">
+                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                            </block>
+                                        </value>
+                                        <next>
+                                            <block type="rowtableString::descricao_lista" id="2X^n_e8rp#-C[~.w8qil">
+                                                <value name="fields_model">
+                                                    <block type="get-dao-TblAuxParedeIntTosco" id="Yg:+^)}c8o):Y_RnB#J1">
+                                                        <mutation hover_type="String::descricao"></mutation>
+                                                        <field name="DAO_FIELD">String::descricao</field>
+                                                    </block>
+                                                </value>
+                                                <next>
+                                                    <block type="rowtableString::id_tbl" id="b-m#N-BV2EV?(}FeLq]-">
+                                                        <value name="fields_model">
+                                                            <block type="get-dao-TblAuxParedeIntTosco" id="m!NnE`reVG.sI,8}O{fD">
+                                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                            </block>
+                                                        </value>
+                                                    </block>
+                                                </next>
+                                            </block>
+                                        </next>
+                                    </block>
+                                </statement>
+                            </block>
+                        </next>
+                    </block>
+                </statement>
+                <statement name="guardar">
+                    <block type="save_formu_form_1" id="C%yNIoJ`RR#QAk5{{70N" inline="true">
+                        <mutation count="NaN" pxchecked="true"></mutation>
+                        <field name="dao">TblAuxParedeIntTosco</field>
+                        <field name="EDIT">TRUE</field>
+                        <value name="param_id">
+                            <block type="mod_formform_1" id="?lf2P;ptF3X|c+K3*sz1">
+                                <field name="get_model">String::id</field>
+                            </block>
+                        </value>
+                        <statement name="value2">
+                            <block type="set-dao-TblAuxParedeIntTosco" id="7sfn?3M#^i_}EY5Nz)rb" inline="false">
+                                <mutation hover_type="String::descricao"></mutation>
+                                <field name="DAO_FIELD">String::descricao</field>
+                                <value name="value1">
+                                    <block type="mod_formform_1" id="m1(@1ND;eQ{]C:IY!oqN">
+                                        <field name="get_model">String::descricao</field>
+                                    </block>
+                                </value>
+                            </block>
+                        </statement>
+                    </block>
+                </statement>
+                <statement name="editar">
+                    <block type="enviar_p" id="Yjm+Sx[FW^*`8Y*Jc=92">
+                        <field name="iskey">id_tbl</field>
+                        <next>
+                            <block type="editar_dao" id="FASEYU~p|]bl@}oF)#j_"></block>
+                        </next>
+                    </block>
+                </statement>
+                <statement name="eliminar">
+                    <block type="apagar" id="DLOy^^ehyur:![Is!41X" inline="true">
+                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                        <field name="dao">TblAuxParedeIntTosco</field>
+                        <field name="KEEP">FALSE</field>
+                        <value name="get_pa">
+                            <block type="core_get_param" id="BQ_WFYQUGJ3pcQAogA8_">
+                                <field name="param">id_tbl</field>
+                            </block>
+                        </value>
+                    </block>
+                </statement>
+            </block>
+        </xml>
+    </blockly>
+</rows>

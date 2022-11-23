@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/IGRP-Template/images/IGRP/IGRP2.3/app/sgie/param_forma_morfologica/Param_forma_morfologica.xsl" type="text/xsl"?>
+<rows>
+    <link_img>/IGRP-Template/images/IGRP/IGRP2.3</link_img>
+    <title>Dummie XML prototype</title>
+    <site>
+        <welcome_note>Oba</welcome_note>
+        <footer_note>2019 - Copyright NOSI v.190711</footer_note>
+        <user_name>Hexagon</user_name>
+        <button type="specific">
+            <title>Sair</title>
+            <app>DUA</app>
+            <page />
+            <link>#</link>
+            <target>_self</target>
+            <img>exit.png</img>
+        </button>
+    </site>
+    <page>Param_forma_morfologica</page>
+    <app>sgie</app>
+    <plsql>
+        <action>index</action>
+        <package_instance></package_instance>
+        <package_db>nosi.webapps.sgie.pages</package_db>
+        <package_html>Param_forma_morfologica</package_html>
+        <table_name></table_name>
+        <with_replace>false</with_replace>
+        <with_label>false</with_label>
+        <with_biztalk>false</with_biztalk>
+        <dynamic_menu>false</dynamic_menu>
+        <copy_menu>false</copy_menu>
+        <package_copy_db />
+        <package_copy_html />
+        <preserve_url>webapps?r=igrp/page/preserveUrl&amp;p_id=199</preserve_url>
+    </plsql>
+    <slide-menu file="../images/IGRP/IGRP2.3/xml/IGRP-slide-menu.xml?v=2" />
+    <top_menu file="../images/IGRP/IGRP2.3/xml/IGRP-top_menu.xml?v=2" />
+    <content>
+        <title>Param Forma Morfológica</title>
+        <form_1 type="form" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <descricao name="p_descricao" type="text" maxlength="250" required="false" change="false" readonly="false" disabled="false" disablehtml="true" placeholder="" desclabel="false" inputmask="" right="false" tooltip="false" disable_copy_paste="false">
+                    <label>Descrição</label>
+                    <value>Rem dolor elit totam elit</value>
+                </descricao>
+                <hidden name="p_id" type="hidden" maxlength="250" java-type="" tooltip="false" disable_copy_paste="false" tag="id"/>
+            </fields>
+            <tools-bar>
+                <item id="button_41db_b8bc" type="form" code="" class="primary" rel="guardar" refresh_components="">
+                    <title>Guardar</title>
+                    <app>sgie</app>
+                    <page>Param_forma_morfologica</page>
+                    <link>index</link>
+                    <parameter>../images/IGRP/IGRP2.3/app/sgie/param_forma_morfologica/Param_forma_morfologica.xml?</parameter>
+                    <target>submit_form</target>
+                    <img>primary|fa-check</img>
+                    <preview>../images/IGRP/IGRP2.3/app/sgie/param_forma_morfologica/Param_forma_morfologica.xml</preview>
+                </item>
+            </tools-bar>
+        </form_1>
+        <table_1 type="table" xml-type="table" gen-type="container" gen-group="true">
+            <fields>
+                <lista name="p_lista" type="text" maxlength="30" showLabel="true" align="left" lookup_parser="false" iskey="false" group_in="">
+                    <label>Lista</label>
+                </lista>
+                <id_tbl name="p_id_tbl" type="hidden" maxlength="30" showLabel="true" iskey="true" group_in="" java-type="" tag="id_tbl"/>
+            </fields>
+            <table>
+                <value>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <lista name="p_lista">Accusantium doloremque adipisc</lista>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-84b8_96f2</id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <lista name="p_lista">Sit mollit unde sit totam</lista>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-925b_b224</id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <lista name="p_lista">Anim totam amet labore aperiam</lista>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-3282_b25a</id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <lista name="p_lista">Aliqua magna doloremque omnis</lista>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-f5ac_d33e</id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <lista name="p_lista">Officia iste sit stract consec</lista>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-dc20_d103</id_tbl>
+                    </row>
+                </value>
+                <context-menu>
+                    <item id="button_3d9a_f204" type="specific" code="" class="warning" rel="editar" refresh_components="">
+                        <title>Editar</title>
+                        <app>sgie</app>
+                        <page>Param_forma_morfologica</page>
+                        <link>index</link>
+                        <parameter>../images/IGRP/IGRP2.3/app/sgie/param_forma_morfologica/Param_forma_morfologica.xml?</parameter>
+                        <target>mpsubmit</target>
+                        <img>warning|fa-edit</img>
+                        <preview>../images/IGRP/IGRP2.3/app/sgie/param_forma_morfologica/Param_forma_morfologica.xml</preview>
+                    </item>
+                    <item id="button_0b0f_6344" type="specific" code="" class="primary" rel="eliminar" refresh_components="" labelConfirm="Deseja realmente realizar esta operação?">
+                        <title>Eliminar</title>
+                        <app>sgie</app>
+                        <page>Param_forma_morfologica</page>
+                        <link>index</link>
+                        <parameter>../images/IGRP/IGRP2.3/app/sgie/param_forma_morfologica/Param_forma_morfologica.xml?</parameter>
+                        <target>confirm</target>
+                        <img>primary|fa-trash-o</img>
+                        <preview>../images/IGRP/IGRP2.3/app/sgie/param_forma_morfologica/Param_forma_morfologica.xml</preview>
+                    </item>
+                </context-menu>
+            </table>
+        </table_1>
+    </content>
+    <blockly>
+        <imports>
+            <import type="listar">Listar</import>
+            <import type="inserir_dao">Inserir Daos</import>
+            <import type="dao">TblAuxMorfaMorfo</import>
+        </imports>
+        <xml>
+            <block type="controller" id="controller" x="213" y="-662">
+                <statement name="index">
+                    <block type="formuu_form_1" id="Oio{#`EXTwy_(tP9)HfK" inline="true">
+                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                        <field name="dao">TblAuxMorfaMorfo</field>
+                        <value name="get_pa">
+                            <block type="core_get_param" id="sF}QKJeQe`r*vG0f~PZ!">
+                                <field name="param">id_tbl</field>
+                            </block>
+                        </value>
+                        <statement name="value2">
+                            <block type="model_form_String::descricao" id="VG|70p#62fDlmgpXFXs-">
+                                <value name="value1">
+                                    <block type="get-dao-TblAuxMorfaMorfo" id="/{Z/em:@Z(EgeitO{~6/">
+                                        <mutation hover_type="String::descricao"></mutation>
+                                        <field name="DAO_FIELD">String::descricao</field>
+                                    </block>
+                                </value>
+                                <next>
+                                    <block type="model_form_String::id" id="qee4L^0f[!4a65(eE8/b">
+                                        <value name="value1">
+                                            <block type="get-dao-TblAuxMorfaMorfo" id="{D%*/O2i}GDJzV~BLEoQ">
+                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                            </block>
+                                        </value>
+                                        <next>
+                                            <block type="add_isedit" id="akiBJi`pdbNuEI;z`owm">
+                                                <field name="button">guardar</field>
+                                            </block>
+                                        </next>
+                                    </block>
+                                </next>
+                            </block>
+                        </statement>
+                        <next>
+                            <block type="listar_table_1" id="MxviHE/BKaKmS})6c715" inline="true">
+                                <mutation order="" operation="null" limit="TODOSS" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                <field name="dao">TblAuxMorfaMorfo</field>
+                                <field name="FILL">FALSE</field>
+                                <field name="orderdrop"></field>
+                                <field name="find">TODOSS</field>
+                                <field name="limit"></field>
+                                <statement name="value2">
+                                    <block type="rowtableString::lista" id="1/%,tSaFg{5J-anm-3{3">
+                                        <value name="fields_model">
+                                            <block type="get-dao-TblAuxMorfaMorfo" id="n78%g`tfY+/?-XO,FGo^">
+                                                <mutation hover_type="String::descricao"></mutation>
+                                                <field name="DAO_FIELD">String::descricao</field>
+                                            </block>
+                                        </value>
+                                        <next>
+                                            <block type="rowtableString::id_tbl" id="4W@a?OuWd.hnI:^xPvD_">
+                                                <value name="fields_model">
+                                                    <block type="get-dao-TblAuxMorfaMorfo" id="dmeg=+(yJ)dDr8@r[yPI">
+                                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                    </block>
+                                                </value>
+                                            </block>
+                                        </next>
+                                    </block>
+                                </statement>
+                            </block>
+                        </next>
+                    </block>
+                </statement>
+                <statement name="guardar">
+                    <block type="save_formu_form_1" id="*V{jE)H){/[]:we9v@Et" inline="true">
+                        <mutation count="NaN" pxchecked="true"></mutation>
+                        <field name="dao">TblAuxMorfaMorfo</field>
+                        <field name="EDIT">TRUE</field>
+                        <value name="param_id">
+                            <block type="get_model" id="Z[Ul2_xrIx*NJ42NpMIv">
+                                <field name="get_model">String::id</field>
+                            </block>
+                        </value>
+                        <statement name="value2">
+                            <block type="set-dao-TblAuxMorfaMorfo" id="3f;w.oIo73oucsoU]bIw" inline="false">
+                                <mutation hover_type="String::descricao"></mutation>
+                                <field name="DAO_FIELD">String::descricao</field>
+                                <value name="value1">
+                                    <block type="get_model" id="S.1B[Hx45tSl+vY8F;MS">
+                                        <field name="get_model">String::descricao</field>
+                                    </block>
+                                </value>
+                            </block>
+                        </statement>
+                    </block>
+                </statement>
+                <statement name="editar">
+                    <block type="enviar_p" id="eRJjhqy3;ml%[{d(F^Tp">
+                        <field name="iskey">id_tbl</field>
+                        <next>
+                            <block type="editar_dao" id="^_aO^We.EteE1r0@stst"></block>
+                        </next>
+                    </block>
+                </statement>
+                <statement name="eliminar">
+                    <block type="apagar" id="5vv-~AJo0.Pl0-*T,e+/" inline="true">
+                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                        <field name="dao">TblAuxMorfaMorfo</field>
+                        <field name="KEEP">FALSE</field>
+                        <value name="get_pa">
+                            <block type="core_get_param" id="2}e6-w|xBQ+ngrJEc(UQ">
+                                <field name="param">id_tbl</field>
+                            </block>
+                        </value>
+                    </block>
+                </statement>
+            </block>
+        </xml>
+    </blockly>
+</rows>

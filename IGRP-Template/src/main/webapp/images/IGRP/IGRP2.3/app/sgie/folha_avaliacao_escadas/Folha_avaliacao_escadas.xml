@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/IGRP-Template/images/IGRP/IGRP2.3/app/sgie/folha_avaliacao_escadas/Folha_avaliacao_escadas.xsl" type="text/xsl"?>
+<rows>
+    <link_img>/IGRP-Template/images/IGRP/IGRP2.3</link_img>
+    <title>Dummie XML prototype</title>
+    <site>
+        <welcome_note>Oba</welcome_note>
+        <footer_note>2019 - Copyright NOSI v.190711</footer_note>
+        <user_name>Hexagon</user_name>
+        <button type="specific">
+            <title>Sair</title>
+            <app>DUA</app>
+            <page />
+            <link>#</link>
+            <target>_self</target>
+            <img>exit.png</img>
+        </button>
+    </site>
+    <page>Folha_avaliacao_escadas</page>
+    <app>sgie</app>
+    <plsql>
+        <action>index</action>
+        <package_instance></package_instance>
+        <package_db>nosi.webapps.sgie.pages</package_db>
+        <package_html>Folha_avaliacao_escadas</package_html>
+        <table_name></table_name>
+        <with_replace>false</with_replace>
+        <with_label>false</with_label>
+        <with_biztalk>false</with_biztalk>
+        <dynamic_menu>false</dynamic_menu>
+        <copy_menu>false</copy_menu>
+        <package_copy_db />
+        <package_copy_html />
+        <preserve_url>webapps?r=igrp/page/preserveUrl&amp;p_id=235</preserve_url>
+    </plsql>
+    <slide-menu file="../images/IGRP/IGRP2.3/xml/IGRP-slide-menu.xml?v=2" />
+    <top_menu file="../images/IGRP/IGRP2.3/xml/IGRP-top_menu.xml?v=2" />
+    <content>
+        <title>folha avaliação escadas</title>
+        <form_1 type="form" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <escadas name="p_escadas" type="separator" maxlength="250" placeholder="" desclabel="false" right="false" tooltip="false" disable_copy_paste="false">
+                    <label>Escadas</label>
+                </escadas>
+                <insuficiencia_dos_elementos_estrutural_escadas name="p_insuficiencia_dos_elementos_estrutural_escadas" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Insuficiência dos elementos estrutural</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </insuficiencia_dos_elementos_estrutural_escadas>
+                <alteracao_na_geometria_escadas name="p_alteracao_na_geometria_escadas" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Alteração na geometria</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </alteracao_na_geometria_escadas>
+                <extensiva_deterioracao_dos_degraus name="p_extensiva_deterioracao_dos_degraus" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Extensiva deterioração dos degraus</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </extensiva_deterioracao_dos_degraus>
+                <ausencia_de_guardas_ou_corrimao name="p_ausencia_de_guardas_ou_corrimao" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Ausência de guardas ou corrimão</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </ausencia_de_guardas_ou_corrimao>
+                <anomalias_indicadores_de_graves_deterioracao name="p_anomalias_indicadores_de_graves_deterioracao" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Anomalias indicadores de graves deterioração</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </anomalias_indicadores_de_graves_deterioracao>
+            </fields>
+            <tools-bar>
+                <item id="button_52d3_a87d" type="form" code="" class="primary" rel="guardar" refresh_components="">
+                    <title>Guardar</title>
+                    <app>sgie</app>
+                    <page>Seguimento_e_avaliacao</page>
+                    <link>index</link>
+                    <parameter>../images/IGRP/IGRP2.3/app/sgie/seguimento_e_avaliacao/Seguimento_e_avaliacao.xml?</parameter>
+                    <target>submit_form</target>
+                    <img>primary|fa-check</img>
+                    <preview>../images/IGRP/IGRP2.3/app/sgie/seguimento_e_avaliacao/Seguimento_e_avaliacao.xml</preview>
+                </item>
+            </tools-bar>
+        </form_1>
+    </content>
+    <blockly>
+        <imports>
+            <import type="combo_dao">Combo Dao</import>
+            <import type="dao">TblAuxSimNao</import>
+        </imports>
+        <xml>
+            <block type="controller" id="mAs0TJr*d[i(JZax.8fI" x="413" y="38">
+                <statement name="index">
+                    <block type="combo_dao" id="jv061Hj5Lm]--OOU.qP}" inline="true">
+                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                        <field name="selecao">insuficiencia_dos_elementos_estrutural_escadas</field>
+                        <field name="dao">TblAuxSimNao</field>
+                        <field name="selecionar">FALSE</field>
+                        <statement name="key_val">
+                            <block type="option_dao" id="`#NNz3.%:Y_}cmPeSXPB" inline="true">
+                                <value name="key_val">
+                                    <block type="get-dao-TblAuxSimNao" id="F/68Psb-):^h+Q/N2;9h">
+                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                    </block>
+                                </value>
+                                <value name="value_val">
+                                    <block type="get-dao-TblAuxSimNao" id="}|uxzA^RQWd.z2,OR7Wb">
+                                        <mutation hover_type="String::descricao"></mutation>
+                                        <field name="DAO_FIELD">String::descricao</field>
+                                    </block>
+                                </value>
+                            </block>
+                        </statement>
+                        <next>
+                            <block type="combo_dao" id="Pg]fmDBYTvHxMNaQkG6p" inline="true">
+                                <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                <field name="selecao">alteracao_na_geometria_escadas</field>
+                                <field name="dao">TblAuxSimNao</field>
+                                <field name="selecionar">FALSE</field>
+                                <statement name="key_val">
+                                    <block type="option_dao" id="u|AqO%p8[2J(5lIHTLV7" inline="true">
+                                        <value name="key_val">
+                                            <block type="get-dao-TblAuxSimNao" id="e4}oiLcCFSgX[_lm7cRH">
+                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                            </block>
+                                        </value>
+                                        <value name="value_val">
+                                            <block type="get-dao-TblAuxSimNao" id="brsS#Tl)#sDbaXBfwC0W">
+                                                <mutation hover_type="String::descricao"></mutation>
+                                                <field name="DAO_FIELD">String::descricao</field>
+                                            </block>
+                                        </value>
+                                    </block>
+                                </statement>
+                                <next>
+                                    <block type="combo_dao" id="IEigm*0tue=GY5OWw`_F" inline="true">
+                                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                        <field name="selecao">extensiva_deterioracao_dos_degraus</field>
+                                        <field name="dao">TblAuxSimNao</field>
+                                        <field name="selecionar">FALSE</field>
+                                        <statement name="key_val">
+                                            <block type="option_dao" id="y?b0Ys?aZ[k3(/oRPZo%" inline="true">
+                                                <value name="key_val">
+                                                    <block type="get-dao-TblAuxSimNao" id="QV(h,ZeugNa`6lu-HU.r">
+                                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                    </block>
+                                                </value>
+                                                <value name="value_val">
+                                                    <block type="get-dao-TblAuxSimNao" id="E2v)m[Zl2fGttt8OI4Vc">
+                                                        <mutation hover_type="String::descricao"></mutation>
+                                                        <field name="DAO_FIELD">String::descricao</field>
+                                                    </block>
+                                                </value>
+                                            </block>
+                                        </statement>
+                                        <next>
+                                            <block type="combo_dao" id="-9Z)~(HA7AmVhIPQ`vQ!" inline="true">
+                                                <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                                <field name="selecao">ausencia_de_guardas_ou_corrimao</field>
+                                                <field name="dao">TblAuxSimNao</field>
+                                                <field name="selecionar">FALSE</field>
+                                                <statement name="key_val">
+                                                    <block type="option_dao" id="tTI.W!zG{z4,SbG=61C=" inline="true">
+                                                        <value name="key_val">
+                                                            <block type="get-dao-TblAuxSimNao" id="yNVE#S*6}qEl;@wkw?DS">
+                                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                            </block>
+                                                        </value>
+                                                        <value name="value_val">
+                                                            <block type="get-dao-TblAuxSimNao" id="H+e4iulKP1Hk{Y:vY|}m">
+                                                                <mutation hover_type="String::descricao"></mutation>
+                                                                <field name="DAO_FIELD">String::descricao</field>
+                                                            </block>
+                                                        </value>
+                                                    </block>
+                                                </statement>
+                                                <next>
+                                                    <block type="combo_dao" id="U/Vne;_%BxP}{4){Q=0H" inline="true">
+                                                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                                        <field name="selecao">anomalias_indicadores_de_graves_deterioracao</field>
+                                                        <field name="dao">TblAuxSimNao</field>
+                                                        <field name="selecionar">FALSE</field>
+                                                        <statement name="key_val">
+                                                            <block type="option_dao" id="r+39^#w+NwZ:^Ud16p{}" inline="true">
+                                                                <value name="key_val">
+                                                                    <block type="get-dao-TblAuxSimNao" id="UG{rRu42^jx(CVP-0^N^">
+                                                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                    </block>
+                                                                </value>
+                                                                <value name="value_val">
+                                                                    <block type="get-dao-TblAuxSimNao" id=";rS/3QA9zxy3,*s/@(b3">
+                                                                        <mutation hover_type="String::descricao"></mutation>
+                                                                        <field name="DAO_FIELD">String::descricao</field>
+                                                                    </block>
+                                                                </value>
+                                                            </block>
+                                                        </statement>
+                                                    </block>
+                                                </next>
+                                            </block>
+                                        </next>
+                                    </block>
+                                </next>
+                            </block>
+                        </next>
+                    </block>
+                </statement>
+            </block>
+        </xml>
+    </blockly>
+</rows>

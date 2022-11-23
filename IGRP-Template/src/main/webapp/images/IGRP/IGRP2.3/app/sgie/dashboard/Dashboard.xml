@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/IGRP-Template/images/IGRP/IGRP2.3/app/sgie/dashboard/Dashboard.xsl" type="text/xsl"?>
+<rows>
+    <link_img>/IGRP-Template/images/IGRP/IGRP2.3</link_img>
+    <title>Dummie XML prototype</title>
+    <site>
+        <welcome_note>Oba</welcome_note>
+        <footer_note>2019 - Copyright NOSI v.190711</footer_note>
+        <user_name>Hexagon</user_name>
+        <button type="specific">
+            <title>Sair</title>
+            <app>DUA</app>
+            <page />
+            <link>#</link>
+            <target>_self</target>
+            <img>exit.png</img>
+        </button>
+    </site>
+    <page>Dashboard</page>
+    <app>sgie</app>
+    <plsql>
+        <action>index</action>
+        <package_instance></package_instance>
+        <package_db>nosi.webapps.sgie.pages</package_db>
+        <package_html>Dashboard</package_html>
+        <table_name></table_name>
+        <with_replace>false</with_replace>
+        <with_label>false</with_label>
+        <with_biztalk>false</with_biztalk>
+        <dynamic_menu>false</dynamic_menu>
+        <copy_menu>false</copy_menu>
+        <package_copy_db />
+        <package_copy_html />
+        <preserve_url>webapps?r=igrp/page/preserveUrl&amp;p_id=215</preserve_url>
+    </plsql>
+    <slide-menu file="../images/IGRP/IGRP2.3/xml/IGRP-slide-menu.xml?v=2" />
+    <top_menu file="../images/IGRP/IGRP2.3/xml/IGRP-top_menu.xml?v=2" />
+    <content>
+        <title>Dashboard</title>
+        <circlestatbox_1 type="circlestatbox" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <circlestatbox_1_title name="p_circlestatbox_1_title" type="text" maxlength="4000">
+                    <label>Circle Box Title</label>
+                    <value>Circle Box Title</value>
+                </circlestatbox_1_title>
+                <circlestatbox_1_lbl name="p_circlestatbox_1_lbl" type="text" maxlength="4000">
+                    <label>Percent Text</label>
+                    <value>percent</value>
+                </circlestatbox_1_lbl>
+                <circlestatbox_1_val name="p_circlestatbox_1_val" type="text" maxlength="4000">
+                    <label>Percent Value</label>
+                    <value>77.8</value>
+                </circlestatbox_1_val>
+                <circlestatbox_1_desc name="p_circlestatbox_1_desc" type="text" maxlength="4000">
+                    <label>Description</label>
+                    <value>Some Text Here</value>
+                </circlestatbox_1_desc>
+                <circlestatbox_1_url name="p_circlestatbox_1_url" type="text" maxlength="4000">
+                    <label>Link</label>
+                    <value>http://www.example.com</value>
+                </circlestatbox_1_url>
+                <circlestatbox_1_bg name="p_circlestatbox_1_bg" type="text" maxlength="4000">
+                    <label>Background</label>
+                    <value>cp-cyan</value>
+                </circlestatbox_1_bg>
+            </fields>
+        </circlestatbox_1>
+        <circlestatbox_2 type="circlestatbox" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <circlestatbox_2_title name="p_circlestatbox_2_title" type="text" maxlength="4000">
+                    <label>Circle Box Title</label>
+                    <value>Circle Box Title</value>
+                </circlestatbox_2_title>
+                <circlestatbox_2_lbl name="p_circlestatbox_2_lbl" type="text" maxlength="4000">
+                    <label>Percent Text</label>
+                    <value>percent</value>
+                </circlestatbox_2_lbl>
+                <circlestatbox_2_val name="p_circlestatbox_2_val" type="text" maxlength="4000">
+                    <label>Percent Value</label>
+                    <value>79.2</value>
+                </circlestatbox_2_val>
+                <circlestatbox_2_desc name="p_circlestatbox_2_desc" type="text" maxlength="4000">
+                    <label>Description</label>
+                    <value>Some Text Here</value>
+                </circlestatbox_2_desc>
+                <circlestatbox_2_url name="p_circlestatbox_2_url" type="text" maxlength="4000">
+                    <label>Link</label>
+                    <value>http://www.example.com</value>
+                </circlestatbox_2_url>
+                <circlestatbox_2_bg name="p_circlestatbox_2_bg" type="text" maxlength="4000">
+                    <label>Background</label>
+                    <value>cp-cyan</value>
+                </circlestatbox_2_bg>
+            </fields>
+        </circlestatbox_2>
+        <circlestatbox_3 type="circlestatbox" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <circlestatbox_3_title name="p_circlestatbox_3_title" type="text" maxlength="4000">
+                    <label>Circle Box Title</label>
+                    <value>Circle Box Title</value>
+                </circlestatbox_3_title>
+                <circlestatbox_3_lbl name="p_circlestatbox_3_lbl" type="text" maxlength="4000">
+                    <label>Percent Text</label>
+                    <value>percent</value>
+                </circlestatbox_3_lbl>
+                <circlestatbox_3_val name="p_circlestatbox_3_val" type="text" maxlength="4000">
+                    <label>Percent Value</label>
+                    <value>39.4</value>
+                </circlestatbox_3_val>
+                <circlestatbox_3_desc name="p_circlestatbox_3_desc" type="text" maxlength="4000">
+                    <label>Description</label>
+                    <value>Some Text Here</value>
+                </circlestatbox_3_desc>
+                <circlestatbox_3_url name="p_circlestatbox_3_url" type="text" maxlength="4000">
+                    <label>Link</label>
+                    <value>http://www.example.com</value>
+                </circlestatbox_3_url>
+                <circlestatbox_3_bg name="p_circlestatbox_3_bg" type="text" maxlength="4000">
+                    <label>Background</label>
+                    <value>cp-cyan</value>
+                </circlestatbox_3_bg>
+            </fields>
+        </circlestatbox_3>
+        <circlestatbox_4 type="circlestatbox" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <circlestatbox_4_title name="p_circlestatbox_4_title" type="text" maxlength="4000">
+                    <label>Circle Box Title</label>
+                    <value>Circle Box Title</value>
+                </circlestatbox_4_title>
+                <circlestatbox_4_lbl name="p_circlestatbox_4_lbl" type="text" maxlength="4000">
+                    <label>Percent Text</label>
+                    <value>percent</value>
+                </circlestatbox_4_lbl>
+                <circlestatbox_4_val name="p_circlestatbox_4_val" type="text" maxlength="4000">
+                    <label>Percent Value</label>
+                    <value>90.1</value>
+                </circlestatbox_4_val>
+                <circlestatbox_4_desc name="p_circlestatbox_4_desc" type="text" maxlength="4000">
+                    <label>Description</label>
+                    <value>Some Text Here</value>
+                </circlestatbox_4_desc>
+                <circlestatbox_4_url name="p_circlestatbox_4_url" type="text" maxlength="4000">
+                    <label>Link</label>
+                    <value>http://www.example.com</value>
+                </circlestatbox_4_url>
+                <circlestatbox_4_bg name="p_circlestatbox_4_bg" type="text" maxlength="4000">
+                    <label>Background</label>
+                    <value>cp-cyan</value>
+                </circlestatbox_4_bg>
+            </fields>
+        </circlestatbox_4>
+        <infopanel_1 type="infopanel" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <infopanel_1_title name="p_infopanel_1_title" type="text" maxlength="4000">
+                    <label>Title</label>
+                    <value>Infopanel</value>
+                </infopanel_1_title>
+                <infopanel_1_val name="p_infopanel_1_val" type="text" maxlength="4000">
+                    <label>Value</label>
+                    <value>71</value>
+                </infopanel_1_val>
+                <infopanel_1_url name="p_infopanel_1_url" type="link" maxlength="4000">
+                    <label/>
+                    <value type="action">
+                        <app>sgie</app>
+                        <page>Dashboard</page>
+                        <action>index</action>
+                    </value>
+                </infopanel_1_url>
+                <infopanel_1_bg name="p_infopanel_1_bg" type="text" maxlength="4000">
+                    <label>Background</label>
+                    <value>cp-cyan</value>
+                </infopanel_1_bg>
+                <infopanel_1_icn name="p_infopanel_1_icn" type="text" maxlength="4000">
+                    <label>Icon</label>
+                    <value>fa-info</value>
+                </infopanel_1_icn>
+            </fields>
+        </infopanel_1>
+        <infopanel_2 type="infopanel" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <infopanel_2_title name="p_infopanel_2_title" type="text" maxlength="4000">
+                    <label>Title</label>
+                    <value>Infopanel</value>
+                </infopanel_2_title>
+                <infopanel_2_val name="p_infopanel_2_val" type="text" maxlength="4000">
+                    <label>Value</label>
+                    <value>56</value>
+                </infopanel_2_val>
+                <infopanel_2_url name="p_infopanel_2_url" type="link" maxlength="4000">
+                    <label/>
+                    <value type="action">
+                        <app>sgie</app>
+                        <page>Dashboard</page>
+                        <action>index</action>
+                    </value>
+                </infopanel_2_url>
+                <infopanel_2_bg name="p_infopanel_2_bg" type="text" maxlength="4000">
+                    <label>Background</label>
+                    <value>cp-cyan</value>
+                </infopanel_2_bg>
+                <infopanel_2_icn name="p_infopanel_2_icn" type="text" maxlength="4000">
+                    <label>Icon</label>
+                    <value>fa-info</value>
+                </infopanel_2_icn>
+            </fields>
+        </infopanel_2>
+        <infopanel_3 type="infopanel" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <infopanel_3_title name="p_infopanel_3_title" type="text" maxlength="4000">
+                    <label>Title</label>
+                    <value>Infopanel</value>
+                </infopanel_3_title>
+                <infopanel_3_val name="p_infopanel_3_val" type="text" maxlength="4000">
+                    <label>Value</label>
+                    <value>98</value>
+                </infopanel_3_val>
+                <infopanel_3_url name="p_infopanel_3_url" type="link" maxlength="4000">
+                    <label/>
+                    <value type="action">
+                        <app>sgie</app>
+                        <page>Dashboard</page>
+                        <action>index</action>
+                    </value>
+                </infopanel_3_url>
+                <infopanel_3_bg name="p_infopanel_3_bg" type="text" maxlength="4000">
+                    <label>Background</label>
+                    <value>cp-cyan</value>
+                </infopanel_3_bg>
+                <infopanel_3_icn name="p_infopanel_3_icn" type="text" maxlength="4000">
+                    <label>Icon</label>
+                    <value>fa-info</value>
+                </infopanel_3_icn>
+            </fields>
+        </infopanel_3>
+        <circlestatbox_5 type="circlestatbox" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <circlestatbox_5_title name="p_circlestatbox_5_title" type="text" maxlength="4000">
+                    <label>Circle Box Title</label>
+                    <value>Circle Box Title</value>
+                </circlestatbox_5_title>
+                <circlestatbox_5_lbl name="p_circlestatbox_5_lbl" type="text" maxlength="4000">
+                    <label>Percent Text</label>
+                    <value>percent</value>
+                </circlestatbox_5_lbl>
+                <circlestatbox_5_val name="p_circlestatbox_5_val" type="text" maxlength="4000">
+                    <label>Percent Value</label>
+                    <value>63.4</value>
+                </circlestatbox_5_val>
+                <circlestatbox_5_desc name="p_circlestatbox_5_desc" type="text" maxlength="4000">
+                    <label>Description</label>
+                    <value>Some Text Here</value>
+                </circlestatbox_5_desc>
+                <circlestatbox_5_url name="p_circlestatbox_5_url" type="text" maxlength="4000">
+                    <label>Link</label>
+                    <value>http://www.example.com</value>
+                </circlestatbox_5_url>
+                <circlestatbox_5_bg name="p_circlestatbox_5_bg" type="text" maxlength="4000">
+                    <label>Background</label>
+                    <value>cp-cyan</value>
+                </circlestatbox_5_bg>
+            </fields>
+        </circlestatbox_5>
+        <infopanel_4 type="infopanel" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <infopanel_4_title name="p_infopanel_4_title" type="text" maxlength="4000">
+                    <label>Title</label>
+                    <value>Infopanel</value>
+                </infopanel_4_title>
+                <infopanel_4_val name="p_infopanel_4_val" type="text" maxlength="4000">
+                    <label>Value</label>
+                    <value>9</value>
+                </infopanel_4_val>
+                <infopanel_4_url name="p_infopanel_4_url" type="link" maxlength="4000">
+                    <label/>
+                    <value type="action">
+                        <app>sgie</app>
+                        <page>Dashboard</page>
+                        <action>index</action>
+                    </value>
+                </infopanel_4_url>
+                <infopanel_4_bg name="p_infopanel_4_bg" type="text" maxlength="4000">
+                    <label>Background</label>
+                    <value>cp-cyan</value>
+                </infopanel_4_bg>
+                <infopanel_4_icn name="p_infopanel_4_icn" type="text" maxlength="4000">
+                    <label>Icon</label>
+                    <value>fa-info</value>
+                </infopanel_4_icn>
+            </fields>
+        </infopanel_4>
+        <infopanel_5 type="infopanel" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <infopanel_5_title name="p_infopanel_5_title" type="text" maxlength="4000">
+                    <label>Title</label>
+                    <value>Infopanel</value>
+                </infopanel_5_title>
+                <infopanel_5_val name="p_infopanel_5_val" type="text" maxlength="4000">
+                    <label>Value</label>
+                    <value>92</value>
+                </infopanel_5_val>
+                <infopanel_5_url name="p_infopanel_5_url" type="link" maxlength="4000">
+                    <label/>
+                    <value type="action">
+                        <app>sgie</app>
+                        <page>Dashboard</page>
+                        <action>index</action>
+                    </value>
+                </infopanel_5_url>
+                <infopanel_5_bg name="p_infopanel_5_bg" type="text" maxlength="4000">
+                    <label>Background</label>
+                    <value>cp-cyan</value>
+                </infopanel_5_bg>
+                <infopanel_5_icn name="p_infopanel_5_icn" type="text" maxlength="4000">
+                    <label>Icon</label>
+                    <value>fa-info</value>
+                </infopanel_5_icn>
+            </fields>
+        </infopanel_5>
+        <infopanel_6 type="infopanel" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <infopanel_6_title name="p_infopanel_6_title" type="text" maxlength="4000">
+                    <label>Title</label>
+                    <value>Infopanel</value>
+                </infopanel_6_title>
+                <infopanel_6_val name="p_infopanel_6_val" type="text" maxlength="4000">
+                    <label>Value</label>
+                    <value>98</value>
+                </infopanel_6_val>
+                <infopanel_6_url name="p_infopanel_6_url" type="link" maxlength="4000">
+                    <label/>
+                    <value type="action">
+                        <app>sgie</app>
+                        <page>Dashboard</page>
+                        <action>index</action>
+                    </value>
+                </infopanel_6_url>
+                <infopanel_6_bg name="p_infopanel_6_bg" type="text" maxlength="4000">
+                    <label>Background</label>
+                    <value>cp-cyan</value>
+                </infopanel_6_bg>
+                <infopanel_6_icn name="p_infopanel_6_icn" type="text" maxlength="4000">
+                    <label>Icon</label>
+                    <value>fa-info</value>
+                </infopanel_6_icn>
+            </fields>
+        </infopanel_6>
+        <infopanel_7 type="infopanel" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <infopanel_7_title name="p_infopanel_7_title" type="text" maxlength="4000">
+                    <label>Title</label>
+                    <value>Infopanel</value>
+                </infopanel_7_title>
+                <infopanel_7_val name="p_infopanel_7_val" type="text" maxlength="4000">
+                    <label>Value</label>
+                    <value>54</value>
+                </infopanel_7_val>
+                <infopanel_7_url name="p_infopanel_7_url" type="link" maxlength="4000">
+                    <label/>
+                    <value type="action">
+                        <app>sgie</app>
+                        <page>Dashboard</page>
+                        <action>index</action>
+                    </value>
+                </infopanel_7_url>
+                <infopanel_7_bg name="p_infopanel_7_bg" type="text" maxlength="4000">
+                    <label>Background</label>
+                    <value>cp-cyan</value>
+                </infopanel_7_bg>
+                <infopanel_7_icn name="p_infopanel_7_icn" type="text" maxlength="4000">
+                    <label>Icon</label>
+                    <value>fa-info</value>
+                </infopanel_7_icn>
+            </fields>
+        </infopanel_7>
+        <infopanel_8 type="infopanel" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <infopanel_8_title name="p_infopanel_8_title" type="text" maxlength="4000">
+                    <label>Title</label>
+                    <value>Infopanel</value>
+                </infopanel_8_title>
+                <infopanel_8_val name="p_infopanel_8_val" type="text" maxlength="4000">
+                    <label>Value</label>
+                    <value>66</value>
+                </infopanel_8_val>
+                <infopanel_8_url name="p_infopanel_8_url" type="link" maxlength="4000">
+                    <label/>
+                    <value type="action">
+                        <app>sgie</app>
+                        <page>Dashboard</page>
+                        <action>index</action>
+                    </value>
+                </infopanel_8_url>
+                <infopanel_8_bg name="p_infopanel_8_bg" type="text" maxlength="4000">
+                    <label>Background</label>
+                    <value>cp-cyan</value>
+                </infopanel_8_bg>
+                <infopanel_8_icn name="p_infopanel_8_icn" type="text" maxlength="4000">
+                    <label>Icon</label>
+                    <value>fa-info</value>
+                </infopanel_8_icn>
+            </fields>
+        </infopanel_8>
+        <circlestatbox_6 type="circlestatbox" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <circlestatbox_6_title name="p_circlestatbox_6_title" type="text" maxlength="4000">
+                    <label>Circle Box Title</label>
+                    <value>Circle Box Title</value>
+                </circlestatbox_6_title>
+                <circlestatbox_6_lbl name="p_circlestatbox_6_lbl" type="text" maxlength="4000">
+                    <label>Percent Text</label>
+                    <value>percent</value>
+                </circlestatbox_6_lbl>
+                <circlestatbox_6_val name="p_circlestatbox_6_val" type="text" maxlength="4000">
+                    <label>Percent Value</label>
+                    <value>31.7</value>
+                </circlestatbox_6_val>
+                <circlestatbox_6_desc name="p_circlestatbox_6_desc" type="text" maxlength="4000">
+                    <label>Description</label>
+                    <value>Some Text Here</value>
+                </circlestatbox_6_desc>
+                <circlestatbox_6_url name="p_circlestatbox_6_url" type="text" maxlength="4000">
+                    <label>Link</label>
+                    <value>http://www.example.com</value>
+                </circlestatbox_6_url>
+                <circlestatbox_6_bg name="p_circlestatbox_6_bg" type="text" maxlength="4000">
+                    <label>Background</label>
+                    <value>cp-cyan</value>
+                </circlestatbox_6_bg>
+            </fields>
+        </circlestatbox_6>
+        <chart_1 type="chart" xml-type="chart" title="Chart" gen-type="container" gen-group="">
+            <caption/>
+            <chart_type>line</chart_type>
+            <xaxys>Eixo de X</xaxys>
+            <yaxys>Eixo de Y</yaxys>
+            <url>#</url>
+            <label>
+                <col>Ano</col>
+                <col>X1</col>
+                <col>X2</col>
+                <col>X3</col>
+                <col>X4</col>
+            </label>
+            <value>
+                <row>
+                    <col>2010</col>
+                    <col>971</col>
+                    <col>574</col>
+                    <col>58</col>
+                    <col>346</col>
+                </row>
+                <row>
+                    <col>2009</col>
+                    <col>812</col>
+                    <col>146</col>
+                    <col>239</col>
+                    <col>403</col>
+                </row>
+                <row>
+                    <col>2015</col>
+                    <col>1010</col>
+                    <col>960</col>
+                    <col>491</col>
+                    <col>147</col>
+                </row>
+            </value>
+            <colors>
+                <col>#9ee763</col>
+                <col>#441908</col>
+                <col>#7630bd</col>
+                <col>#ea898f</col>
+            </colors>
+        </chart_1>
+        <view_1 type="view" xml-type="view" gen-type="container" gen-group="">
+            <fields>
+                <view_1_text_1 name="p_view_1_text_1" type="text" maxlength="250" class="default" iconColor="#333" iconClass="" img="" showlabel="true">
+                    <label>Text</label>
+                    <value>Elit lorem sit mollit natus</value>
+                </view_1_text_1>
+                <view_1_text_3 name="p_view_1_text_3" type="text" maxlength="250" class="default" iconColor="#333" iconClass="" img="" showlabel="true">
+                    <label>Text</label>
+                    <value>Amet ipsum magna mollit officia</value>
+                </view_1_text_3>
+                <view_1_text_4 name="p_view_1_text_4" type="text" maxlength="250" class="default" iconColor="#333" iconClass="" img="" showlabel="true">
+                    <label>Text</label>
+                    <value>Accusantium deserunt rem magna perspiciatis</value>
+                </view_1_text_4>
+                <view_1_text_6 name="p_view_1_text_6" type="text" maxlength="250" class="default" iconColor="#333" iconClass="" img="" showlabel="true">
+                    <label>Text</label>
+                    <value>Dolor rem voluptatem amet anim</value>
+                </view_1_text_6>
+                <view_1_text_7 name="p_view_1_text_7" type="text" maxlength="250" class="default" iconColor="#333" iconClass="" img="" showlabel="true">
+                    <label>Text</label>
+                    <value>Aliqua magna iste laudantium adipiscing</value>
+                </view_1_text_7>
+                <view_1_text_5 name="p_view_1_text_5" type="text" maxlength="250" class="default" iconColor="#333" iconClass="" img="" showlabel="true">
+                    <label>Text</label>
+                    <value>Accusantium adipiscing deserunt natus mollit</value>
+                </view_1_text_5>
+                <view_1_text_2 name="p_view_1_text_2" type="text" maxlength="250" class="default" iconColor="#333" iconClass="" img="" showlabel="true">
+                    <label>Text</label>
+                    <value>Ut dolor ipsum consectetur unde</value>
+                </view_1_text_2>
+                <view_1_img type="text" name="p_view_1_img" maxlength="300">
+                    <value>../images/IGRP/IGRP2.3/assets/img/jon_doe.jpg</value>
+                </view_1_img>
+            </fields>
+        </view_1>
+    </content>
+    <blockly>
+        <imports></imports>
+        <xml></xml>
+    </blockly>
+</rows>

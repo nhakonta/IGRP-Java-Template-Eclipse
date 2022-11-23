@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/IGRP-Template/images/IGRP/IGRP2.3/app/sgie/param_anomalias/Param_anomalias.xsl" type="text/xsl"?>
+<rows>
+    <link_img>/IGRP-Template/images/IGRP/IGRP2.3</link_img>
+    <title>Dummie XML prototype</title>
+    <site>
+        <welcome_note>Oba</welcome_note>
+        <footer_note>2019 - Copyright NOSI v.190711</footer_note>
+        <user_name>Hexagon</user_name>
+        <button type="specific">
+            <title>Sair</title>
+            <app>DUA</app>
+            <page />
+            <link>#</link>
+            <target>_self</target>
+            <img>exit.png</img>
+        </button>
+    </site>
+    <page>Param_anomalias</page>
+    <app>sgie</app>
+    <plsql>
+        <action>index</action>
+        <package_instance></package_instance>
+        <package_db>nosi.webapps.sgie.pages</package_db>
+        <package_html>Param_anomalias</package_html>
+        <table_name></table_name>
+        <with_replace>false</with_replace>
+        <with_label>false</with_label>
+        <with_biztalk>false</with_biztalk>
+        <dynamic_menu>false</dynamic_menu>
+        <copy_menu>false</copy_menu>
+        <package_copy_db />
+        <package_copy_html />
+        <preserve_url>webapps?r=igrp/page/preserveUrl&amp;p_id=180</preserve_url>
+    </plsql>
+    <slide-menu file="../images/IGRP/IGRP2.3/xml/IGRP-slide-menu.xml?v=2" />
+    <top_menu file="../images/IGRP/IGRP2.3/xml/IGRP-top_menu.xml?v=2" />
+    <content>
+        <title>Param Anomalias</title>
+        <form_1 type="form" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <descricao name="p_descricao" type="text" maxlength="250" required="false" change="false" readonly="false" disabled="false" disablehtml="true" placeholder="" desclabel="false" inputmask="" right="false" tooltip="false" disable_copy_paste="false">
+                    <label>Descrição</label>
+                    <value>Perspiciatis mollit dolor doloremque labore</value>
+                </descricao>
+                <hidden name="p_id" type="hidden" maxlength="250" java-type="" tooltip="false" disable_copy_paste="false" tag="id"/>
+            </fields>
+            <tools-bar>
+                <item id="button_31f2_3dde" type="form" code="" class="primary" rel="guardar" refresh_components="">
+                    <title>Guardar</title>
+                    <app>sgie</app>
+                    <page>Param_anomalias</page>
+                    <link>index</link>
+                    <parameter>../images/IGRP/IGRP2.3/app/sgie/param_anomalias/Param_anomalias.xml?</parameter>
+                    <target>submit_form</target>
+                    <img>primary|fa-check</img>
+                    <preview>../images/IGRP/IGRP2.3/app/sgie/param_anomalias/Param_anomalias.xml</preview>
+                </item>
+            </tools-bar>
+        </form_1>
+        <table_1 type="table" xml-type="table" gen-type="container" gen-group="true">
+            <fields>
+                <lista name="p_lista" type="text" maxlength="30" showLabel="true" align="left" lookup_parser="false" iskey="false" group_in="">
+                    <label>Lista</label>
+                </lista>
+                <id_tbl name="p_id_tbl" type="hidden" maxlength="30" showLabel="true" iskey="true" group_in="" java-type="" tag="id_tbl"/>
+            </fields>
+            <table>
+                <value>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <lista name="p_lista">Totam aperiam rem iste magna</lista>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-d0d4_df51</id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <lista name="p_lista">Consectetur magna voluptatem a</lista>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-bdd1_5167</id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <lista name="p_lista">Rem totam natus aliqua dolorem</lista>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-205f_ccd6</id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <lista name="p_lista">Omnis dolor sit elit anim</lista>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-21bc_e8e4</id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <lista name="p_lista">Aliqua sit stract perspiciatis</lista>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-a07e_a973</id_tbl>
+                    </row>
+                </value>
+                <context-menu>
+                    <item id="button_0450_8d85" type="specific" code="" class="warning" rel="editar" refresh_components="">
+                        <title>Editar</title>
+                        <app>sgie</app>
+                        <page>Param_anomalias</page>
+                        <link>index</link>
+                        <parameter>../images/IGRP/IGRP2.3/app/sgie/param_anomalias/Param_anomalias.xml?</parameter>
+                        <target>mpsubmit</target>
+                        <img>warning|fa-edit</img>
+                        <preview>../images/IGRP/IGRP2.3/app/sgie/param_anomalias/Param_anomalias.xml</preview>
+                    </item>
+                    <item id="button_f098_e8bb" type="specific" code="" class="danger" rel="eliminar" refresh_components="" labelConfirm="Deseja realmente realizar esta operação?">
+                        <title>Eliminar</title>
+                        <app>sgie</app>
+                        <page>Param_anomalias</page>
+                        <link>index</link>
+                        <parameter>../images/IGRP/IGRP2.3/app/sgie/param_anomalias/Param_anomalias.xml?</parameter>
+                        <target>confirm</target>
+                        <img>danger|fa-trash-o</img>
+                        <preview>../images/IGRP/IGRP2.3/app/sgie/param_anomalias/Param_anomalias.xml</preview>
+                    </item>
+                </context-menu>
+            </table>
+        </table_1>
+    </content>
+    <blockly>
+        <imports>
+            <import type="listar">Listar</import>
+            <import type="inserir_dao">Inserir Daos</import>
+            <import type="dao">TblAuxAnomalias</import>
+        </imports>
+        <xml>
+            <block type="controller" id="6x_CC@[-5h]JA7p5auJw" x="612" y="212">
+                <statement name="index">
+                    <block type="formuu_form_1" id="BnYd|*1Qd}B4rXH^D:KN" inline="true">
+                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                        <field name="dao">TblAuxAnomalias</field>
+                        <value name="get_pa">
+                            <block type="core_get_param" id=";oF1v#1YX,)hCi#=n[=G">
+                                <field name="param">id_tbl</field>
+                            </block>
+                        </value>
+                        <statement name="value2">
+                            <block type="model_form_String::descricao" id="M5yb(f^:Y~KHo.~kT`C)">
+                                <value name="value1">
+                                    <block type="get-dao-TblAuxAnomalias" id="}7X}0Qa5RT`?*,Uf0-OK">
+                                        <mutation hover_type="String::descricao"></mutation>
+                                        <field name="DAO_FIELD">String::descricao</field>
+                                    </block>
+                                </value>
+                                <next>
+                                    <block type="model_form_String::id" id="Adv-RbrI,G!Oj+JWo+@v">
+                                        <value name="value1">
+                                            <block type="get-dao-TblAuxAnomalias" id="XTGV@c@=M1O-[a_z/%=k">
+                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                            </block>
+                                        </value>
+                                        <next>
+                                            <block type="add_isedit" id="4Mb9]Up,8@:3f@}Y+cYj">
+                                                <field name="button">guardar</field>
+                                            </block>
+                                        </next>
+                                    </block>
+                                </next>
+                            </block>
+                        </statement>
+                        <next>
+                            <block type="listar_table_1" id="qBPQ[?[bNAow/=;B(4IT" inline="true">
+                                <mutation order="" operation="null" limit="TODOSS" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                <field name="dao">TblAuxAnomalias</field>
+                                <field name="FILL">FALSE</field>
+                                <field name="orderdrop"></field>
+                                <field name="find">TODOSS</field>
+                                <field name="limit"></field>
+                                <statement name="value2">
+                                    <block type="rowtableString::lista" id="k#!u^=|b[`-mHCOxlA-i">
+                                        <value name="fields_model">
+                                            <block type="get-dao-TblAuxAnomalias" id="y#Pl[S:b:UOI36aB%tZh">
+                                                <mutation hover_type="String::descricao"></mutation>
+                                                <field name="DAO_FIELD">String::descricao</field>
+                                            </block>
+                                        </value>
+                                        <next>
+                                            <block type="rowtableString::id_tbl" id="H/ex}@O-W-pCuPDdq#O6">
+                                                <value name="fields_model">
+                                                    <block type="get-dao-TblAuxAnomalias" id=";stCyoy1FKw~o`ofgNe%">
+                                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                    </block>
+                                                </value>
+                                            </block>
+                                        </next>
+                                    </block>
+                                </statement>
+                            </block>
+                        </next>
+                    </block>
+                </statement>
+                <statement name="guardar">
+                    <block type="save_formu_form_1" id="A{{oGQD@!Y-#X.@9O6;%" inline="true">
+                        <mutation count="NaN" pxchecked="true"></mutation>
+                        <field name="dao">TblAuxAnomalias</field>
+                        <field name="EDIT">TRUE</field>
+                        <value name="param_id">
+                            <block type="mod_formform_1" id="Nuny59[{L.Ae`c]!C]ZX">
+                                <field name="get_model">String::id</field>
+                            </block>
+                        </value>
+                        <statement name="value2">
+                            <block type="set-dao-TblAuxAnomalias" id="IKjb4#RX4KI}3L[Cm/D2" inline="false">
+                                <mutation hover_type="String::descricao"></mutation>
+                                <field name="DAO_FIELD">String::descricao</field>
+                                <value name="value1">
+                                    <block type="mod_formform_1" id="2yA8v8gmZ*Jl34=p-mxz">
+                                        <field name="get_model">String::descricao</field>
+                                    </block>
+                                </value>
+                            </block>
+                        </statement>
+                    </block>
+                </statement>
+                <statement name="editar">
+                    <block type="enviar_p" id="Ia`%l%fY/|pD*pY22IaR">
+                        <field name="iskey">id_tbl</field>
+                        <next>
+                            <block type="editar_dao" id="U%5QbS=P)U%6)KC(Um0b"></block>
+                        </next>
+                    </block>
+                </statement>
+                <statement name="eliminar">
+                    <block type="apagar" id="RQenLq6+{g}e1_pgjqL_" inline="true">
+                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                        <field name="dao">TblAuxAnomalias</field>
+                        <field name="KEEP">FALSE</field>
+                        <value name="get_pa">
+                            <block type="core_get_param" id="KFyjbqmN,f1*^=}h+W{r">
+                                <field name="param">id_tbl</field>
+                            </block>
+                        </value>
+                    </block>
+                </statement>
+            </block>
+        </xml>
+    </blockly>
+</rows>

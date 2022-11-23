@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/IGRP-Template/images/IGRP/IGRP2.3/app/sgie/dados_infra_carater_edificio/Dados_infra_carater_edificio.xsl" type="text/xsl"?>
+<rows>
+    <link_img>/IGRP-Template/images/IGRP/IGRP2.3</link_img>
+    <title>Dummie XML prototype</title>
+    <site>
+        <welcome_note>Oba</welcome_note>
+        <footer_note>2019 - Copyright NOSI v.190711</footer_note>
+        <user_name>Hexagon</user_name>
+        <button type="specific">
+            <title>Sair</title>
+            <app>DUA</app>
+            <page />
+            <link>#</link>
+            <target>_self</target>
+            <img>exit.png</img>
+        </button>
+    </site>
+    <page>Dados_infra_carater_edificio</page>
+    <app>sgie</app>
+    <plsql>
+        <action>index</action>
+        <package_instance></package_instance>
+        <package_db>nosi.webapps.sgie.pages</package_db>
+        <package_html>Dados_infra_carater_edificio</package_html>
+        <table_name></table_name>
+        <with_replace>false</with_replace>
+        <with_label>false</with_label>
+        <with_biztalk>false</with_biztalk>
+        <dynamic_menu>false</dynamic_menu>
+        <copy_menu>false</copy_menu>
+        <package_copy_db />
+        <package_copy_html />
+        <preserve_url>webapps?r=igrp/page/preserveUrl&amp;p_id=222</preserve_url>
+    </plsql>
+    <slide-menu file="../images/IGRP/IGRP2.3/xml/IGRP-slide-menu.xml?v=2" />
+    <top_menu file="../images/IGRP/IGRP2.3/xml/IGRP-top_menu.xml?v=2" />
+    <content>
+        <title>Dados infra carater edificio</title>
+        <form_caraterizacao_edificios type="form" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <altura_total_do_edificio name="p_altura_total_do_edificio" type="number" min="" max="" calculation="false" mathcal="" numberformat="" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" desclabel="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Altura Total do Edifício</label>
+                    <value>52</value>
+                </altura_total_do_edificio>
+                <area_bruta name="p_area_bruta" type="number" min="" max="" calculation="false" mathcal="" numberformat="" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" desclabel="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Área Bruta</label>
+                    <value>167</value>
+                </area_bruta>
+                <decada_de_construcao name="p_decada_de_construcao" type="number" min="" max="" calculation="false" mathcal="" numberformat="" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" desclabel="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Década de construção</label>
+                    <value>102</value>
+                </decada_de_construcao>
+                <guarita_de_porteiro name="p_guarita_de_porteiro" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Guarita de Porteiro</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </guarita_de_porteiro>
+                <ano_de_construcao_ name="p_ano_de_construcao_" type="number" min="" max="" calculation="false" mathcal="" numberformat="" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" desclabel="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Ano de Construção </label>
+                    <value>203</value>
+                </ano_de_construcao_>
+                <pisos_abaixo_do_solo name="p_pisos_abaixo_do_solo" type="number" min="" max="" calculation="false" mathcal="" numberformat="" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" desclabel="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Pisos Abaixo do Solo</label>
+                    <value>139</value>
+                </pisos_abaixo_do_solo>
+                <pisos_acima_do_solo name="p_pisos_acima_do_solo" type="number" min="" max="" calculation="false" mathcal="" numberformat="" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" desclabel="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Pisos Acima do Solo</label>
+                    <value>90</value>
+                </pisos_acima_do_solo>
+                <ano_da_ultima_restruturacao name="p_ano_da_ultima_restruturacao" type="number" min="" max="" calculation="false" mathcal="" numberformat="" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" desclabel="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Ano da última restruturação</label>
+                    <value>120</value>
+                </ano_da_ultima_restruturacao>
+                <nome_da_empresaconsorcio_executor_obra name="p_nome_da_empresaconsorcio_executor_obra" type="text" maxlength="250" required="false" change="false" readonly="false" disabled="false" disablehtml="true" placeholder="" desclabel="false" inputmask="" right="false" tooltip="false" disable_copy_paste="false">
+                    <label>Nome da empresa/consórcio executor obra</label>
+                    <value>Adipiscing consectetur magna sit natus</value>
+                </nome_da_empresaconsorcio_executor_obra>
+                <telefone_da_empresaconsorcio_ name="p_telefone_da_empresaconsorcio_" type="text" maxlength="250" required="false" change="false" readonly="false" disabled="false" disablehtml="true" placeholder="" desclabel="false" inputmask="" right="false" tooltip="false" disable_copy_paste="false">
+                    <label>Telefone da empresa/consórcio </label>
+                    <value>Ut totam consectetur voluptatem dolor</value>
+                </telefone_da_empresaconsorcio_>
+                <morada_da_empresaconsorcio name="p_morada_da_empresaconsorcio" type="text" maxlength="250" required="false" change="false" readonly="false" disabled="false" disablehtml="true" placeholder="" desclabel="false" inputmask="" right="false" tooltip="false" disable_copy_paste="false">
+                    <label>Morada da empresa/consórcio</label>
+                    <value>Lorem rem ut deserunt omnis</value>
+                </morada_da_empresaconsorcio>
+                <email_da_empresaconsorcio name="p_email_da_empresaconsorcio" type="email" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" desclabel="false" right="false" tooltip="false" disable_copy_paste="false">
+                    <label>Email da empresa/consórcio</label>
+                    <value>edurenisa@example.com</value>
+                </email_da_empresaconsorcio>
+                <volumetria name="p_volumetria" type="number" min="" max="" calculation="false" mathcal="" numberformat="" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" desclabel="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Volumetria</label>
+                    <value>198</value>
+                </volumetria>
+                <area_total_de_lote name="p_area_total_de_lote" type="number" min="" max="" calculation="false" mathcal="" numberformat="" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" desclabel="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Área Total de Lote</label>
+                    <value>108</value>
+                </area_total_de_lote>
+                <numero_de_lugares_estacionamento name="p_numero_de_lugares_estacionamento" type="number" min="" max="" calculation="false" mathcal="" numberformat="" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" desclabel="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Número de Lugares Estacionamento</label>
+                    <value>49</value>
+                </numero_de_lugares_estacionamento>
+                <hidden name="p_esc_id" type="hidden" maxlength="250" java-type="" tooltip="false" disable_copy_paste="false" tag="esc_id"/>
+            </fields>
+            <tools-bar>
+                <item id="button_7475_2270" type="form" code="" class="primary" rel="atualizar_dados_carat_edificio" custom_return="true" refresh_components="form_caraterizacao_edificios">
+                    <title>Atualizar Dados</title>
+                    <app>sgie</app>
+                    <page>Param_cobertura</page>
+                    <link>index</link>
+                    <parameter>../images/IGRP/IGRP2.3/app/sgie/param_cobertura/Param_cobertura.xml?</parameter>
+                    <target>submit_ajax</target>
+                    <img>primary|fa-refresh</img>
+                    <preview>../images/IGRP/IGRP2.3/app/sgie/param_cobertura/Param_cobertura.xml</preview>
+                </item>
+            </tools-bar>
+        </form_caraterizacao_edificios>
+    </content>
+    <blockly>
+        <imports>
+            <import type="inserir_dao">Inserir Daos</import>
+            <import type="combo_dao">Combo Dao</import>
+            <import type="dao">TblCaraterizacaoEdificio</import>
+            <import type="dao">TblAuxSimNao</import>
+            <import type="dao">TblAuxEscolas</import>
+            <import type="fields">LocalDate</import>
+        </imports>
+        <xml>
+            <block type="controller" id="Tw~p?lgSp;/qQu`.-Lsk" x="538" y="63">
+                <statement name="index">
+                    <block type="formuu_form_caraterizacao_edificios" id="Bh9HJp:gL(h1n[xc*;_}" inline="true">
+                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="2" mutation-1="andWhere" mutation-2="andWhere"></mutation>
+                        <field name="dao">TblCaraterizacaoEdificio</field>
+                        <field name="ADD1FILTER">andWhere</field>
+                        <field name="ADD1WHERE">WHERE_EQ</field>
+                        <field name="ADD2FILTER">andWhere</field>
+                        <field name="ADD2WHERE">WHERE_EQ</field>
+                        <statement name="value2">
+                            <block type="model_form_Integer::altura_total_do_edificio" id="lH.1?#takRqXUl.A{#q_">
+                                <value name="value1">
+                                    <block type="get-dao-TblCaraterizacaoEdificio" id="xD~]hgP/mzczozRzK.(7">
+                                        <mutation hover_type="Integer::alturaTotalEdificio"></mutation>
+                                        <field name="DAO_FIELD">Integer::alturaTotalEdificio</field>
+                                    </block>
+                                </value>
+                                <next>
+                                    <block type="model_form_Integer::area_bruta" id="~L9%%:(OUXFKJfoS;Hwu">
+                                        <value name="value1">
+                                            <block type="get-dao-TblCaraterizacaoEdificio" id="QXs_P1rjjU,uQRR;v57_">
+                                                <mutation hover_type="Integer::areaBruta"></mutation>
+                                                <field name="DAO_FIELD">Integer::areaBruta</field>
+                                            </block>
+                                        </value>
+                                        <next>
+                                            <block type="model_form_Integer::decada_de_construcao" id="fx*,*tg~T6Q=U;W|n:FW">
+                                                <value name="value1">
+                                                    <block type="get-dao-TblCaraterizacaoEdificio" id="A.bsw4iG|,n%i(t|0BM#">
+                                                        <mutation hover_type="Integer::decada"></mutation>
+                                                        <field name="DAO_FIELD">Integer::decada</field>
+                                                    </block>
+                                                </value>
+                                                <next>
+                                                    <block type="combo_dao" id="6N34kLX4~~iG3[-3,g8q" inline="true">
+                                                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                                        <field name="selecao">guarita_de_porteiro</field>
+                                                        <field name="dao">TblAuxSimNao</field>
+                                                        <field name="selecionar">FALSE</field>
+                                                        <statement name="key_val">
+                                                            <block type="option_dao" id="j|k9-RV+{!EC9]XcUOtp" inline="true">
+                                                                <value name="key_val">
+                                                                    <block type="get-dao-TblAuxSimNao" id="I+v:YFz86lfo+(qY+x6D">
+                                                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                    </block>
+                                                                </value>
+                                                                <value name="value_val">
+                                                                    <block type="get-dao-TblAuxSimNao" id="Gx_ltbtD.5;b*!uYivn=">
+                                                                        <mutation hover_type="String::descricao"></mutation>
+                                                                        <field name="DAO_FIELD">String::descricao</field>
+                                                                    </block>
+                                                                </value>
+                                                                <next>
+                                                                    <block type="model_form_String::guarita_de_porteiro" id="25K82mn_)#fNzc[OPm:L">
+                                                                        <value name="value1">
+                                                                            <block type="get-dao-TblCaraterizacaoEdificio" id="b8hzEa(=%QCLFrfH!8Y%">
+                                                                                <mutation hover_type="TblAuxSimNao_FK#::guarita"></mutation>
+                                                                                <field name="DAO_FIELD">TblAuxSimNao_FK#::guarita</field>
+                                                                                <value name="dao_rela">
+                                                                                    <block type="get-dao-TblAuxSimNao" id="P+JP[0.HKfm--BsM8(.y">
+                                                                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                                    </block>
+                                                                                </value>
+                                                                            </block>
+                                                                        </value>
+                                                                    </block>
+                                                                </next>
+                                                            </block>
+                                                        </statement>
+                                                        <next>
+                                                            <block type="model_form_Integer::ano_de_construcao_" id="s~QJgrw!5|XeN^b+(3*R">
+                                                                <value name="value1">
+                                                                    <block type="get-dao-TblCaraterizacaoEdificio" id="=9.3hAoW7BvlEZ-i/P(4">
+                                                                        <mutation hover_type="Integer::anoConstroi"></mutation>
+                                                                        <field name="DAO_FIELD">Integer::anoConstroi</field>
+                                                                    </block>
+                                                                </value>
+                                                                <next>
+                                                                    <block type="model_form_Integer::pisos_abaixo_do_solo" id="yPA6tM1UIHx8i69=!Uoj">
+                                                                        <value name="value1">
+                                                                            <block type="get-dao-TblCaraterizacaoEdificio" id="Ymn[aDUdJH#)H}4hh]+G">
+                                                                                <mutation hover_type="Integer::pisosAbaixoSolo"></mutation>
+                                                                                <field name="DAO_FIELD">Integer::pisosAbaixoSolo</field>
+                                                                            </block>
+                                                                        </value>
+                                                                        <next>
+                                                                            <block type="model_form_Integer::pisos_acima_do_solo" id="k0/@~oq_+Xm+IrXhw4zY">
+                                                                                <value name="value1">
+                                                                                    <block type="get-dao-TblCaraterizacaoEdificio" id="x|aq?XBgyIA/?Oq+9#L,">
+                                                                                        <mutation hover_type="Integer::pisosAcimaSolo"></mutation>
+                                                                                        <field name="DAO_FIELD">Integer::pisosAcimaSolo</field>
+                                                                                    </block>
+                                                                                </value>
+                                                                                <next>
+                                                                                    <block type="model_form_Integer::ano_da_ultima_restruturacao" id="@Aq9~V=7yg/fmm1L#i2h">
+                                                                                        <value name="value1">
+                                                                                            <block type="get-dao-TblCaraterizacaoEdificio" id="3BBdKft:VnK(`BNyVc8Q">
+                                                                                                <mutation hover_type="String::anoReconstroi"></mutation>
+                                                                                                <field name="DAO_FIELD">String::anoReconstroi</field>
+                                                                                            </block>
+                                                                                        </value>
+                                                                                        <next>
+                                                                                            <block type="model_form_String::nome_da_empresaconsorcio_executor_obra" id="bb|-dL3I,Z.BnR!t8hOS">
+                                                                                                <value name="value1">
+                                                                                                    <block type="get-dao-TblCaraterizacaoEdificio" id="H3K3dI;L-SB6iL`8}YaU">
+                                                                                                        <mutation hover_type="String::nomeEmpresa"></mutation>
+                                                                                                        <field name="DAO_FIELD">String::nomeEmpresa</field>
+                                                                                                    </block>
+                                                                                                </value>
+                                                                                                <next>
+                                                                                                    <block type="model_form_String::telefone_da_empresaconsorcio_" id="zTF@a=B4J?EK?q;j:+^j">
+                                                                                                        <value name="value1">
+                                                                                                            <block type="get-dao-TblCaraterizacaoEdificio" id="B-:]gGspb!Z!XIYHiKV~">
+                                                                                                                <mutation hover_type="String::moradaEmpresa"></mutation>
+                                                                                                                <field name="DAO_FIELD">String::moradaEmpresa</field>
+                                                                                                            </block>
+                                                                                                        </value>
+                                                                                                        <next>
+                                                                                                            <block type="model_form_String::morada_da_empresaconsorcio" id=".DIlXa=eK-yQBrO)lMeK">
+                                                                                                                <value name="value1">
+                                                                                                                    <block type="get-dao-TblCaraterizacaoEdificio" id="keQ^g9;%(AqxcoUugZD_">
+                                                                                                                        <mutation hover_type="String::contactoEmpresa"></mutation>
+                                                                                                                        <field name="DAO_FIELD">String::contactoEmpresa</field>
+                                                                                                                    </block>
+                                                                                                                </value>
+                                                                                                                <next>
+                                                                                                                    <block type="model_form_String::email_da_empresaconsorcio" id=")E,IRg:3(=9{x%Kv~[-;">
+                                                                                                                        <value name="value1">
+                                                                                                                            <block type="get-dao-TblCaraterizacaoEdificio" id="(dMlMjU5PZq`0v25So-i">
+                                                                                                                                <mutation hover_type="String::emailEmpresa"></mutation>
+                                                                                                                                <field name="DAO_FIELD">String::emailEmpresa</field>
+                                                                                                                            </block>
+                                                                                                                        </value>
+                                                                                                                        <next>
+                                                                                                                            <block type="model_form_Integer::volumetria" id="_%d8vhyU;}^^4B/jgz@w">
+                                                                                                                                <value name="value1">
+                                                                                                                                    <block type="get-dao-TblCaraterizacaoEdificio" id=",y5nOa9]{wVx+G!thqPp">
+                                                                                                                                        <mutation hover_type="Integer::volumetria"></mutation>
+                                                                                                                                        <field name="DAO_FIELD">Integer::volumetria</field>
+                                                                                                                                    </block>
+                                                                                                                                </value>
+                                                                                                                                <next>
+                                                                                                                                    <block type="model_form_Integer::area_total_de_lote" id="(HWy,rt6eEh5/O-JJvlf">
+                                                                                                                                        <value name="value1">
+                                                                                                                                            <block type="get-dao-TblCaraterizacaoEdificio" id="o_ZL^4I+Bl~Sc%0::eWU">
+                                                                                                                                                <mutation hover_type="Integer::areaLote"></mutation>
+                                                                                                                                                <field name="DAO_FIELD">Integer::areaLote</field>
+                                                                                                                                            </block>
+                                                                                                                                        </value>
+                                                                                                                                        <next>
+                                                                                                                                            <block type="model_form_Integer::numero_de_lugares_estacionamento" id="fk,}!S|UF*Q)LL9+2p)p">
+                                                                                                                                                <value name="value1">
+                                                                                                                                                    <block type="get-dao-TblCaraterizacaoEdificio" id="0%jv=#_1[QobB08!XoB9">
+                                                                                                                                                        <mutation hover_type="Integer::numLugaresEstaciona"></mutation>
+                                                                                                                                                        <field name="DAO_FIELD">Integer::numLugaresEstaciona</field>
+                                                                                                                                                    </block>
+                                                                                                                                                </value>
+                                                                                                                                                <next>
+                                                                                                                                                    <block type="model_form_String::esc_id" id="AxzR-aWS{{ViXDvFhF/V">
+                                                                                                                                                        <value name="value1">
+                                                                                                                                                            <block type="core_get_param" id="MC+Ux.5l-lu|uLX4AK8V">
+                                                                                                                                                                <field name="param">esc_id</field>
+                                                                                                                                                            </block>
+                                                                                                                                                        </value>
+                                                                                                                                                        <next>
+                                                                                                                                                            <block type="add_isedit" id="ejFW..a9q4Ia:YW],ea~">
+                                                                                                                                                                <field name="button">atualizar_dados_carat_edificio</field>
+                                                                                                                                                            </block>
+                                                                                                                                                        </next>
+                                                                                                                                                    </block>
+                                                                                                                                                </next>
+                                                                                                                                            </block>
+                                                                                                                                        </next>
+                                                                                                                                    </block>
+                                                                                                                                </next>
+                                                                                                                            </block>
+                                                                                                                        </next>
+                                                                                                                    </block>
+                                                                                                                </next>
+                                                                                                            </block>
+                                                                                                        </next>
+                                                                                                    </block>
+                                                                                                </next>
+                                                                                            </block>
+                                                                                        </next>
+                                                                                    </block>
+                                                                                </next>
+                                                                            </block>
+                                                                        </next>
+                                                                    </block>
+                                                                </next>
+                                                            </block>
+                                                        </next>
+                                                    </block>
+                                                </next>
+                                            </block>
+                                        </next>
+                                    </block>
+                                </next>
+                            </block>
+                        </statement>
+                        <value name="ADD1">
+                            <block type="get-dao-TblCaraterizacaoEdificio" id="/5,nAX#1|l3^2|IGz61h">
+                                <mutation hover_type="TblAuxEscolas_FK#::escId"></mutation>
+                                <field name="DAO_FIELD">TblAuxEscolas_FK#::escId</field>
+                                <value name="dao_rela">
+                                    <block type="get-dao-TblAuxEscolas" id="6F*`5apU76Qe|%-Zy(-#">
+                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                    </block>
+                                </value>
+                            </block>
+                        </value>
+                        <value name="ADD1STATE2">
+                            <block type="core_get_param" id="AuY1#m1?J=Hu#t#m5fB-">
+                                <field name="param">esc_id</field>
+                            </block>
+                        </value>
+                        <value name="ADD2">
+                            <block type="get-dao-TblCaraterizacaoEdificio" id="+2e,2E7-VRF[K6!yj:w#">
+                                <mutation hover_type="String::estado"></mutation>
+                                <field name="DAO_FIELD">String::estado</field>
+                            </block>
+                        </value>
+                        <value name="ADD2STATE2">
+                            <block type="text" id="Gubo8QM6Zz?=PIcIw?;p">
+                                <field name="TEXT">A</field>
+                            </block>
+                        </value>
+                    </block>
+                </statement>
+                <statement name="atualizar_dados_carat_edificio">
+                    <block type="save_formu_form_caraterizacao_edificios" id="0v[!?s{?`zaA:NcR.+A7" inline="true">
+                        <mutation count="NaN" pxchecked="false"></mutation>
+                        <field name="dao">TblCaraterizacaoEdificio</field>
+                        <field name="EDIT">FALSE</field>
+                        <statement name="value2">
+                            <block type="set-dao-TblCaraterizacaoEdificio" id="JM,,|MRFdoT^;m8`n3s2" inline="false">
+                                <mutation hover_type="Integer::decada"></mutation>
+                                <field name="DAO_FIELD">Integer::decada</field>
+                                <value name="value1">
+                                    <block type="mod_formform_caraterizacao_edificios" id="O*n2]Woqd:gh5dZSYN(?">
+                                        <field name="get_model">Integer::decada_de_construcao</field>
+                                    </block>
+                                </value>
+                                <next>
+                                    <block type="set-dao-TblCaraterizacaoEdificio" id="=#p6mfEaw9z~w1Ac*zC+" inline="false">
+                                        <mutation hover_type="Integer::anoConstroi"></mutation>
+                                        <field name="DAO_FIELD">Integer::anoConstroi</field>
+                                        <value name="value1">
+                                            <block type="mod_formform_caraterizacao_edificios" id="E1^|,vMP3abNlQIG6TMl">
+                                                <field name="get_model">Integer::ano_de_construcao_</field>
+                                            </block>
+                                        </value>
+                                        <next>
+                                            <block type="set-dao-TblCaraterizacaoEdificio" id="c1WB5.jKx%]=;fyNk9*d" inline="true">
+                                                <mutation hover_type="TblAuxSimNao_FK#::guarita"></mutation>
+                                                <field name="DAO_FIELD">TblAuxSimNao_FK#::guarita</field>
+                                                <value name="value1">
+                                                    <block type="mod_formform_caraterizacao_edificios" id="GUIN[s]:~Ux6tl~HP#Ge">
+                                                        <field name="get_model">String::guarita_de_porteiro</field>
+                                                    </block>
+                                                </value>
+                                                <next>
+                                                    <block type="set-dao-TblCaraterizacaoEdificio" id="@kE96#D^OA3c!5X.9,(U" inline="false">
+                                                        <mutation hover_type="Integer::alturaTotalEdificio"></mutation>
+                                                        <field name="DAO_FIELD">Integer::alturaTotalEdificio</field>
+                                                        <value name="value1">
+                                                            <block type="mod_formform_caraterizacao_edificios" id="16/HHClE0*%JE8lOK-y]">
+                                                                <field name="get_model">Integer::altura_total_do_edificio</field>
+                                                            </block>
+                                                        </value>
+                                                        <next>
+                                                            <block type="set-dao-TblCaraterizacaoEdificio" id="~)U,6Vx7M`8L4unQo3GV" inline="false">
+                                                                <mutation hover_type="Integer::pisosAcimaSolo"></mutation>
+                                                                <field name="DAO_FIELD">Integer::pisosAcimaSolo</field>
+                                                                <value name="value1">
+                                                                    <block type="mod_formform_caraterizacao_edificios" id="E3w5nl#yk)}4P7`l`yxH">
+                                                                        <field name="get_model">Integer::pisos_acima_do_solo</field>
+                                                                    </block>
+                                                                </value>
+                                                                <next>
+                                                                    <block type="set-dao-TblCaraterizacaoEdificio" id="(h{aSem_r=uC(^,Y.l8m" inline="false">
+                                                                        <mutation hover_type="Integer::pisosAbaixoSolo"></mutation>
+                                                                        <field name="DAO_FIELD">Integer::pisosAbaixoSolo</field>
+                                                                        <value name="value1">
+                                                                            <block type="mod_formform_caraterizacao_edificios" id="@zvPc)qH=D3*sv+iLcMN">
+                                                                                <field name="get_model">Integer::pisos_abaixo_do_solo</field>
+                                                                            </block>
+                                                                        </value>
+                                                                        <next>
+                                                                            <block type="set-dao-TblCaraterizacaoEdificio" id="}eAhJ(57q)S:3l9NUg1v" inline="false">
+                                                                                <mutation hover_type="Integer::areaBruta"></mutation>
+                                                                                <field name="DAO_FIELD">Integer::areaBruta</field>
+                                                                                <value name="value1">
+                                                                                    <block type="mod_formform_caraterizacao_edificios" id="Y^7,:;obF?+aizA!+K64">
+                                                                                        <field name="get_model">Integer::area_bruta</field>
+                                                                                    </block>
+                                                                                </value>
+                                                                                <next>
+                                                                                    <block type="set-dao-TblCaraterizacaoEdificio" id="S@;sgR0}wvWIr1+J3H=C" inline="false">
+                                                                                        <mutation hover_type="Integer::areaLote"></mutation>
+                                                                                        <field name="DAO_FIELD">Integer::areaLote</field>
+                                                                                        <value name="value1">
+                                                                                            <block type="mod_formform_caraterizacao_edificios" id="#S{DA(ZwF-P0Og?CYs.)">
+                                                                                                <field name="get_model">Integer::area_total_de_lote</field>
+                                                                                            </block>
+                                                                                        </value>
+                                                                                        <next>
+                                                                                            <block type="set-dao-TblCaraterizacaoEdificio" id="kzxy!_#(iLAdw-Ssg)VS" inline="false">
+                                                                                                <mutation hover_type="Integer::volumetria"></mutation>
+                                                                                                <field name="DAO_FIELD">Integer::volumetria</field>
+                                                                                                <value name="value1">
+                                                                                                    <block type="mod_formform_caraterizacao_edificios" id="o[5+nqRs`H3s@yzO@vUt">
+                                                                                                        <field name="get_model">Integer::volumetria</field>
+                                                                                                    </block>
+                                                                                                </value>
+                                                                                                <next>
+                                                                                                    <block type="set-dao-TblCaraterizacaoEdificio" id="1Q/*yObPuOHg/,)]a^kZ" inline="false">
+                                                                                                        <mutation hover_type="Integer::numLugaresEstaciona"></mutation>
+                                                                                                        <field name="DAO_FIELD">Integer::numLugaresEstaciona</field>
+                                                                                                        <value name="value1">
+                                                                                                            <block type="mod_formform_caraterizacao_edificios" id="3:i~P-J1Z+RB{0qb1`q(">
+                                                                                                                <field name="get_model">Integer::numero_de_lugares_estacionamento</field>
+                                                                                                            </block>
+                                                                                                        </value>
+                                                                                                        <next>
+                                                                                                            <block type="set-dao-TblCaraterizacaoEdificio" id="W=VIf10}7RXz}rx_]c1z" inline="false">
+                                                                                                                <mutation hover_type="String::anoReconstroi"></mutation>
+                                                                                                                <field name="DAO_FIELD">String::anoReconstroi</field>
+                                                                                                                <value name="value1">
+                                                                                                                    <block type="mod_formform_caraterizacao_edificios" id="mNbPhGAcsY3?uyGAwcfR">
+                                                                                                                        <field name="get_model">Integer::ano_da_ultima_restruturacao</field>
+                                                                                                                    </block>
+                                                                                                                </value>
+                                                                                                                <next>
+                                                                                                                    <block type="set-dao-TblCaraterizacaoEdificio" id="8F,.y{gJ6Aq_hI10*ng;" inline="false">
+                                                                                                                        <mutation hover_type="String::nomeEmpresa"></mutation>
+                                                                                                                        <field name="DAO_FIELD">String::nomeEmpresa</field>
+                                                                                                                        <value name="value1">
+                                                                                                                            <block type="mod_formform_caraterizacao_edificios" id="uOZDCY92(AzgeH=8cX}p">
+                                                                                                                                <field name="get_model">String::nome_da_empresaconsorcio_executor_obra</field>
+                                                                                                                            </block>
+                                                                                                                        </value>
+                                                                                                                        <next>
+                                                                                                                            <block type="set-dao-TblCaraterizacaoEdificio" id="Biy.9~Jam,X/qp3I[[lF" inline="false">
+                                                                                                                                <mutation hover_type="String::moradaEmpresa"></mutation>
+                                                                                                                                <field name="DAO_FIELD">String::moradaEmpresa</field>
+                                                                                                                                <value name="value1">
+                                                                                                                                    <block type="mod_formform_caraterizacao_edificios" id="7V[m))JR=.!7/B2{_0~r">
+                                                                                                                                        <field name="get_model">String::morada_da_empresaconsorcio</field>
+                                                                                                                                    </block>
+                                                                                                                                </value>
+                                                                                                                                <next>
+                                                                                                                                    <block type="set-dao-TblCaraterizacaoEdificio" id="N?I;eM=tL,`E*Rh17fP_" inline="false">
+                                                                                                                                        <mutation hover_type="String::contactoEmpresa"></mutation>
+                                                                                                                                        <field name="DAO_FIELD">String::contactoEmpresa</field>
+                                                                                                                                        <value name="value1">
+                                                                                                                                            <block type="mod_formform_caraterizacao_edificios" id="2s+8+n(5QnhS+ycs.Jh+">
+                                                                                                                                                <field name="get_model">String::telefone_da_empresaconsorcio_</field>
+                                                                                                                                            </block>
+                                                                                                                                        </value>
+                                                                                                                                        <next>
+                                                                                                                                            <block type="set-dao-TblCaraterizacaoEdificio" id="#DGqK/bOYbe;{6guqQUv" inline="false">
+                                                                                                                                                <mutation hover_type="String::emailEmpresa"></mutation>
+                                                                                                                                                <field name="DAO_FIELD">String::emailEmpresa</field>
+                                                                                                                                                <value name="value1">
+                                                                                                                                                    <block type="mod_formform_caraterizacao_edificios" id="`WZ`RFRK.!jmI^vB#l93">
+                                                                                                                                                        <field name="get_model">String::email_da_empresaconsorcio</field>
+                                                                                                                                                    </block>
+                                                                                                                                                </value>
+                                                                                                                                                <next>
+                                                                                                                                                    <block type="set-dao-TblCaraterizacaoEdificio" id="3QT[(lRGB(]KCtINVDJA" inline="true">
+                                                                                                                                                        <mutation hover_type="TblAuxEscolas_FK#::escId"></mutation>
+                                                                                                                                                        <field name="DAO_FIELD">TblAuxEscolas_FK#::escId</field>
+                                                                                                                                                        <value name="value1">
+                                                                                                                                                            <block type="mod_formform_caraterizacao_edificios" id="ht5,CijRxa#hA|jyO0`j">
+                                                                                                                                                                <field name="get_model">String::esc_id</field>
+                                                                                                                                                            </block>
+                                                                                                                                                        </value>
+                                                                                                                                                        <next>
+                                                                                                                                                            <block type="set-dao-TblCaraterizacaoEdificio" id="G.[@KFo/;{sywGv52A`#" inline="false">
+                                                                                                                                                                <mutation hover_type="LocalDate::data"></mutation>
+                                                                                                                                                                <field name="DAO_FIELD">LocalDate::data</field>
+                                                                                                                                                                <value name="value1">
+                                                                                                                                                                    <block type="core_fun_atual" id="lvP*37+_B#ip+gS@,~V%">
+                                                                                                                                                                        <field name="CORE_FUNCTION">LocalDate::data_atual</field>
+                                                                                                                                                                    </block>
+                                                                                                                                                                </value>
+                                                                                                                                                                <next>
+                                                                                                                                                                    <block type="set-dao-TblCaraterizacaoEdificio" id="a^IiRA{wqW2Q8_ok:UlR" inline="false">
+                                                                                                                                                                        <mutation hover_type="Integer::userId"></mutation>
+                                                                                                                                                                        <field name="DAO_FIELD">Integer::userId</field>
+                                                                                                                                                                        <value name="value1">
+                                                                                                                                                                            <block type="core_fun_atual" id="M|G0Qa87!KRBOP:OQvVv">
+                                                                                                                                                                                <field name="CORE_FUNCTION">Integer::id_utilizador_atual</field>
+                                                                                                                                                                            </block>
+                                                                                                                                                                        </value>
+                                                                                                                                                                        <next>
+                                                                                                                                                                            <block type="set-dao-TblCaraterizacaoEdificio" id="wKwi9+[`{(BG-6eaR-@b" inline="false">
+                                                                                                                                                                                <mutation hover_type="String::estado"></mutation>
+                                                                                                                                                                                <field name="DAO_FIELD">String::estado</field>
+                                                                                                                                                                                <value name="value1">
+                                                                                                                                                                                    <block type="text" id="qFq|dg:/a)fOig1yhvup">
+                                                                                                                                                                                        <field name="TEXT">A</field>
+                                                                                                                                                                                    </block>
+                                                                                                                                                                                </value>
+                                                                                                                                                                            </block>
+                                                                                                                                                                        </next>
+                                                                                                                                                                    </block>
+                                                                                                                                                                </next>
+                                                                                                                                                            </block>
+                                                                                                                                                        </next>
+                                                                                                                                                    </block>
+                                                                                                                                                </next>
+                                                                                                                                            </block>
+                                                                                                                                        </next>
+                                                                                                                                    </block>
+                                                                                                                                </next>
+                                                                                                                            </block>
+                                                                                                                        </next>
+                                                                                                                    </block>
+                                                                                                                </next>
+                                                                                                            </block>
+                                                                                                        </next>
+                                                                                                    </block>
+                                                                                                </next>
+                                                                                            </block>
+                                                                                        </next>
+                                                                                    </block>
+                                                                                </next>
+                                                                            </block>
+                                                                        </next>
+                                                                    </block>
+                                                                </next>
+                                                            </block>
+                                                        </next>
+                                                    </block>
+                                                </next>
+                                            </block>
+                                        </next>
+                                    </block>
+                                </next>
+                            </block>
+                        </statement>
+                        <next>
+                            <block type="custombutton" id="M`W:ON/hrde;Xzw~r2}Q" inline="true">
+                                <field name="return">forward</field>
+                                <field name="page">Dados_infra_carater_edificio</field>
+                            </block>
+                        </next>
+                    </block>
+                </statement>
+            </block>
+        </xml>
+    </blockly>
+</rows>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/IGRP-Template/images/IGRP/IGRP2.3/app/sgie/param_acesso_internet/Param_acesso_internet.xsl" type="text/xsl"?>
+<rows>
+    <link_img>/IGRP-Template/images/IGRP/IGRP2.3</link_img>
+    <title>Dummie XML prototype</title>
+    <site>
+        <welcome_note>Oba</welcome_note>
+        <footer_note>2019 - Copyright NOSI v.190711</footer_note>
+        <user_name>Hexagon</user_name>
+        <button type="specific">
+            <title>Sair</title>
+            <app>DUA</app>
+            <page />
+            <link>#</link>
+            <target>_self</target>
+            <img>exit.png</img>
+        </button>
+    </site>
+    <page>Param_acesso_internet</page>
+    <app>sgie</app>
+    <plsql>
+        <action>index</action>
+        <package_instance></package_instance>
+        <package_db>nosi.webapps.sgie.pages</package_db>
+        <package_html>Param_acesso_internet</package_html>
+        <table_name></table_name>
+        <with_replace>false</with_replace>
+        <with_label>false</with_label>
+        <with_biztalk>false</with_biztalk>
+        <dynamic_menu>false</dynamic_menu>
+        <copy_menu>false</copy_menu>
+        <package_copy_db />
+        <package_copy_html />
+        <preserve_url>webapps?r=igrp/page/preserveUrl&amp;p_id=205</preserve_url>
+    </plsql>
+    <slide-menu file="../images/IGRP/IGRP2.3/xml/IGRP-slide-menu.xml?v=2" />
+    <top_menu file="../images/IGRP/IGRP2.3/xml/IGRP-top_menu.xml?v=2" />
+    <content>
+        <title>Param Acesso Internet</title>
+        <form_1 type="form" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <descricao name="p_descricao" type="text" maxlength="250" required="false" change="false" readonly="false" disabled="false" disablehtml="true" placeholder="" desclabel="false" inputmask="" right="false" tooltip="false" disable_copy_paste="false">
+                    <label>Descrição</label>
+                    <value>Ipsum officia dolor ipsum dolor</value>
+                </descricao>
+                <hidden name="p_id" type="hidden" maxlength="250" java-type="" tooltip="false" disable_copy_paste="false" tag="id"/>
+            </fields>
+            <tools-bar>
+                <item id="button_fecb_21e9" type="form" code="" class="primary" rel="guardar" refresh_components="">
+                    <title>Guardar</title>
+                    <app>sgie</app>
+                    <page>Param_acesso_internet</page>
+                    <link>index</link>
+                    <parameter>../images/IGRP/IGRP2.3/app/sgie/param_acesso_internet/Param_acesso_internet.xml?</parameter>
+                    <target>submit_form</target>
+                    <img>primary|fa-check</img>
+                    <preview>../images/IGRP/IGRP2.3/app/sgie/param_acesso_internet/Param_acesso_internet.xml</preview>
+                </item>
+            </tools-bar>
+        </form_1>
+        <table_1 type="table" xml-type="table" gen-type="container" gen-group="true">
+            <fields>
+                <lista name="p_lista" type="text" maxlength="30" showLabel="true" align="left" lookup_parser="false" iskey="false" group_in="">
+                    <label>Lista</label>
+                </lista>
+                <id_tbl name="p_id_tbl" type="hidden" maxlength="30" showLabel="true" iskey="true" group_in="" java-type="" tag="id_tbl"/>
+            </fields>
+            <table>
+                <value>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <lista name="p_lista">Perspiciatis iste elit perspic</lista>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-9132_c53b</id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <lista name="p_lista">Officia doloremque voluptatem</lista>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-f382_74da</id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <lista name="p_lista">Accusantium laudantium stract</lista>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-57f9_ff82</id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <lista name="p_lista">Doloremque mollit deserunt lab</lista>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-07df_795f</id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <lista name="p_lista">Labore magna sit aliqua magna</lista>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-4141_78a7</id_tbl>
+                    </row>
+                </value>
+                <context-menu>
+                    <item id="button_c45b_f299" type="specific" code="" class="warning" rel="editar" refresh_components="">
+                        <title>Editar</title>
+                        <app>sgie</app>
+                        <page>Param_acesso_internet</page>
+                        <link>index</link>
+                        <parameter>../images/IGRP/IGRP2.3/app/sgie/param_acesso_internet/Param_acesso_internet.xml?</parameter>
+                        <target>mpsubmit</target>
+                        <img>warning|fa-edit</img>
+                        <preview>../images/IGRP/IGRP2.3/app/sgie/param_acesso_internet/Param_acesso_internet.xml</preview>
+                    </item>
+                    <item id="button_0ee3_33fc" type="specific" code="" class="primary" rel="eliminar" refresh_components="" labelConfirm="Deseja realmente realizar esta operação?">
+                        <title>Eliminar</title>
+                        <app>sgie</app>
+                        <page>Param_acesso_internet</page>
+                        <link>index</link>
+                        <parameter>../images/IGRP/IGRP2.3/app/sgie/param_acesso_internet/Param_acesso_internet.xml?</parameter>
+                        <target>confirm</target>
+                        <img>primary|fa-trash-o</img>
+                        <preview>../images/IGRP/IGRP2.3/app/sgie/param_acesso_internet/Param_acesso_internet.xml</preview>
+                    </item>
+                </context-menu>
+            </table>
+        </table_1>
+    </content>
+    <blockly>
+        <imports>
+            <import type="listar">Listar</import>
+            <import type="inserir_dao">Inserir Daos</import>
+            <import type="dao">TblAuxAcessoInternet</import>
+        </imports>
+        <xml>
+            <block type="controller" id="controller" x="188" y="62">
+                <statement name="index">
+                    <block type="formuu_form_1" id="or`ZvrSA-,oeJXaWxX_u" inline="true">
+                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                        <field name="dao">TblAuxAcessoInternet</field>
+                        <value name="get_pa">
+                            <block type="core_get_param" id="rzMeDao}H**LQAV6(sD`">
+                                <field name="param">id_tbl</field>
+                            </block>
+                        </value>
+                        <statement name="value2">
+                            <block type="model_form_String::descricao" id="N3p;?aj,-U3WM)/FpU6d">
+                                <value name="value1">
+                                    <block type="get-dao-TblAuxAcessoInternet" id="|Y^(C;DeRzCVF@FQyT*W">
+                                        <mutation hover_type="String::descricao"></mutation>
+                                        <field name="DAO_FIELD">String::descricao</field>
+                                    </block>
+                                </value>
+                                <next>
+                                    <block type="model_form_String::id" id="iQc,3++w:8gJIkE!2ag*">
+                                        <value name="value1">
+                                            <block type="get-dao-TblAuxAcessoInternet" id="~mtCrUdwa8P4cp8l0P;+">
+                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                            </block>
+                                        </value>
+                                        <next>
+                                            <block type="add_isedit" id=")OsnmM{BjK.EUyS3/:2b">
+                                                <field name="button">guardar</field>
+                                            </block>
+                                        </next>
+                                    </block>
+                                </next>
+                            </block>
+                        </statement>
+                        <next>
+                            <block type="listar_table_1" id="1pPR1FE~=g/VBj2kN6;." inline="true">
+                                <mutation order="" operation="null" limit="TODOSS" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                <field name="dao">TblAuxAcessoInternet</field>
+                                <field name="FILL">FALSE</field>
+                                <field name="orderdrop"></field>
+                                <field name="find">TODOSS</field>
+                                <field name="limit"></field>
+                                <statement name="value2">
+                                    <block type="rowtableString::lista" id="g`ype*K%=P^%WZRF6=NJ">
+                                        <value name="fields_model">
+                                            <block type="get-dao-TblAuxAcessoInternet" id="s`n(|ibsH=FC@P-)(S@d">
+                                                <mutation hover_type="String::descricao"></mutation>
+                                                <field name="DAO_FIELD">String::descricao</field>
+                                            </block>
+                                        </value>
+                                        <next>
+                                            <block type="rowtableString::id_tbl" id="NjVK;{70BpE{=_H4Q5bW">
+                                                <value name="fields_model">
+                                                    <block type="get-dao-TblAuxAcessoInternet" id="L%1|jj+uRy6ojI_Co_MN">
+                                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                    </block>
+                                                </value>
+                                            </block>
+                                        </next>
+                                    </block>
+                                </statement>
+                            </block>
+                        </next>
+                    </block>
+                </statement>
+                <statement name="guardar">
+                    <block type="save_formu_form_1" id="]en^7|}Yl]c~ZVRUmJ21" inline="true">
+                        <mutation count="NaN" pxchecked="true"></mutation>
+                        <field name="dao">TblAuxAcessoInternet</field>
+                        <field name="EDIT">TRUE</field>
+                        <value name="param_id">
+                            <block type="mod_formform_1" id="qk@@YODg#ZnA/B*|^6l0">
+                                <field name="get_model">String::id</field>
+                            </block>
+                        </value>
+                        <statement name="value2">
+                            <block type="set-dao-TblAuxAcessoInternet" id=";-;P?yg4XjtJi%?KlN|2" inline="false">
+                                <mutation hover_type="String::descricao"></mutation>
+                                <field name="DAO_FIELD">String::descricao</field>
+                                <value name="value1">
+                                    <block type="mod_formform_1" id="grvcDu2=yBn6*~bK_Ki9">
+                                        <field name="get_model">String::descricao</field>
+                                    </block>
+                                </value>
+                            </block>
+                        </statement>
+                    </block>
+                </statement>
+                <statement name="editar">
+                    <block type="enviar_p" id="|LMsdz;RZy=nkDN4l,wo">
+                        <field name="iskey">id_tbl</field>
+                        <next>
+                            <block type="editar_dao" id="NqnsLny8ear-376WzmxO"></block>
+                        </next>
+                    </block>
+                </statement>
+                <statement name="eliminar">
+                    <block type="apagar" id="2?|IC9Mj4q5bm7]-XPVK" inline="true">
+                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                        <field name="dao">TblAuxAcessoInternet</field>
+                        <field name="KEEP">FALSE</field>
+                        <value name="get_pa">
+                            <block type="core_get_param" id="v_dD=^8/pIYuO*C2v7oI">
+                                <field name="param">id_tbl</field>
+                            </block>
+                        </value>
+                    </block>
+                </statement>
+            </block>
+        </xml>
+    </blockly>
+</rows>

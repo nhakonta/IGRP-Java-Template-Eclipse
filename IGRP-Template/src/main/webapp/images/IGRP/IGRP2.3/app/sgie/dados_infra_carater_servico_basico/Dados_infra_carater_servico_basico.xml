@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/IGRP-Template/images/IGRP/IGRP2.3/app/sgie/dados_infra_carater_servico_basico/Dados_infra_carater_servico_basico.xsl" type="text/xsl"?>
+<rows>
+    <link_img>/IGRP-Template/images/IGRP/IGRP2.3</link_img>
+    <title>Dummie XML prototype</title>
+    <site>
+        <welcome_note>Oba</welcome_note>
+        <footer_note>2019 - Copyright NOSI v.190711</footer_note>
+        <user_name>Hexagon</user_name>
+        <button type="specific">
+            <title>Sair</title>
+            <app>DUA</app>
+            <page />
+            <link>#</link>
+            <target>_self</target>
+            <img>exit.png</img>
+        </button>
+    </site>
+    <page>Dados_infra_carater_servico_basico</page>
+    <app>sgie</app>
+    <plsql>
+        <action>index</action>
+        <package_instance></package_instance>
+        <package_db>nosi.webapps.sgie.pages</package_db>
+        <package_html>Dados_infra_carater_servico_basico</package_html>
+        <table_name></table_name>
+        <with_replace>false</with_replace>
+        <with_label>false</with_label>
+        <with_biztalk>false</with_biztalk>
+        <dynamic_menu>false</dynamic_menu>
+        <copy_menu>false</copy_menu>
+        <package_copy_db />
+        <package_copy_html />
+        <preserve_url>webapps?r=igrp/page/preserveUrl&amp;p_id=223</preserve_url>
+    </plsql>
+    <slide-menu file="../images/IGRP/IGRP2.3/xml/IGRP-slide-menu.xml?v=2" />
+    <top_menu file="../images/IGRP/IGRP2.3/xml/IGRP-top_menu.xml?v=2" />
+    <content>
+        <title>Dados infra carater servico basico</title>
+        <form_servicos_basicos_internet type="form" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <formas_abastecimento_agua_ name="p_formas_abastecimento_agua_" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Formas abastecimento água </label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </formas_abastecimento_agua_>
+                <fonte_energia_eletrica name="p_fonte_energia_eletrica" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Fonte energia elétrica</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </fonte_energia_eletrica>
+                <formas_armazenamento_agua name="p_formas_armazenamento_agua" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Formas armazenamento água</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </formas_armazenamento_agua>
+                <acesso_a_internet name="p_acesso_a_internet" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Acesso à internet</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </acesso_a_internet>
+                <data_utima_atualizacao name="p_data_utima_atualizacao" type="text" maxlength="250" required="false" change="false" readonly="true" disabled="false" disablehtml="true" placeholder="" desclabel="false" inputmask="" right="false" tooltip="false" disable_copy_paste="false">
+                    <label>Data útima atualização</label>
+                    <value>Laudantium adipiscing mollit sed labore</value>
+                </data_utima_atualizacao>
+                <numero_de_salas_inoperantes name="p_numero_de_salas_inoperantes" type="number" min="" max="" calculation="false" mathcal="" numberformat="" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" desclabel="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Número de Salas Inoperantes</label>
+                    <value>137</value>
+                </numero_de_salas_inoperantes>
+                <porque_razao_as_salas_nao_funcionam name="p_porque_razao_as_salas_nao_funcionam" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Porque razão as salas não funcionam</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </porque_razao_as_salas_nao_funcionam>
+                <hidden name="p_id" type="hidden" maxlength="250" java-type="" tooltip="false" disable_copy_paste="false" tag="id"/>
+                <hidden name="p_esc_id" type="hidden" maxlength="250" java-type="" tooltip="false" disable_copy_paste="false" tag="esc_id"/>
+            </fields>
+            <tools-bar>
+                <item id="button_8225_0e30" type="form" code="" class="primary" rel="atualizar_dados" custom_return="true" refresh_components="form_servicos_basicos_internet">
+                    <title>Atualizar Dados</title>
+                    <app>sgie</app>
+                    <page>Param_cobertura</page>
+                    <link>index</link>
+                    <parameter>../images/IGRP/IGRP2.3/app/sgie/param_cobertura/Param_cobertura.xml?</parameter>
+                    <target>submit_ajax</target>
+                    <img>primary|fa-refresh</img>
+                    <preview>../images/IGRP/IGRP2.3/app/sgie/param_cobertura/Param_cobertura.xml</preview>
+                </item>
+            </tools-bar>
+        </form_servicos_basicos_internet>
+    </content>
+    <blockly>
+        <imports>
+            <import type="inserir_dao">Inserir Daos</import>
+            <import type="combo_dao">Combo Dao</import>
+            <import type="dao">TblAuxAbastecimentoAgua</import>
+            <import type="dao">TblServicosBasicosInternet</import>
+            <import type="dao">TblAuxFonteEnergia</import>
+            <import type="dao">TblAuxArmazenamentoAgua</import>
+            <import type="dao">TblAuxAcessoInternet</import>
+            <import type="dao">TblAuxRazaoSalasInoperantes</import>
+            <import type="dao">TblAuxEscolas</import>
+            <import type="fields">LocalDate</import>
+        </imports>
+        <xml>
+            <block type="controller" id="k*!zp{.4`KH[3Yj#)gHc" x="588" y="63">
+                <statement name="index">
+                    <block type="formuu_form_servicos_basicos_internet" id="{eSz7pk-no+rCirJELJW" inline="true">
+                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="2" mutation-1="andWhere" mutation-2="andWhere"></mutation>
+                        <field name="dao">TblServicosBasicosInternet</field>
+                        <field name="ADD1FILTER">andWhere</field>
+                        <field name="ADD1WHERE">WHERE_EQ</field>
+                        <field name="ADD2FILTER">andWhere</field>
+                        <field name="ADD2WHERE">WHERE_EQ</field>
+                        <statement name="value2">
+                            <block type="combo_dao" id="X[O@C1Fl?5(UD2]pk-_]" inline="true">
+                                <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                <field name="selecao">formas_abastecimento_agua_</field>
+                                <field name="dao">TblAuxAbastecimentoAgua</field>
+                                <field name="selecionar">TRUE</field>
+                                <statement name="key_val">
+                                    <block type="option_dao" id="n+wI5@DFIS]P_)0!o=@W" inline="true">
+                                        <value name="key_val">
+                                            <block type="get-dao-TblAuxAbastecimentoAgua" id="UmzmYZxOl?hn4Ey(nWEU">
+                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                            </block>
+                                        </value>
+                                        <value name="value_val">
+                                            <block type="get-dao-TblAuxAbastecimentoAgua" id="SUO-?`=908G!n;@@JVYm">
+                                                <mutation hover_type="String::descricao"></mutation>
+                                                <field name="DAO_FIELD">String::descricao</field>
+                                            </block>
+                                        </value>
+                                        <next>
+                                            <block type="model_form_String::formas_abastecimento_agua_" id="@vKjrFQ-i[WUR;3aZ,vr">
+                                                <value name="value1">
+                                                    <block type="get-dao-TblServicosBasicosInternet" id="jj14hDkrA|I}7xZ`OL9{">
+                                                        <mutation hover_type="TblAuxAbastecimentoAgua_FK#::formasAbastecimentoAguaId"></mutation>
+                                                        <field name="DAO_FIELD">TblAuxAbastecimentoAgua_FK#::formasAbastecimentoAguaId</field>
+                                                        <value name="dao_rela">
+                                                            <block type="get-dao-TblAuxAbastecimentoAgua" id="?e2u2HmMkB?_+bf1?SaB">
+                                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                            </block>
+                                                        </value>
+                                                    </block>
+                                                </value>
+                                            </block>
+                                        </next>
+                                    </block>
+                                </statement>
+                                <next>
+                                    <block type="combo_dao" id="-e~9kyc0h7aBhmn,P/0U" inline="true">
+                                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                        <field name="selecao">fonte_energia_eletrica</field>
+                                        <field name="dao">TblAuxFonteEnergia</field>
+                                        <field name="selecionar">TRUE</field>
+                                        <statement name="key_val">
+                                            <block type="option_dao" id="?XrEO(/)_vn.;Cl1B}C4" inline="true">
+                                                <value name="key_val">
+                                                    <block type="get-dao-TblAuxFonteEnergia" id="bw)U/|LbX,2sXE0z0Ot^">
+                                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                    </block>
+                                                </value>
+                                                <value name="value_val">
+                                                    <block type="get-dao-TblAuxFonteEnergia" id="YeZF?Hd5]z+EYLOSm.[H">
+                                                        <mutation hover_type="String::descricao"></mutation>
+                                                        <field name="DAO_FIELD">String::descricao</field>
+                                                    </block>
+                                                </value>
+                                                <next>
+                                                    <block type="model_form_String::fonte_energia_eletrica" id="lf%J5%`b9s4VJ@`Hgr+{">
+                                                        <value name="value1">
+                                                            <block type="get-dao-TblServicosBasicosInternet" id="@DQuq~2@QE;uv(?),|8+">
+                                                                <mutation hover_type="TblAuxAbastecimentoAgua_FK#::formasAbastecimentoAguaId"></mutation>
+                                                                <field name="DAO_FIELD">TblAuxAbastecimentoAgua_FK#::formasAbastecimentoAguaId</field>
+                                                                <value name="dao_rela">
+                                                                    <block type="get-dao-TblAuxFonteEnergia" id="WVbric.[f=V.}lhY|yPH">
+                                                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                    </block>
+                                                                </value>
+                                                            </block>
+                                                        </value>
+                                                    </block>
+                                                </next>
+                                            </block>
+                                        </statement>
+                                        <next>
+                                            <block type="combo_dao" id="*royGGLwX,%3Pa4QbUX9" inline="true">
+                                                <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                                <field name="selecao">formas_armazenamento_agua</field>
+                                                <field name="dao">TblAuxArmazenamentoAgua</field>
+                                                <field name="selecionar">TRUE</field>
+                                                <statement name="key_val">
+                                                    <block type="option_dao" id="o@p!D1,H}~#r,LFDFy^-" inline="true">
+                                                        <value name="key_val">
+                                                            <block type="get-dao-TblAuxArmazenamentoAgua" id="dX4!t?bJ?S9WyPERK]4*">
+                                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                            </block>
+                                                        </value>
+                                                        <value name="value_val">
+                                                            <block type="get-dao-TblAuxArmazenamentoAgua" id="9}^-/W{X@B9xtqgyxVsG">
+                                                                <mutation hover_type="String::descricao"></mutation>
+                                                                <field name="DAO_FIELD">String::descricao</field>
+                                                            </block>
+                                                        </value>
+                                                        <next>
+                                                            <block type="model_form_String::formas_armazenamento_agua" id="UT@|2Ad~8`=MO,8p9l9T">
+                                                                <value name="value1">
+                                                                    <block type="get-dao-TblServicosBasicosInternet" id="+[Cr!#6qC-~vX`i!72n#">
+                                                                        <mutation hover_type="TblAuxAbastecimentoAgua_FK#::formasAbastecimentoAguaId"></mutation>
+                                                                        <field name="DAO_FIELD">TblAuxAbastecimentoAgua_FK#::formasAbastecimentoAguaId</field>
+                                                                        <value name="dao_rela">
+                                                                            <block type="get-dao-TblAuxArmazenamentoAgua" id="Mt7yZxj@6tZ7Sc|jsH22">
+                                                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                            </block>
+                                                                        </value>
+                                                                    </block>
+                                                                </value>
+                                                            </block>
+                                                        </next>
+                                                    </block>
+                                                </statement>
+                                                <next>
+                                                    <block type="combo_dao" id="yD{{.C-EZbXb)IGj5},Y" inline="true">
+                                                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                                        <field name="selecao">acesso_a_internet</field>
+                                                        <field name="dao">TblAuxAcessoInternet</field>
+                                                        <field name="selecionar">TRUE</field>
+                                                        <statement name="key_val">
+                                                            <block type="option_dao" id="M{=)F/J]QVdDvc}K,6t5" inline="true">
+                                                                <value name="key_val">
+                                                                    <block type="get-dao-TblAuxAcessoInternet" id="%%hDUUFQ9.g.B?;.0]y9">
+                                                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                    </block>
+                                                                </value>
+                                                                <value name="value_val">
+                                                                    <block type="get-dao-TblAuxAcessoInternet" id="l/~@2EW8}zb7|+{=m|%R">
+                                                                        <mutation hover_type="String::descricao"></mutation>
+                                                                        <field name="DAO_FIELD">String::descricao</field>
+                                                                    </block>
+                                                                </value>
+                                                                <next>
+                                                                    <block type="model_form_String::acesso_a_internet" id="t.su-4HD-S4#kgQMGD^E">
+                                                                        <value name="value1">
+                                                                            <block type="get-dao-TblServicosBasicosInternet" id="`dg6n6A|=FGc)TIq,5{J">
+                                                                                <mutation hover_type="TblAuxAbastecimentoAgua_FK#::formasAbastecimentoAguaId"></mutation>
+                                                                                <field name="DAO_FIELD">TblAuxAbastecimentoAgua_FK#::formasAbastecimentoAguaId</field>
+                                                                                <value name="dao_rela">
+                                                                                    <block type="get-dao-TblAuxAcessoInternet" id="MVe?bCdS-Sh65In[*N*K">
+                                                                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                                    </block>
+                                                                                </value>
+                                                                            </block>
+                                                                        </value>
+                                                                    </block>
+                                                                </next>
+                                                            </block>
+                                                        </statement>
+                                                        <next>
+                                                            <block type="model_form_String::data_utima_atualizacao" id="`{FAHp##)rj=dGDMKjdg">
+                                                                <value name="value1">
+                                                                    <block type="get-dao-TblServicosBasicosInternet" id="yuJodetuuz2y2RwYs:kd">
+                                                                        <mutation hover_type="LocalDate::data"></mutation>
+                                                                        <field name="DAO_FIELD">LocalDate::data</field>
+                                                                    </block>
+                                                                </value>
+                                                                <next>
+                                                                    <block type="model_form_Integer::numero_de_salas_inoperantes" id="oC-@qLb};|e:3b|_3]wY">
+                                                                        <value name="value1">
+                                                                            <block type="get-dao-TblServicosBasicosInternet" id="{RhgO^SIZL{pp..U[)/d">
+                                                                                <mutation hover_type="Integer::numSalaInoperante"></mutation>
+                                                                                <field name="DAO_FIELD">Integer::numSalaInoperante</field>
+                                                                            </block>
+                                                                        </value>
+                                                                        <next>
+                                                                            <block type="combo_dao" id="5S9D(O=vpe)iunQtzYUv" inline="true">
+                                                                                <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                                                                <field name="selecao">porque_razao_as_salas_nao_funcionam</field>
+                                                                                <field name="dao">TblAuxRazaoSalasInoperantes</field>
+                                                                                <field name="selecionar">TRUE</field>
+                                                                                <statement name="key_val">
+                                                                                    <block type="option_dao" id="H7SOIFy;+OF~1y~gc#|Z" inline="true">
+                                                                                        <value name="key_val">
+                                                                                            <block type="get-dao-TblAuxRazaoSalasInoperantes" id="vN,}-`w=f{;;%q4Gl=y6">
+                                                                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                                            </block>
+                                                                                        </value>
+                                                                                        <value name="value_val">
+                                                                                            <block type="get-dao-TblAuxRazaoSalasInoperantes" id=";0*8{Mcb?!ecw,?^ZsGc">
+                                                                                                <mutation hover_type="String::descricao"></mutation>
+                                                                                                <field name="DAO_FIELD">String::descricao</field>
+                                                                                            </block>
+                                                                                        </value>
+                                                                                        <next>
+                                                                                            <block type="model_form_String::porque_razao_as_salas_nao_funcionam" id="]uOAck7d6SBCW8s^|Zbz">
+                                                                                                <value name="value1">
+                                                                                                    <block type="get-dao-TblServicosBasicosInternet" id="x.}0[]^l_4VMLa{B)eG*">
+                                                                                                        <mutation hover_type="TblAuxAbastecimentoAgua_FK#::formasAbastecimentoAguaId"></mutation>
+                                                                                                        <field name="DAO_FIELD">TblAuxAbastecimentoAgua_FK#::formasAbastecimentoAguaId</field>
+                                                                                                        <value name="dao_rela">
+                                                                                                            <block type="get-dao-TblAuxRazaoSalasInoperantes" id="jL0{mz,I8;st*VoP5g~d">
+                                                                                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                                                            </block>
+                                                                                                        </value>
+                                                                                                    </block>
+                                                                                                </value>
+                                                                                            </block>
+                                                                                        </next>
+                                                                                    </block>
+                                                                                </statement>
+                                                                                <next>
+                                                                                    <block type="model_form_String::id" id=":Q}@:Drqa[IZYkcD;Q~2">
+                                                                                        <value name="value1">
+                                                                                            <block type="get-dao-TblServicosBasicosInternet" id="xO0oIbbuk|xm#]L8AYDI">
+                                                                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                                            </block>
+                                                                                        </value>
+                                                                                        <next>
+                                                                                            <block type="model_form_String::esc_id" id="n0Vkz(5P?U1lb{TCw5mc">
+                                                                                                <value name="value1">
+                                                                                                    <block type="get-dao-TblServicosBasicosInternet" id="frhwA;-CZhA4Ky0L+#kz">
+                                                                                                        <mutation hover_type="TblAuxEscolas_FK#::escId"></mutation>
+                                                                                                        <field name="DAO_FIELD">TblAuxEscolas_FK#::escId</field>
+                                                                                                        <value name="dao_rela">
+                                                                                                            <block type="get-dao-TblAuxEscolas" id="3!m^g8`M0VOy+]0Q5EBi">
+                                                                                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                                                            </block>
+                                                                                                        </value>
+                                                                                                    </block>
+                                                                                                </value>
+                                                                                                <next>
+                                                                                                    <block type="add_isedit" id="|s@X?B5o=#9R~t`OQ+lb">
+                                                                                                        <field name="button">atualizar_dados</field>
+                                                                                                    </block>
+                                                                                                </next>
+                                                                                            </block>
+                                                                                        </next>
+                                                                                    </block>
+                                                                                </next>
+                                                                            </block>
+                                                                        </next>
+                                                                    </block>
+                                                                </next>
+                                                            </block>
+                                                        </next>
+                                                    </block>
+                                                </next>
+                                            </block>
+                                        </next>
+                                    </block>
+                                </next>
+                            </block>
+                        </statement>
+                        <value name="ADD1">
+                            <block type="get-dao-TblServicosBasicosInternet" id="/G04xCe~xvsraAmw4ly7">
+                                <mutation hover_type="TblAuxEscolas_FK#::escId"></mutation>
+                                <field name="DAO_FIELD">TblAuxEscolas_FK#::escId</field>
+                                <value name="dao_rela">
+                                    <block type="get-dao-TblAuxEscolas" id="kf;oPrf_NW0];scG?3=p">
+                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                    </block>
+                                </value>
+                            </block>
+                        </value>
+                        <value name="ADD1STATE2">
+                            <block type="core_get_param" id="].S.k+n[,vEp813AVrw^">
+                                <field name="param">esc_id</field>
+                            </block>
+                        </value>
+                        <value name="ADD2">
+                            <block type="get-dao-TblServicosBasicosInternet" id="Wx7[cj4DmZ.8-lK^ux4K">
+                                <mutation hover_type="String::estado"></mutation>
+                                <field name="DAO_FIELD">String::estado</field>
+                            </block>
+                        </value>
+                        <value name="ADD2STATE2">
+                            <block type="text" id="+yirr,Fk8}o**;9|raF:">
+                                <field name="TEXT">A</field>
+                            </block>
+                        </value>
+                    </block>
+                </statement>
+                <statement name="atualizar_dados">
+                    <block type="save_formu_form_servicos_basicos_internet" id=".6=wW`7^GZDfy#bkdMnm" inline="true">
+                        <mutation count="NaN" pxchecked="false"></mutation>
+                        <field name="dao">TblServicosBasicosInternet</field>
+                        <field name="EDIT">FALSE</field>
+                        <statement name="value2">
+                            <block type="set-dao-TblServicosBasicosInternet" id=":dN:cX!ztelG#FBPUU3(" inline="true">
+                                <mutation hover_type="TblAuxAbastecimentoAgua_FK#::formasAbastecimentoAguaId"></mutation>
+                                <field name="DAO_FIELD">TblAuxAbastecimentoAgua_FK#::formasAbastecimentoAguaId</field>
+                                <value name="value1">
+                                    <block type="mod_formform_servicos_basicos_internet" id="/6iRV!*=wmkjjW!MScX+">
+                                        <field name="get_model">String::formas_abastecimento_agua_</field>
+                                    </block>
+                                </value>
+                                <next>
+                                    <block type="set-dao-TblServicosBasicosInternet" id="9+{5lWrQEV3=~Tid8}!-" inline="true">
+                                        <mutation hover_type="TblAuxFonteEnergia_FK#::fonteEnergiaId"></mutation>
+                                        <field name="DAO_FIELD">TblAuxFonteEnergia_FK#::fonteEnergiaId</field>
+                                        <value name="value1">
+                                            <block type="mod_formform_servicos_basicos_internet" id="OTE56wlry]nWMsQO(|3y">
+                                                <field name="get_model">String::fonte_energia_eletrica</field>
+                                            </block>
+                                        </value>
+                                        <next>
+                                            <block type="set-dao-TblServicosBasicosInternet" id="cv*,XRx%kkV1c[/Q,pGK" inline="true">
+                                                <mutation hover_type="TblAuxArmazenamentoAgua_FK#::formasArmazenaAguaId"></mutation>
+                                                <field name="DAO_FIELD">TblAuxArmazenamentoAgua_FK#::formasArmazenaAguaId</field>
+                                                <value name="value1">
+                                                    <block type="mod_formform_servicos_basicos_internet" id="fSx#X7^+d-mq@|L.Smel">
+                                                        <field name="get_model">String::formas_armazenamento_agua</field>
+                                                    </block>
+                                                </value>
+                                                <next>
+                                                    <block type="set-dao-TblServicosBasicosInternet" id="Xf4-g32WQ@}}Rxj}0@-n" inline="true">
+                                                        <mutation hover_type="TblAuxAcessoInternet_FK#::acessoInternetId"></mutation>
+                                                        <field name="DAO_FIELD">TblAuxAcessoInternet_FK#::acessoInternetId</field>
+                                                        <value name="value1">
+                                                            <block type="mod_formform_servicos_basicos_internet" id="U}=h8r30E+75{7t;^BG(">
+                                                                <field name="get_model">String::acesso_a_internet</field>
+                                                            </block>
+                                                        </value>
+                                                        <next>
+                                                            <block type="set-dao-TblServicosBasicosInternet" id="J58r4AdSxN[NC?E+{wHt" inline="false">
+                                                                <mutation hover_type="Integer::numSalaInoperante"></mutation>
+                                                                <field name="DAO_FIELD">Integer::numSalaInoperante</field>
+                                                                <value name="value1">
+                                                                    <block type="mod_formform_servicos_basicos_internet" id="jiYfQN~;fTjyN^2,IfwV">
+                                                                        <field name="get_model">Integer::numero_de_salas_inoperantes</field>
+                                                                    </block>
+                                                                </value>
+                                                                <next>
+                                                                    <block type="set-dao-TblServicosBasicosInternet" id="I*+Yh1WSBRhU(Ki=2dNz" inline="true">
+                                                                        <mutation hover_type="TblAuxRazaoSalasInoperantes_FK#::razaoSalasInopId"></mutation>
+                                                                        <field name="DAO_FIELD">TblAuxRazaoSalasInoperantes_FK#::razaoSalasInopId</field>
+                                                                        <value name="value1">
+                                                                            <block type="mod_formform_servicos_basicos_internet" id="=2B]!mv[aO|W|h,Zn5T0">
+                                                                                <field name="get_model">String::porque_razao_as_salas_nao_funcionam</field>
+                                                                            </block>
+                                                                        </value>
+                                                                        <next>
+                                                                            <block type="set-dao-TblServicosBasicosInternet" id="-HG}P?cMW+v^zKw=IwIo" inline="true">
+                                                                                <mutation hover_type="TblAuxEscolas_FK#::escId"></mutation>
+                                                                                <field name="DAO_FIELD">TblAuxEscolas_FK#::escId</field>
+                                                                                <value name="value1">
+                                                                                    <block type="mod_formform_servicos_basicos_internet" id="3|@~h8=J/Ao5YwbI.0mn">
+                                                                                        <field name="get_model">String::esc_id</field>
+                                                                                    </block>
+                                                                                </value>
+                                                                                <next>
+                                                                                    <block type="set-dao-TblServicosBasicosInternet" id="dIRS(.;8g#yVqlaBIllD" inline="false">
+                                                                                        <mutation hover_type="Integer::userId"></mutation>
+                                                                                        <field name="DAO_FIELD">Integer::userId</field>
+                                                                                        <value name="value1">
+                                                                                            <block type="core_fun_atual" id="zb06(rQ=yrf/VlqL}dvt">
+                                                                                                <field name="CORE_FUNCTION">Integer::id_utilizador_atual</field>
+                                                                                            </block>
+                                                                                        </value>
+                                                                                        <next>
+                                                                                            <block type="set-dao-TblServicosBasicosInternet" id=",D-UWHxBA~#g%8vZ(Gv=" inline="false">
+                                                                                                <mutation hover_type="LocalDate::data"></mutation>
+                                                                                                <field name="DAO_FIELD">LocalDate::data</field>
+                                                                                                <value name="value1">
+                                                                                                    <block type="core_fun_atual" id="3t0m{jlL1E34SxvZVW00">
+                                                                                                        <field name="CORE_FUNCTION">LocalDate::data_atual</field>
+                                                                                                    </block>
+                                                                                                </value>
+                                                                                                <next>
+                                                                                                    <block type="set-dao-TblServicosBasicosInternet" id="llT4a|m,f3U[|lTz+O,O" inline="false">
+                                                                                                        <mutation hover_type="String::estado"></mutation>
+                                                                                                        <field name="DAO_FIELD">String::estado</field>
+                                                                                                        <value name="value1">
+                                                                                                            <block type="text" id="V1Mg7[0oZN)JegV%Ma[N">
+                                                                                                                <field name="TEXT">A</field>
+                                                                                                            </block>
+                                                                                                        </value>
+                                                                                                    </block>
+                                                                                                </next>
+                                                                                            </block>
+                                                                                        </next>
+                                                                                    </block>
+                                                                                </next>
+                                                                            </block>
+                                                                        </next>
+                                                                    </block>
+                                                                </next>
+                                                            </block>
+                                                        </next>
+                                                    </block>
+                                                </next>
+                                            </block>
+                                        </next>
+                                    </block>
+                                </next>
+                            </block>
+                        </statement>
+                        <next>
+                            <block type="custombutton" id="[?sA;-.eHjA[,+;em6k]" inline="true">
+                                <field name="return">forward</field>
+                                <field name="page">Dados_infra_carater_servico_basico</field>
+                            </block>
+                        </next>
+                    </block>
+                </statement>
+            </block>
+        </xml>
+    </blockly>
+</rows>

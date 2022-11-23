@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/IGRP-Template/images/IGRP/IGRP2.3/app/sgie/param_elementos_vert_suporte_estruturas/Param_elementos_vert_suporte_estruturas.xsl" type="text/xsl"?>
+<rows>
+    <link_img>/IGRP-Template/images/IGRP/IGRP2.3</link_img>
+    <title>Dummie XML prototype</title>
+    <site>
+        <welcome_note>Oba</welcome_note>
+        <footer_note>2019 - Copyright NOSI v.190711</footer_note>
+        <user_name>Hexagon</user_name>
+        <button type="specific">
+            <title>Sair</title>
+            <app>DUA</app>
+            <page />
+            <link>#</link>
+            <target>_self</target>
+            <img>exit.png</img>
+        </button>
+    </site>
+    <page>Param_elementos_vert_suporte_estruturas</page>
+    <app>sgie</app>
+    <plsql>
+        <action>index</action>
+        <package_instance></package_instance>
+        <package_db>nosi.webapps.sgie.pages</package_db>
+        <package_html>Param_elementos_vert_suporte_estruturas</package_html>
+        <table_name></table_name>
+        <with_replace>false</with_replace>
+        <with_label>false</with_label>
+        <with_biztalk>false</with_biztalk>
+        <dynamic_menu>false</dynamic_menu>
+        <copy_menu>false</copy_menu>
+        <package_copy_db />
+        <package_copy_html />
+        <preserve_url>webapps?r=igrp/page/preserveUrl&amp;p_id=185</preserve_url>
+    </plsql>
+    <slide-menu file="../images/IGRP/IGRP2.3/xml/IGRP-slide-menu.xml?v=2" />
+    <top_menu file="../images/IGRP/IGRP2.3/xml/IGRP-top_menu.xml?v=2" />
+    <content>
+        <title>Param Elementos Vert Suporte Estruturas</title>
+        <form_1 type="form" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <descricao name="p_descricao" type="text" maxlength="250" required="false" change="false" readonly="false" disabled="false" disablehtml="true" placeholder="" desclabel="false" inputmask="" right="false" tooltip="false" disable_copy_paste="false">
+                    <label>Descrição</label>
+                    <value>Mollit consectetur ut magna consectetur</value>
+                </descricao>
+                <hidden name="p_id" type="hidden" maxlength="250" java-type="" tooltip="false" disable_copy_paste="false" tag="id"/>
+            </fields>
+            <tools-bar>
+                <item id="button_1c07_282f" type="form" code="" class="primary" rel="guardar" refresh_components="">
+                    <title>Guardar</title>
+                    <app>sgie</app>
+                    <page>Param_elementos_vert_suporte_estruturas</page>
+                    <link>index</link>
+                    <parameter>../images/IGRP/IGRP2.3/app/sgie/param_elementos_vert_suporte_estruturas/Param_elementos_vert_suporte_estruturas.xml?</parameter>
+                    <target>submit_form</target>
+                    <img>primary|fa-check</img>
+                    <preview>../images/IGRP/IGRP2.3/app/sgie/param_elementos_vert_suporte_estruturas/Param_elementos_vert_suporte_estruturas.xml</preview>
+                </item>
+            </tools-bar>
+        </form_1>
+        <table_1 type="table" xml-type="table" gen-type="container" gen-group="true">
+            <fields>
+                <table_1_text_1 name="p_table_1_text_1" type="text" maxlength="30" showLabel="true" align="left" lookup_parser="false" iskey="false" group_in="">
+                    <label>Text</label>
+                </table_1_text_1>
+                <id_tbl name="p_id_tbl" type="hidden" maxlength="30" showLabel="true" iskey="true" group_in="" java-type="" tag="id_tbl"/>
+            </fields>
+            <table>
+                <value>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <table_1_text_1 name="p_table_1_text_1">Totam ipsum doloremque labore</table_1_text_1>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-8c86_04bd</id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <table_1_text_1 name="p_table_1_text_1">Consectetur ipsum sit unde sit</table_1_text_1>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-3852_eee8</id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <table_1_text_1 name="p_table_1_text_1">Stract natus magna aliqua natu</table_1_text_1>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-2d73_17d8</id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <table_1_text_1 name="p_table_1_text_1">Amet voluptatem dolor mollit n</table_1_text_1>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-06d4_b3d8</id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <table_1_text_1 name="p_table_1_text_1">Mollit laudantium sed aperiam</table_1_text_1>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-a262_f52c</id_tbl>
+                    </row>
+                </value>
+                <context-menu>
+                    <item id="button_b5fc_af0c" type="specific" code="" class="warning" rel="editar" refresh_components="">
+                        <title>Editar</title>
+                        <app>sgie</app>
+                        <page>Param_elementos_vert_suporte_estruturas</page>
+                        <link>index</link>
+                        <parameter>../images/IGRP/IGRP2.3/app/sgie/param_elementos_vert_suporte_estruturas/Param_elementos_vert_suporte_estruturas.xml?</parameter>
+                        <target>mpsubmit</target>
+                        <img>warning|fa-edit</img>
+                        <preview>../images/IGRP/IGRP2.3/app/sgie/param_elementos_vert_suporte_estruturas/Param_elementos_vert_suporte_estruturas.xml</preview>
+                    </item>
+                    <item id="button_8c72_4764" type="specific" code="" class="danger" rel="eliminar" refresh_components="">
+                        <title>Eliminar</title>
+                        <app>sgie</app>
+                        <page>Param_elementos_vert_suporte_estruturas</page>
+                        <link>index</link>
+                        <parameter>../images/IGRP/IGRP2.3/app/sgie/param_elementos_vert_suporte_estruturas/Param_elementos_vert_suporte_estruturas.xml?</parameter>
+                        <target>_blank</target>
+                        <img>danger|fa-trash-o</img>
+                        <preview>../images/IGRP/IGRP2.3/app/sgie/param_elementos_vert_suporte_estruturas/Param_elementos_vert_suporte_estruturas.xml</preview>
+                    </item>
+                </context-menu>
+            </table>
+        </table_1>
+    </content>
+    <blockly>
+        <imports>
+            <import type="listar">Listar</import>
+            <import type="inserir_dao">Inserir Daos</import>
+            <import type="dao">TblAuxEstrElemVerticaisSuporte</import>
+        </imports>
+        <xml>
+            <block type="controller" id="controller" x="188" y="-837">
+                <statement name="index">
+                    <block type="formuu_form_1" id="t(NWuyqfm)%Yn9=K1DI6" inline="true">
+                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                        <field name="dao">TblAuxEstrElemVerticaisSuporte</field>
+                        <value name="get_pa">
+                            <block type="core_get_param" id="2Pffm;N3)hK/1jpMl`7;">
+                                <field name="param">id_tbl</field>
+                            </block>
+                        </value>
+                        <statement name="value2">
+                            <block type="model_form_String::descricao" id="`7BQ:MbDHj~bz!(EEa_Z">
+                                <value name="value1">
+                                    <block type="get-dao-TblAuxEstrElemVerticaisSuporte" id="n;ma#p4JS[I*B#uXodZJ">
+                                        <mutation hover_type="String::descricao"></mutation>
+                                        <field name="DAO_FIELD">String::descricao</field>
+                                    </block>
+                                </value>
+                                <next>
+                                    <block type="model_form_String::id" id="5.CM,6wJ3DGC.%4H}cXn">
+                                        <value name="value1">
+                                            <block type="get-dao-TblAuxEstrElemVerticaisSuporte" id="fyb(K8190zw.s1`%lqF,">
+                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                            </block>
+                                        </value>
+                                        <next>
+                                            <block type="add_isedit" id="k..2K3Ve:E[G}u`Vq]+k">
+                                                <field name="button">guardar</field>
+                                            </block>
+                                        </next>
+                                    </block>
+                                </next>
+                            </block>
+                        </statement>
+                        <next>
+                            <block type="listar_table_1" id="}}?LFNOr:UiW({iMsN!f" inline="true">
+                                <mutation order="" operation="null" limit="TODOSS" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                <field name="dao">TblAuxEstrElemVerticaisSuporte</field>
+                                <field name="FILL">FALSE</field>
+                                <field name="orderdrop"></field>
+                                <field name="find">TODOSS</field>
+                                <field name="limit"></field>
+                                <statement name="value2">
+                                    <block type="rowtableString::table_1_text_1" id="2n9aDisCzpha(miZ^6fM">
+                                        <value name="fields_model">
+                                            <block type="get-dao-TblAuxEstrElemVerticaisSuporte" id="(4`U7PGyTXR%@8}hvaCi">
+                                                <mutation hover_type="String::descricao"></mutation>
+                                                <field name="DAO_FIELD">String::descricao</field>
+                                            </block>
+                                        </value>
+                                        <next>
+                                            <block type="rowtableString::id_tbl" id="_ZF3~h,s0xWr3StH2shf">
+                                                <value name="fields_model">
+                                                    <block type="get-dao-TblAuxEstrElemVerticaisSuporte" id="%c;@Y[a9.jE(I5[r[a]H">
+                                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                    </block>
+                                                </value>
+                                            </block>
+                                        </next>
+                                    </block>
+                                </statement>
+                            </block>
+                        </next>
+                    </block>
+                </statement>
+                <statement name="guardar">
+                    <block type="save_formu_form_1" id="s7Yfi%^=}nH,WYu@YTnK" inline="true">
+                        <mutation count="NaN" pxchecked="true"></mutation>
+                        <field name="dao">TblAuxEstrElemVerticaisSuporte</field>
+                        <field name="EDIT">TRUE</field>
+                        <value name="param_id">
+                            <block type="get_model" id="2H{!Y}a+:H.EQI.Z*^-T">
+                                <field name="get_model">String::id</field>
+                            </block>
+                        </value>
+                        <statement name="value2">
+                            <block type="set-dao-TblAuxEstrElemVerticaisSuporte" id="KWUVpCqZ.5G]LXq:Y.Fg" inline="false">
+                                <mutation hover_type="String::descricao"></mutation>
+                                <field name="DAO_FIELD">String::descricao</field>
+                                <value name="value1">
+                                    <block type="get_model" id="7fepFJ|oyjH-NWWqvkmS">
+                                        <field name="get_model">String::descricao</field>
+                                    </block>
+                                </value>
+                            </block>
+                        </statement>
+                    </block>
+                </statement>
+                <statement name="editar">
+                    <block type="enviar_p" id=".#d.xr;m(JBougpau:yd">
+                        <field name="iskey">id_tbl</field>
+                        <next>
+                            <block type="editar_dao" id="mz}{|J}L:[=VsOj7HwDE"></block>
+                        </next>
+                    </block>
+                </statement>
+                <statement name="eliminar">
+                    <block type="apagar" id="zi`u[_5e}SWRF9Dw()4X" inline="true">
+                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                        <field name="dao">TblAuxEstrElemVerticaisSuporte</field>
+                        <field name="KEEP">FALSE</field>
+                        <value name="get_pa">
+                            <block type="core_get_param" id="z^ea0m!qUsFzu+Z#^^~5">
+                                <field name="param">id_tbl</field>
+                            </block>
+                        </value>
+                    </block>
+                </statement>
+            </block>
+        </xml>
+    </blockly>
+</rows>

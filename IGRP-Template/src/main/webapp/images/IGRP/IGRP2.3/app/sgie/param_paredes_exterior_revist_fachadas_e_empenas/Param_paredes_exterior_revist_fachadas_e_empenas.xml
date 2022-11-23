@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/IGRP-Template/images/IGRP/IGRP2.3/app/sgie/param_paredes_exterior_revist_fachadas_e_empenas/Param_paredes_exterior_revist_fachadas_e_empenas.xsl" type="text/xsl"?>
+<rows>
+    <link_img>/IGRP-Template/images/IGRP/IGRP2.3</link_img>
+    <title>Dummie XML prototype</title>
+    <site>
+        <welcome_note>Oba</welcome_note>
+        <footer_note>2019 - Copyright NOSI v.190711</footer_note>
+        <user_name>Hexagon</user_name>
+        <button type="specific">
+            <title>Sair</title>
+            <app>DUA</app>
+            <page />
+            <link>#</link>
+            <target>_self</target>
+            <img>exit.png</img>
+        </button>
+    </site>
+    <page>Param_paredes_exterior_revist_fachadas_e_empenas</page>
+    <app>sgie</app>
+    <plsql>
+        <action>index</action>
+        <package_instance></package_instance>
+        <package_db>nosi.webapps.sgie.pages</package_db>
+        <package_html>Param_paredes_exterior_revist_fachadas_e_empenas</package_html>
+        <table_name></table_name>
+        <with_replace>false</with_replace>
+        <with_label>false</with_label>
+        <with_biztalk>false</with_biztalk>
+        <dynamic_menu>false</dynamic_menu>
+        <copy_menu>false</copy_menu>
+        <package_copy_db />
+        <package_copy_html />
+        <preserve_url>webapps?r=igrp/page/preserveUrl&amp;p_id=190</preserve_url>
+    </plsql>
+    <slide-menu file="../images/IGRP/IGRP2.3/xml/IGRP-slide-menu.xml?v=2" />
+    <top_menu file="../images/IGRP/IGRP2.3/xml/IGRP-top_menu.xml?v=2" />
+    <content>
+        <title>Param Paredes exterior Revist fachadas e empenas</title>
+        <form_1 type="form" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <descricao name="p_descricao" type="text" maxlength="250" required="false" change="false" readonly="false" disabled="false" disablehtml="true" placeholder="" desclabel="false" inputmask="" right="false" tooltip="false" disable_copy_paste="false">
+                    <label>Descrição</label>
+                    <value>Sit ipsum rem stract aliqua</value>
+                </descricao>
+                <hidden name="p_id" type="hidden" maxlength="250" java-type="" tooltip="false" disable_copy_paste="false" tag="id"/>
+            </fields>
+            <tools-bar>
+                <item id="button_0fdf_2f62" type="form" code="" class="primary" rel="guardar" refresh_components="">
+                    <title>Guardar</title>
+                    <app>sgie</app>
+                    <page>Param_paredes_exterior_revist_fachadas_e_empenas</page>
+                    <link>index</link>
+                    <parameter>../images/IGRP/IGRP2.3/app/sgie/param_paredes_exterior_revist_fachadas_e_empenas/Param_paredes_exterior_revist_fachadas_e_empenas.xml?</parameter>
+                    <target>submit_form</target>
+                    <img>primary|fa-check</img>
+                    <preview>../images/IGRP/IGRP2.3/app/sgie/param_paredes_exterior_revist_fachadas_e_empenas/Param_paredes_exterior_revist_fachadas_e_empenas.xml</preview>
+                </item>
+            </tools-bar>
+        </form_1>
+        <table_1 type="table" xml-type="table" gen-type="container" gen-group="true">
+            <fields>
+                <table_1_text_1 name="p_table_1_text_1" type="text" maxlength="30" showLabel="true" align="left" lookup_parser="false" iskey="false" group_in="">
+                    <label>Text</label>
+                </table_1_text_1>
+                <id_tbl name="p_id_tbl" type="hidden" maxlength="30" showLabel="true" iskey="true" group_in="" java-type="" tag="id_tbl"/>
+            </fields>
+            <table>
+                <value>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <table_1_text_1 name="p_table_1_text_1">Sed aliqua omnis sit adipiscin</table_1_text_1>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-523b_1747</id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <table_1_text_1 name="p_table_1_text_1">Elit consectetur sit consectet</table_1_text_1>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-9ca9_71a3</id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <table_1_text_1 name="p_table_1_text_1">Voluptatem lorem doloremque ma</table_1_text_1>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-5bcc_bf77</id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <table_1_text_1 name="p_table_1_text_1">Elit officia ut voluptatem ape</table_1_text_1>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-7b3d_9b89</id_tbl>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <table_1_text_1 name="p_table_1_text_1">Totam elit dolor elit ut</table_1_text_1>
+                        <id_tbl name="p_id_tbl" tag="id_tbl">hidden-c8a4_c61a</id_tbl>
+                    </row>
+                </value>
+                <context-menu>
+                    <item id="button_72e4_8c74" type="specific" code="" class="warning" rel="editar" refresh_components="">
+                        <title>Editar</title>
+                        <app>sgie</app>
+                        <page>Param_paredes_exterior_revist_fachadas_e_empenas</page>
+                        <link>index</link>
+                        <parameter>../images/IGRP/IGRP2.3/app/sgie/param_paredes_exterior_revist_fachadas_e_empenas/Param_paredes_exterior_revist_fachadas_e_empenas.xml?</parameter>
+                        <target>mpsubmit</target>
+                        <img>warning|fa-edit</img>
+                        <preview>../images/IGRP/IGRP2.3/app/sgie/param_paredes_exterior_revist_fachadas_e_empenas/Param_paredes_exterior_revist_fachadas_e_empenas.xml</preview>
+                    </item>
+                    <item id="button_6762_7ab6" type="specific" code="" class="danger" rel="eliminar" refresh_components="" labelConfirm="Deseja realmente realizar esta operação?">
+                        <title>Eliminar</title>
+                        <app>sgie</app>
+                        <page>Param_paredes_exterior_revist_fachadas_e_empenas</page>
+                        <link>index</link>
+                        <parameter>../images/IGRP/IGRP2.3/app/sgie/param_paredes_exterior_revist_fachadas_e_empenas/Param_paredes_exterior_revist_fachadas_e_empenas.xml?</parameter>
+                        <target>confirm</target>
+                        <img>danger|fa-trash-o</img>
+                        <preview>../images/IGRP/IGRP2.3/app/sgie/param_paredes_exterior_revist_fachadas_e_empenas/Param_paredes_exterior_revist_fachadas_e_empenas.xml</preview>
+                    </item>
+                </context-menu>
+            </table>
+        </table_1>
+    </content>
+    <blockly>
+        <imports>
+            <import type="listar">Listar</import>
+            <import type="inserir_dao">Inserir Daos</import>
+            <import type="dao">TblAuxParedeExtRevestimFachadaEmpena</import>
+        </imports>
+        <xml>
+            <block type="controller" id="controller" x="163" y="87">
+                <statement name="index">
+                    <block type="formuu_form_1" id="^N1(J!)dobJ#~_XS4eEv" inline="true">
+                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                        <field name="dao">TblAuxParedeExtRevestimFachadaEmpena</field>
+                        <value name="get_pa">
+                            <block type="core_get_param" id="4M{RzAn`?G;x04v4L?;P">
+                                <field name="param">id_tbl</field>
+                            </block>
+                        </value>
+                        <statement name="value2">
+                            <block type="model_form_String::descricao" id="|(r,)(jxce1s|E;TZoHO">
+                                <value name="value1">
+                                    <block type="get-dao-TblAuxParedeExtRevestimFachadaEmpena" id=";/B@lF3]H,Z(S}?2Y;_q">
+                                        <mutation hover_type="String::descricao"></mutation>
+                                        <field name="DAO_FIELD">String::descricao</field>
+                                    </block>
+                                </value>
+                                <next>
+                                    <block type="model_form_String::id" id="sdY{yxZ,hZ!3=olIkr0!">
+                                        <value name="value1">
+                                            <block type="get-dao-TblAuxParedeExtRevestimFachadaEmpena" id="A`II8QZ/Ev=@#yBBEL~s">
+                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                            </block>
+                                        </value>
+                                        <next>
+                                            <block type="add_isedit" id="|9Ke,~)C}8!y;];69%pr">
+                                                <field name="button">guardar</field>
+                                            </block>
+                                        </next>
+                                    </block>
+                                </next>
+                            </block>
+                        </statement>
+                        <next>
+                            <block type="listar_table_1" id="=qGR18Gi!8z^F34]c|L{" inline="true">
+                                <mutation order="" operation="null" limit="TODOSS" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                <field name="dao">TblAuxParedeExtRevestimFachadaEmpena</field>
+                                <field name="FILL">FALSE</field>
+                                <field name="orderdrop"></field>
+                                <field name="find">TODOSS</field>
+                                <field name="limit"></field>
+                                <statement name="value2">
+                                    <block type="rowtableString::table_1_text_1" id="gj{luyPUj-73d4PRNWA%">
+                                        <value name="fields_model">
+                                            <block type="get-dao-TblAuxParedeExtRevestimFachadaEmpena" id="+{un4@]h*+wG-2.i:h-J">
+                                                <mutation hover_type="String::descricao"></mutation>
+                                                <field name="DAO_FIELD">String::descricao</field>
+                                            </block>
+                                        </value>
+                                        <next>
+                                            <block type="rowtableString::id_tbl" id="#8_hoA=g517pYWAj6(^r">
+                                                <value name="fields_model">
+                                                    <block type="get-dao-TblAuxParedeExtRevestimFachadaEmpena" id="8nMt)Gd,dkED2^gR:/Zx">
+                                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                    </block>
+                                                </value>
+                                            </block>
+                                        </next>
+                                    </block>
+                                </statement>
+                            </block>
+                        </next>
+                    </block>
+                </statement>
+                <statement name="guardar">
+                    <block type="save_formu_form_1" id="M(ANja*xdD=MQt3#n]P#" inline="true">
+                        <mutation count="NaN" pxchecked="true"></mutation>
+                        <field name="dao">TblAuxParedeExtRevestimFachadaEmpena</field>
+                        <field name="EDIT">TRUE</field>
+                        <value name="param_id">
+                            <block type="get_model" id="9khM=-Ibo+k|L|]+fVEo">
+                                <field name="get_model">String::id</field>
+                            </block>
+                        </value>
+                        <statement name="value2">
+                            <block type="set-dao-TblAuxParedeExtRevestimFachadaEmpena" id="0w+{LdNR{O.S15bDNeoZ" inline="false">
+                                <mutation hover_type="String::descricao"></mutation>
+                                <field name="DAO_FIELD">String::descricao</field>
+                                <value name="value1">
+                                    <block type="get_model" id="pKE:lNp!HX+2HTlP3IF*">
+                                        <field name="get_model">String::descricao</field>
+                                    </block>
+                                </value>
+                            </block>
+                        </statement>
+                    </block>
+                </statement>
+                <statement name="editar">
+                    <block type="enviar_p" id="w_KzstKI{0I^!%^f]uYJ">
+                        <field name="iskey">id_tbl</field>
+                        <next>
+                            <block type="editar_dao" id="2Cz;^2w#Mnk6xGc4p1wP"></block>
+                        </next>
+                    </block>
+                </statement>
+                <statement name="eliminar">
+                    <block type="apagar" id="Qqr7i=Lfo27jo~{~*X3Z" inline="true">
+                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                        <field name="dao">TblAuxParedeExtRevestimFachadaEmpena</field>
+                        <field name="KEEP">FALSE</field>
+                        <value name="get_pa">
+                            <block type="core_get_param" id="xpo^8xGmaF]:e0SU}6Qh">
+                                <field name="param">id_tbl</field>
+                            </block>
+                        </value>
+                    </block>
+                </statement>
+            </block>
+        </xml>
+    </blockly>
+</rows>

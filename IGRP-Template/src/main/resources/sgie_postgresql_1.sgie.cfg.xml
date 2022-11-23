@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration> 
+    <session-factory> 
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>  
+        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/db_sgie</property>  
+        <property name="hibernate.connection.username">postgres</property>  
+        <property name="hibernate.connection.password">12345</property>  
+        <property name="hibernate.hbm2ddl.auto">update</property>  
+        <property name="hibernate.connection.isolation">2</property>  
+        <property name="hibernate.connection.autocommit">false</property>  
+        <property name="hibernate.hbm2ddl.jdbc_metadata_extraction_strategy">individually</property>  
+        <property name="hibernate.current_session_context_class">org.hibernate.context.internal.ThreadLocalSessionContext</property>  
+        <property name="hibernate.transaction.auto_close_session">DELAYED_ACQUISITION_AND_RELEASE_AFTER_TRANSACTION</property>  
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>  
+        <!-- Hikaricp configuration -->  
+        <property name="hibernate.connection.provider_class">org.hibernate.hikaricp.internal.HikariCPConnectionProvider</property>  
+        <property name="hibernate.hikari.connectionTimeout">120000</property>  
+        <property name="hibernate.hikari.idleTimeout">600000</property>  
+        <property name="hibernate.hikari.minimumIdle">0</property>  
+        <property name="hibernate.hikari.maximumPoolSize">10</property>  
+        <property name="hibernate.hikari.maxLifetime">1800000</property>  
+        <property name="hibernate.hikari.leakDetectionThreshold">0</property>  
+        <!-- Mapping your class here... 
+		Ex: <mapping class="nosi.webapps.sgie.dao.Employee"/> 		-->  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxMorfaMorfo"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxEntradaMorfo"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxAnomalias"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxCaixalhariasMaterial"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxEscadaCorrimIntExtRampa"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxParedeIntRevestimFachada"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxParedeIntTosco"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxFundacoes"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxParedeExterior"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxPavimentos"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxFormaAcessoEscola"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxEscadasEstrutSuporte"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxParedeExtTosco"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxCobertForma"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxEstruturaVertical"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxEstrElemVerticaisSuporte"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxParedeExtRevestimFachadaEmpena"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxPortaoPedAut"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxEstruturaHorizontal"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxCobertura"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxVedacao"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxRevestExterior"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxRevestCoberturaTerraco"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxRevestCoberturaInclinada"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxSimNao"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxCoberturaEstSuporte"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxArmazenamentoAgua"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxAcessoInternet"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxRazaoSalasInoperantes"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxAbastecimentoAgua"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxFonteEnergia"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAvalEstadoConserva"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblServicosBasicosInternet"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxEscolas"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblCaraterizacaoEdificio"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblCaraterizacaoEspExterior"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblCaraterizacaoFuncional"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblCaraterizacaoConstrutiva"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblDescricaoMorfo"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblCaraterizacaoAspInterior"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblEstadoConservaGeral"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxLocalLote"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblAuxLocalizacaoLote"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblSeguimentoAvaliacao"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblSeguimentoEscolas"/>  
+        <mapping class="nosi.webapps.sgie.dao.TblFolhaAvaliacao"/>
+    </session-factory> 
+</hibernate-configuration>

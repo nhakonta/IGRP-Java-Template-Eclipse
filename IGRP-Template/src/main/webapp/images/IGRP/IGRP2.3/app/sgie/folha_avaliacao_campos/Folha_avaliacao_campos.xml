@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/IGRP-Template/images/IGRP/IGRP2.3/app/sgie/folha_avaliacao_campos/Folha_avaliacao_campos.xsl" type="text/xsl"?>
+<rows>
+    <link_img>/IGRP-Template/images/IGRP/IGRP2.3</link_img>
+    <title>Dummie XML prototype</title>
+    <site>
+        <welcome_note>Oba</welcome_note>
+        <footer_note>2019 - Copyright NOSI v.190711</footer_note>
+        <user_name>Hexagon</user_name>
+        <button type="specific">
+            <title>Sair</title>
+            <app>DUA</app>
+            <page />
+            <link>#</link>
+            <target>_self</target>
+            <img>exit.png</img>
+        </button>
+    </site>
+    <page>Folha_avaliacao_campos</page>
+    <app>sgie</app>
+    <plsql>
+        <action>index</action>
+        <package_instance></package_instance>
+        <package_db>nosi.webapps.sgie.pages</package_db>
+        <package_html>Folha_avaliacao_campos</package_html>
+        <table_name></table_name>
+        <with_replace>false</with_replace>
+        <with_label>false</with_label>
+        <with_biztalk>false</with_biztalk>
+        <dynamic_menu>false</dynamic_menu>
+        <copy_menu>false</copy_menu>
+        <package_copy_db />
+        <package_copy_html />
+        <preserve_url>webapps?r=igrp/page/preserveUrl&amp;p_id=232</preserve_url>
+    </plsql>
+    <slide-menu file="../images/IGRP/IGRP2.3/xml/IGRP-slide-menu.xml?v=2" />
+    <top_menu file="../images/IGRP/IGRP2.3/xml/IGRP-top_menu.xml?v=2" />
+    <content>
+        <title>folha avaliação campos</title>
+        <form_1 type="form" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <estrutura name="p_estrutura" type="separator" maxlength="250" placeholder="" desclabel="false" right="false" tooltip="false" disable_copy_paste="false">
+                    <label>Estrutura</label>
+                </estrutura>
+                <insuficiencia_dos_elementos_estruturais name="p_insuficiencia_dos_elementos_estruturais" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Insuficiência dos elementos estruturais</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </insuficiencia_dos_elementos_estruturais>
+                <alteracao_na_geometria name="p_alteracao_na_geometria" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Alteração na geometria</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </alteracao_na_geometria>
+                <fendilhacao_nas_zonas_criticas name="p_fendilhacao_nas_zonas_criticas" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Fendilhação nas zonas críticas</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </fendilhacao_nas_zonas_criticas>
+                <armaduras_a_vista name="p_armaduras_a_vista" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Armaduras à vista</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </armaduras_a_vista>
+                <elementos_corroidos name="p_elementos_corroidos" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Elementos corroídos</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </elementos_corroidos>
+                <falta_de_condicoes_de_seguranca name="p_falta_de_condicoes_de_seguranca" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Falta de condições de segurança</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </falta_de_condicoes_de_seguranca>
+                <paredes__pavimentos__tetos name="p_paredes__pavimentos__tetos" type="separator" maxlength="250" placeholder="" desclabel="false" right="false" tooltip="false" disable_copy_paste="false">
+                    <label>Paredes / Pavimentos / tetos</label>
+                </paredes__pavimentos__tetos>
+                <buracos_ou_aberturas_nas_paredes name="p_buracos_ou_aberturas_nas_paredes" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Buracos ou aberturas nas paredes</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </buracos_ou_aberturas_nas_paredes>
+                <alteracao_na_geometria_de_paredes name="p_alteracao_na_geometria_de_paredes" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Alteração na geometria de paredes</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </alteracao_na_geometria_de_paredes>
+                <extensiva_deterioracao_dos_revestimentos_nas_paredes name="p_extensiva_deterioracao_dos_revestimentos_nas_paredes" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Extensiva deterioração dos revestimentos nas paredes</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </extensiva_deterioracao_dos_revestimentos_nas_paredes>
+                <danos_significativos_em_partes_singulares_nas_paredes name="p_danos_significativos_em_partes_singulares_nas_paredes" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Danos significativos em partes singulares nas paredes</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </danos_significativos_em_partes_singulares_nas_paredes>
+                <anomalias_indicadores_de_deterioracao_nas_paredes name="p_anomalias_indicadores_de_deterioracao_nas_paredes" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Anomalias indicadores de deterioração nas paredes</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </anomalias_indicadores_de_deterioracao_nas_paredes>
+                <sinais_de_presenca_de_agua name="p_sinais_de_presenca_de_agua" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Sinais de presença de água</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </sinais_de_presenca_de_agua>
+                <buracos_no_piso name="p_buracos_no_piso" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Buracos no piso</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </buracos_no_piso>
+                <fissurasrachaduras name="p_fissurasrachaduras" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Fissuras/rachaduras</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </fissurasrachaduras>
+                <alteracao_na_geometria_no_pavimento name="p_alteracao_na_geometria_no_pavimento" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Alteração na geometria no pavimento</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </alteracao_na_geometria_no_pavimento>
+                <instalacao_eletrica name="p_instalacao_eletrica" type="separator" maxlength="250" placeholder="" desclabel="false" right="false" tooltip="false" disable_copy_paste="false">
+                    <label>Instalação elétrica</label>
+                </instalacao_eletrica>
+                <quadro_tem_disjuntores_e_diferencial_de_protecao name="p_quadro_tem_disjuntores_e_diferencial_de_protecao" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Quadro tem disjuntores e diferencial de proteção</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </quadro_tem_disjuntores_e_diferencial_de_protecao>
+                <degradacao_dos_condutores_eletricos name="p_degradacao_dos_condutores_eletricos" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Degradação dos condutores elétricos</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </degradacao_dos_condutores_eletricos>
+                <aparelhos_em_bom_estado_tomadas_e_interruptores name="p_aparelhos_em_bom_estado_tomadas_e_interruptores" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Aparelhos em bom estado (tomadas e interruptores</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </aparelhos_em_bom_estado_tomadas_e_interruptores>
+                <risco_de_eletrocussao name="p_risco_de_eletrocussao" type="select" multiple="false" tags="false" load_service_data="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" tooltip="false" disable_copy_paste="false">
+                    <label>Risco de eletrocussão</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </risco_de_eletrocussao>
+            </fields>
+            <tools-bar>
+                <item id="button_52d3_a87d" type="form" code="" class="primary" rel="guardar" refresh_components="">
+                    <title>Guardar</title>
+                    <app>sgie</app>
+                    <page>Seguimento_e_avaliacao</page>
+                    <link>index</link>
+                    <parameter>../images/IGRP/IGRP2.3/app/sgie/seguimento_e_avaliacao/Seguimento_e_avaliacao.xml?</parameter>
+                    <target>submit_form</target>
+                    <img>primary|fa-check</img>
+                    <preview>../images/IGRP/IGRP2.3/app/sgie/seguimento_e_avaliacao/Seguimento_e_avaliacao.xml</preview>
+                </item>
+            </tools-bar>
+        </form_1>
+    </content>
+    <blockly>
+        <imports>
+            <import type="combo_dao">Combo Dao</import>
+            <import type="dao">TblAuxSimNao</import>
+        </imports>
+        <xml>
+            <block type="controller" id="controller" x="363" y="-1212">
+                <statement name="index">
+                    <block type="combo_dao" id="69pRdEw~}X-qKKPI^ZZf" inline="true">
+                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                        <field name="selecao">insuficiencia_dos_elementos_estruturais</field>
+                        <field name="dao">TblAuxSimNao</field>
+                        <field name="selecionar">FALSE</field>
+                        <statement name="key_val">
+                            <block type="option_dao" id="wPtzW?Iuu/!Smd]%9Wg;" inline="true">
+                                <value name="key_val">
+                                    <block type="get-dao-TblAuxSimNao" id="R|Wy%-lgZ~t2_G1|@C8@">
+                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                    </block>
+                                </value>
+                                <value name="value_val">
+                                    <block type="get-dao-TblAuxSimNao" id="mj`IXH`/.s`~O~0sUaXI">
+                                        <mutation hover_type="String::descricao"></mutation>
+                                        <field name="DAO_FIELD">String::descricao</field>
+                                    </block>
+                                </value>
+                            </block>
+                        </statement>
+                        <next>
+                            <block type="combo_dao" id="U/=#)B%qC*]{4](*U9Sc" inline="true">
+                                <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                <field name="selecao">alteracao_na_geometria</field>
+                                <field name="dao">TblAuxSimNao</field>
+                                <field name="selecionar">FALSE</field>
+                                <statement name="key_val">
+                                    <block type="option_dao" id="X@KvV8yibI{d1cY?,`P;" inline="true">
+                                        <value name="key_val">
+                                            <block type="get-dao-TblAuxSimNao" id="NoU.e%TVqS-*ALwaM_H6">
+                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                            </block>
+                                        </value>
+                                        <value name="value_val">
+                                            <block type="get-dao-TblAuxSimNao" id=";P]{KEZQTi!rLt+^IefU">
+                                                <mutation hover_type="String::descricao"></mutation>
+                                                <field name="DAO_FIELD">String::descricao</field>
+                                            </block>
+                                        </value>
+                                    </block>
+                                </statement>
+                                <next>
+                                    <block type="combo_dao" id="=~sft;2GYEjXv1fC~dYd" inline="true">
+                                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                        <field name="selecao">fendilhacao_nas_zonas_criticas</field>
+                                        <field name="dao">TblAuxSimNao</field>
+                                        <field name="selecionar">FALSE</field>
+                                        <statement name="key_val">
+                                            <block type="option_dao" id="d+ex9)3ywo]%ob?_;+r;" inline="true">
+                                                <value name="key_val">
+                                                    <block type="get-dao-TblAuxSimNao" id="#X1fBK(6y#4G;v%x#yIZ">
+                                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                    </block>
+                                                </value>
+                                                <value name="value_val">
+                                                    <block type="get-dao-TblAuxSimNao" id="!D9wO@_[*-|Gp7[TD33[">
+                                                        <mutation hover_type="String::descricao"></mutation>
+                                                        <field name="DAO_FIELD">String::descricao</field>
+                                                    </block>
+                                                </value>
+                                            </block>
+                                        </statement>
+                                        <next>
+                                            <block type="combo_dao" id="C#EA?8g?:S5RNn0|uChI" inline="true">
+                                                <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                                <field name="selecao">armaduras_a_vista</field>
+                                                <field name="dao">TblAuxSimNao</field>
+                                                <field name="selecionar">FALSE</field>
+                                                <statement name="key_val">
+                                                    <block type="option_dao" id="F(7.W}Xz}7-9WeC}6lgP" inline="true">
+                                                        <value name="key_val">
+                                                            <block type="get-dao-TblAuxSimNao" id="L1Lqt5|sqxWaYA]Bn9Xx">
+                                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                            </block>
+                                                        </value>
+                                                        <value name="value_val">
+                                                            <block type="get-dao-TblAuxSimNao" id="]4pXIGN|!h7EDPVZ^!(K">
+                                                                <mutation hover_type="String::descricao"></mutation>
+                                                                <field name="DAO_FIELD">String::descricao</field>
+                                                            </block>
+                                                        </value>
+                                                    </block>
+                                                </statement>
+                                                <next>
+                                                    <block type="combo_dao" id="H7r:=r?1atD|6-]hBKnM" inline="true">
+                                                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                                        <field name="selecao">elementos_corroidos</field>
+                                                        <field name="dao">TblAuxSimNao</field>
+                                                        <field name="selecionar">FALSE</field>
+                                                        <statement name="key_val">
+                                                            <block type="option_dao" id="_9hO5M9XR6w%7sc@a5bF" inline="true">
+                                                                <value name="key_val">
+                                                                    <block type="get-dao-TblAuxSimNao" id="r+ST[|zGK%#P*=7%N9;~">
+                                                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                    </block>
+                                                                </value>
+                                                                <value name="value_val">
+                                                                    <block type="get-dao-TblAuxSimNao" id="(?B-+0c*T%|i;-L^P-]U">
+                                                                        <mutation hover_type="String::descricao"></mutation>
+                                                                        <field name="DAO_FIELD">String::descricao</field>
+                                                                    </block>
+                                                                </value>
+                                                            </block>
+                                                        </statement>
+                                                        <next>
+                                                            <block type="combo_dao" id="eIZxVi!}B[`K|e|0ATYO" inline="true">
+                                                                <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                                                <field name="selecao">falta_de_condicoes_de_seguranca</field>
+                                                                <field name="dao">TblAuxSimNao</field>
+                                                                <field name="selecionar">FALSE</field>
+                                                                <statement name="key_val">
+                                                                    <block type="option_dao" id="bW5kPWt-AIzi~1SMhj;B" inline="true">
+                                                                        <value name="key_val">
+                                                                            <block type="get-dao-TblAuxSimNao" id="zlnOYVm{z^%v[Dj)xPar">
+                                                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                            </block>
+                                                                        </value>
+                                                                        <value name="value_val">
+                                                                            <block type="get-dao-TblAuxSimNao" id="mm}-Nu]]Mc`5|?=U]g2?">
+                                                                                <mutation hover_type="String::descricao"></mutation>
+                                                                                <field name="DAO_FIELD">String::descricao</field>
+                                                                            </block>
+                                                                        </value>
+                                                                    </block>
+                                                                </statement>
+                                                                <next>
+                                                                    <block type="combo_dao" id="s6L6]/_%*5i%M-/wK)n." inline="true">
+                                                                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                                                        <field name="selecao">buracos_ou_aberturas_nas_paredes</field>
+                                                                        <field name="dao">TblAuxSimNao</field>
+                                                                        <field name="selecionar">FALSE</field>
+                                                                        <statement name="key_val">
+                                                                            <block type="option_dao" id=":]Jc3UA!Ge;?:=MK;Xu." inline="true">
+                                                                                <value name="key_val">
+                                                                                    <block type="get-dao-TblAuxSimNao" id="PeEq5fDPJqW=!^;%NAQy">
+                                                                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                                    </block>
+                                                                                </value>
+                                                                                <value name="value_val">
+                                                                                    <block type="get-dao-TblAuxSimNao" id="]X[s,i[2/kAAIyb/vnjO">
+                                                                                        <mutation hover_type="String::descricao"></mutation>
+                                                                                        <field name="DAO_FIELD">String::descricao</field>
+                                                                                    </block>
+                                                                                </value>
+                                                                            </block>
+                                                                        </statement>
+                                                                        <next>
+                                                                            <block type="combo_dao" id="{YORWv}}aHw:ux44#(vf" inline="true">
+                                                                                <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                                                                <field name="selecao">alteracao_na_geometria_de_paredes</field>
+                                                                                <field name="dao">TblAuxSimNao</field>
+                                                                                <field name="selecionar">FALSE</field>
+                                                                                <statement name="key_val">
+                                                                                    <block type="option_dao" id="s{dnOM15@HJ1Byx-lFq," inline="true">
+                                                                                        <value name="key_val">
+                                                                                            <block type="get-dao-TblAuxSimNao" id="oZnx1*OBM9)Rk!%l-Um`">
+                                                                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                                            </block>
+                                                                                        </value>
+                                                                                        <value name="value_val">
+                                                                                            <block type="get-dao-TblAuxSimNao" id="?j_H5iESk#h#cSrHz|1(">
+                                                                                                <mutation hover_type="String::descricao"></mutation>
+                                                                                                <field name="DAO_FIELD">String::descricao</field>
+                                                                                            </block>
+                                                                                        </value>
+                                                                                    </block>
+                                                                                </statement>
+                                                                                <next>
+                                                                                    <block type="combo_dao" id=")sw.WCOSPw73#=4(]*qa" inline="true">
+                                                                                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                                                                        <field name="selecao">extensiva_deterioracao_dos_revestimentos_nas_paredes</field>
+                                                                                        <field name="dao">TblAuxSimNao</field>
+                                                                                        <field name="selecionar">FALSE</field>
+                                                                                        <statement name="key_val">
+                                                                                            <block type="option_dao" id="w[5ND2c/B{7x!E/Bh3_~" inline="true">
+                                                                                                <value name="key_val">
+                                                                                                    <block type="get-dao-TblAuxSimNao" id="F~@s)*aE/[F.i[h7wO9,">
+                                                                                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                                                    </block>
+                                                                                                </value>
+                                                                                                <value name="value_val">
+                                                                                                    <block type="get-dao-TblAuxSimNao" id="@=|K|8Q=|NPxThrWBbY_">
+                                                                                                        <mutation hover_type="String::descricao"></mutation>
+                                                                                                        <field name="DAO_FIELD">String::descricao</field>
+                                                                                                    </block>
+                                                                                                </value>
+                                                                                            </block>
+                                                                                        </statement>
+                                                                                        <next>
+                                                                                            <block type="combo_dao" id="+H8cTzeVp[+gQ-Qjk[P7" inline="true">
+                                                                                                <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                                                                                <field name="selecao">danos_significativos_em_partes_singulares_nas_paredes</field>
+                                                                                                <field name="dao">TblAuxSimNao</field>
+                                                                                                <field name="selecionar">FALSE</field>
+                                                                                                <statement name="key_val">
+                                                                                                    <block type="option_dao" id="b-^mBg:2ZvMRt7)qIRmb" inline="true">
+                                                                                                        <value name="key_val">
+                                                                                                            <block type="get-dao-TblAuxSimNao" id="mv1cjeaW-CI.%Lb=OK?y">
+                                                                                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                                                            </block>
+                                                                                                        </value>
+                                                                                                        <value name="value_val">
+                                                                                                            <block type="get-dao-TblAuxSimNao" id="-~1G2gX=*jrZ:k9ojuLu">
+                                                                                                                <mutation hover_type="String::descricao"></mutation>
+                                                                                                                <field name="DAO_FIELD">String::descricao</field>
+                                                                                                            </block>
+                                                                                                        </value>
+                                                                                                    </block>
+                                                                                                </statement>
+                                                                                                <next>
+                                                                                                    <block type="combo_dao" id="yd.9X];l:.tD8;Lj:XN#" inline="true">
+                                                                                                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                                                                                        <field name="selecao">anomalias_indicadores_de_deterioracao_nas_paredes</field>
+                                                                                                        <field name="dao">TblAuxSimNao</field>
+                                                                                                        <field name="selecionar">FALSE</field>
+                                                                                                        <statement name="key_val">
+                                                                                                            <block type="option_dao" id="RR|7p`/q0.Nl|SKF?5)7" inline="true">
+                                                                                                                <value name="key_val">
+                                                                                                                    <block type="get-dao-TblAuxSimNao" id="|lvRni=]?}wP^ghHwvQA">
+                                                                                                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                                                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                                                                    </block>
+                                                                                                                </value>
+                                                                                                                <value name="value_val">
+                                                                                                                    <block type="get-dao-TblAuxSimNao" id="(rPzcl7L0As|nD9Mg7@0">
+                                                                                                                        <mutation hover_type="String::descricao"></mutation>
+                                                                                                                        <field name="DAO_FIELD">String::descricao</field>
+                                                                                                                    </block>
+                                                                                                                </value>
+                                                                                                            </block>
+                                                                                                        </statement>
+                                                                                                        <next>
+                                                                                                            <block type="combo_dao" id="rt=lG;H,A@*;}Yoa[msx" inline="true">
+                                                                                                                <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                                                                                                <field name="selecao">sinais_de_presenca_de_agua</field>
+                                                                                                                <field name="dao">TblAuxSimNao</field>
+                                                                                                                <field name="selecionar">FALSE</field>
+                                                                                                                <statement name="key_val">
+                                                                                                                    <block type="option_dao" id="E6[:ZM.43xO+YMT?{6id" inline="true">
+                                                                                                                        <value name="key_val">
+                                                                                                                            <block type="get-dao-TblAuxSimNao" id="a4?u}8|FbHQpuquF)qP5">
+                                                                                                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                                                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                                                                            </block>
+                                                                                                                        </value>
+                                                                                                                        <value name="value_val">
+                                                                                                                            <block type="get-dao-TblAuxSimNao" id=":DYw`xMtZojq:9J%yM|H">
+                                                                                                                                <mutation hover_type="String::descricao"></mutation>
+                                                                                                                                <field name="DAO_FIELD">String::descricao</field>
+                                                                                                                            </block>
+                                                                                                                        </value>
+                                                                                                                    </block>
+                                                                                                                </statement>
+                                                                                                                <next>
+                                                                                                                    <block type="combo_dao" id="TwH=*LLdP{|)?6!6dOft" inline="true">
+                                                                                                                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                                                                                                        <field name="selecao">buracos_no_piso</field>
+                                                                                                                        <field name="dao">TblAuxSimNao</field>
+                                                                                                                        <field name="selecionar">FALSE</field>
+                                                                                                                        <statement name="key_val">
+                                                                                                                            <block type="option_dao" id="@h5aph}-o[_S}mmu3e0@" inline="true">
+                                                                                                                                <value name="key_val">
+                                                                                                                                    <block type="get-dao-TblAuxSimNao" id="O/B.?LhcsZ_L+CO^-6jD">
+                                                                                                                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                                                                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                                                                                    </block>
+                                                                                                                                </value>
+                                                                                                                                <value name="value_val">
+                                                                                                                                    <block type="get-dao-TblAuxSimNao" id="zMWgbwt1FZQ[{@zQ|=?S">
+                                                                                                                                        <mutation hover_type="String::descricao"></mutation>
+                                                                                                                                        <field name="DAO_FIELD">String::descricao</field>
+                                                                                                                                    </block>
+                                                                                                                                </value>
+                                                                                                                            </block>
+                                                                                                                        </statement>
+                                                                                                                        <next>
+                                                                                                                            <block type="combo_dao" id="V3NYZ@9Pmo?TzGsvI=XD" inline="true">
+                                                                                                                                <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                                                                                                                <field name="selecao">fissurasrachaduras</field>
+                                                                                                                                <field name="dao">TblAuxSimNao</field>
+                                                                                                                                <field name="selecionar">FALSE</field>
+                                                                                                                                <statement name="key_val">
+                                                                                                                                    <block type="option_dao" id="A2!^exGlG_U%=8]=/As_" inline="true">
+                                                                                                                                        <value name="key_val">
+                                                                                                                                            <block type="get-dao-TblAuxSimNao" id="J^|_UTIP?Fr!b6;(*v%J">
+                                                                                                                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                                                                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                                                                                            </block>
+                                                                                                                                        </value>
+                                                                                                                                        <value name="value_val">
+                                                                                                                                            <block type="get-dao-TblAuxSimNao" id="nfT55]i^~JNqTs+tR[7!">
+                                                                                                                                                <mutation hover_type="String::descricao"></mutation>
+                                                                                                                                                <field name="DAO_FIELD">String::descricao</field>
+                                                                                                                                            </block>
+                                                                                                                                        </value>
+                                                                                                                                    </block>
+                                                                                                                                </statement>
+                                                                                                                                <next>
+                                                                                                                                    <block type="combo_dao" id="{~j*j`r+:Ce@h[Zx8[[A" inline="true">
+                                                                                                                                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                                                                                                                        <field name="selecao">alteracao_na_geometria_no_pavimento</field>
+                                                                                                                                        <field name="dao">TblAuxSimNao</field>
+                                                                                                                                        <field name="selecionar">FALSE</field>
+                                                                                                                                        <statement name="key_val">
+                                                                                                                                            <block type="option_dao" id="zK`6ikZ:0lY|1bFNqxb," inline="true">
+                                                                                                                                                <value name="key_val">
+                                                                                                                                                    <block type="get-dao-TblAuxSimNao" id="Eh.@exLDML)LIjnKmllG">
+                                                                                                                                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                                                                                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                                                                                                    </block>
+                                                                                                                                                </value>
+                                                                                                                                                <value name="value_val">
+                                                                                                                                                    <block type="get-dao-TblAuxSimNao" id="pBf^DP[*=*EmiW96^PXf">
+                                                                                                                                                        <mutation hover_type="String::descricao"></mutation>
+                                                                                                                                                        <field name="DAO_FIELD">String::descricao</field>
+                                                                                                                                                    </block>
+                                                                                                                                                </value>
+                                                                                                                                            </block>
+                                                                                                                                        </statement>
+                                                                                                                                        <next>
+                                                                                                                                            <block type="combo_dao" id="g6_.TsX~rgN`ePQRw1wi" inline="true">
+                                                                                                                                                <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                                                                                                                                <field name="selecao">quadro_tem_disjuntores_e_diferencial_de_protecao</field>
+                                                                                                                                                <field name="dao">TblAuxSimNao</field>
+                                                                                                                                                <field name="selecionar">FALSE</field>
+                                                                                                                                                <statement name="key_val">
+                                                                                                                                                    <block type="option_dao" id="tFZWG/e0:vpcY.dE*PE{" inline="true">
+                                                                                                                                                        <value name="key_val">
+                                                                                                                                                            <block type="get-dao-TblAuxSimNao" id="9YT.n,8h8N75,FBY{K|p">
+                                                                                                                                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                                                                                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                                                                                                            </block>
+                                                                                                                                                        </value>
+                                                                                                                                                        <value name="value_val">
+                                                                                                                                                            <block type="get-dao-TblAuxSimNao" id="6BqVI/a9V(xZ:5RDS8]4">
+                                                                                                                                                                <mutation hover_type="String::descricao"></mutation>
+                                                                                                                                                                <field name="DAO_FIELD">String::descricao</field>
+                                                                                                                                                            </block>
+                                                                                                                                                        </value>
+                                                                                                                                                    </block>
+                                                                                                                                                </statement>
+                                                                                                                                                <next>
+                                                                                                                                                    <block type="combo_dao" id="+Mq`S[K+@,gd=uV2@y.q" inline="true">
+                                                                                                                                                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                                                                                                                                        <field name="selecao">degradacao_dos_condutores_eletricos</field>
+                                                                                                                                                        <field name="dao">TblAuxSimNao</field>
+                                                                                                                                                        <field name="selecionar">FALSE</field>
+                                                                                                                                                        <statement name="key_val">
+                                                                                                                                                            <block type="option_dao" id="IGmmIXzi:,.g{BO%RNZ?" inline="true">
+                                                                                                                                                                <value name="key_val">
+                                                                                                                                                                    <block type="get-dao-TblAuxSimNao" id="r_VbT12iU?i|q*D|Q91-">
+                                                                                                                                                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                                                                                                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                                                                                                                    </block>
+                                                                                                                                                                </value>
+                                                                                                                                                                <value name="value_val">
+                                                                                                                                                                    <block type="get-dao-TblAuxSimNao" id=":4M4*Aa1=k610ccfA#_a">
+                                                                                                                                                                        <mutation hover_type="String::descricao"></mutation>
+                                                                                                                                                                        <field name="DAO_FIELD">String::descricao</field>
+                                                                                                                                                                    </block>
+                                                                                                                                                                </value>
+                                                                                                                                                            </block>
+                                                                                                                                                        </statement>
+                                                                                                                                                        <next>
+                                                                                                                                                            <block type="combo_dao" id="uMUAslWJ1jav%=Z|vxM]" inline="true">
+                                                                                                                                                                <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                                                                                                                                                <field name="selecao">aparelhos_em_bom_estado_tomadas_e_interruptores</field>
+                                                                                                                                                                <field name="dao">TblAuxSimNao</field>
+                                                                                                                                                                <field name="selecionar">FALSE</field>
+                                                                                                                                                                <statement name="key_val">
+                                                                                                                                                                    <block type="option_dao" id="KPrVdcphMnw4#82N[3{{" inline="true">
+                                                                                                                                                                        <value name="key_val">
+                                                                                                                                                                            <block type="get-dao-TblAuxSimNao" id="LN~Zk`@Th)38E+2+XX]L">
+                                                                                                                                                                                <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                                                                                                                                <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                                                                                                                            </block>
+                                                                                                                                                                        </value>
+                                                                                                                                                                        <value name="value_val">
+                                                                                                                                                                            <block type="get-dao-TblAuxSimNao" id="M9=*qw?IvJeta)s|Q5k@">
+                                                                                                                                                                                <mutation hover_type="String::descricao"></mutation>
+                                                                                                                                                                                <field name="DAO_FIELD">String::descricao</field>
+                                                                                                                                                                            </block>
+                                                                                                                                                                        </value>
+                                                                                                                                                                    </block>
+                                                                                                                                                                </statement>
+                                                                                                                                                                <next>
+                                                                                                                                                                    <block type="combo_dao" id="M1pSUL8_2jb127jOxShu" inline="true">
+                                                                                                                                                                        <mutation order="null" operation="null" limit="null" collectors="null" crud="null" statistdrop="null" ajax="null" count="NaN"></mutation>
+                                                                                                                                                                        <field name="selecao">risco_de_eletrocussao</field>
+                                                                                                                                                                        <field name="dao">TblAuxSimNao</field>
+                                                                                                                                                                        <field name="selecionar">FALSE</field>
+                                                                                                                                                                        <statement name="key_val">
+                                                                                                                                                                            <block type="option_dao" id="zu=(!XMr:/lAGg7tjL5w" inline="true">
+                                                                                                                                                                                <value name="key_val">
+                                                                                                                                                                                    <block type="get-dao-TblAuxSimNao" id="BRy,UQb%9RIGJ/pfsjY.">
+                                                                                                                                                                                        <mutation hover_type="Integer_PK#::id"></mutation>
+                                                                                                                                                                                        <field name="DAO_FIELD">Integer_PK#::id</field>
+                                                                                                                                                                                    </block>
+                                                                                                                                                                                </value>
+                                                                                                                                                                                <value name="value_val">
+                                                                                                                                                                                    <block type="get-dao-TblAuxSimNao" id="-T/G(w2jQJhOmFM^_]KS">
+                                                                                                                                                                                        <mutation hover_type="String::descricao"></mutation>
+                                                                                                                                                                                        <field name="DAO_FIELD">String::descricao</field>
+                                                                                                                                                                                    </block>
+                                                                                                                                                                                </value>
+                                                                                                                                                                            </block>
+                                                                                                                                                                        </statement>
+                                                                                                                                                                    </block>
+                                                                                                                                                                </next>
+                                                                                                                                                            </block>
+                                                                                                                                                        </next>
+                                                                                                                                                    </block>
+                                                                                                                                                </next>
+                                                                                                                                            </block>
+                                                                                                                                        </next>
+                                                                                                                                    </block>
+                                                                                                                                </next>
+                                                                                                                            </block>
+                                                                                                                        </next>
+                                                                                                                    </block>
+                                                                                                                </next>
+                                                                                                            </block>
+                                                                                                        </next>
+                                                                                                    </block>
+                                                                                                </next>
+                                                                                            </block>
+                                                                                        </next>
+                                                                                    </block>
+                                                                                </next>
+                                                                            </block>
+                                                                        </next>
+                                                                    </block>
+                                                                </next>
+                                                            </block>
+                                                        </next>
+                                                    </block>
+                                                </next>
+                                            </block>
+                                        </next>
+                                    </block>
+                                </next>
+                            </block>
+                        </next>
+                    </block>
+                </statement>
+            </block>
+        </xml>
+    </blockly>
+</rows>
